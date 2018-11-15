@@ -51,7 +51,7 @@
 
 [PYPE_STUDIO_PROJECTS]
     name = "pype-projects"
-    url = "git@github.com:pypeclub/studio-projects.git"
+    url = "git@bitbucket.org:pypeclub/pype-projects.git"
     branch = "master"
     submodule_root = "repos"
 
