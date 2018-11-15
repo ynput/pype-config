@@ -34,31 +34,24 @@
     submodule_root = "repos"
 
 
-[AVALON_EXAMPLES]
-    name = "avalon-examples"
-    url = "git@github.com:getavalon/examples.git"
-    branch = "master"
-    submodule_root = "repos"
-
-
 # studio repos
 [PYPE_STUDIO_CONFIG]
-    name = "studio-config"
-    url = "git@github.com:pypeclub/studio-config.git"
+    name = "pype-config"
+    url = "git@bitbucket.org:pypeclub/pype-config.git"
     branch = "master"
     submodule_root = "repos"
 
 
 [PYPE_STUDIO_TEMPLATES]
-    name = "studio-templates"
-    url = "git@github.com:pypeclub/studio-templates.git"
-    branch = "master"
+    name = "pype-templates"
+    url = "git@bitbucket.org:pypeclub/pype-templates.git"
+    branch = "hotfix/update_repos_to_bitbucket"
     submodule_root = "repos"
 
 
 [PYPE_STUDIO_PROJECTS]
-    name = "studio-projects"
-    url = "git@github.com:pypeclub/studio-projects.git"
+    name = "pype-projects"
+    url = "git@bitbucket.org:pypeclub/pype-projects.git"
     branch = "master"
     submodule_root = "repos"
 
