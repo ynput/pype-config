@@ -45,7 +45,7 @@
 [PYPE_STUDIO_TEMPLATES]
     name = "pype-templates"
     url = "git@bitbucket.org:pypeclub/pype-templates.git"
-    branch = "hotfix/update_repos_to_bitbucket"
+    branch = "master"
     submodule_root = "repos"
 
 
