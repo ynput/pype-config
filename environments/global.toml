@@ -1,0 +1,22 @@
+PYPE_STUDIO_NAME = "Studio Name"
+PYPE_STUDIO_CODE = "stu"
+
+PYPE_APP_ROOT = "{PYPE_SETUP_ROOT}/app"
+
+STUDIO_SOFT="{PYPE_STUDIO_SOFTWARE}"
+
+PYTHONPATH = [
+    "{AVALON_CORE}",
+    "{AVALON_LAUNCHER}",
+    "{PYBLISH_BASE}",
+    "{PYBLISH_QML}",
+    "{PYBLISH_LITE}",
+    "{FTRACK_EVENT_SERVER}",
+    "{PYPE_STUDIO_CONFIG}"
+    ]
+
+PATH = [
+    "{PYPE_STUDIO_TEMPLATES}/bin",
+    "{PYPE_STUDIO_TEMPLATES}/bin/{platform}",
+    "{PYPE_APP_ROOT}"
+]

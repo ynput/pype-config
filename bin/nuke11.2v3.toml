@@ -1,0 +1,26 @@
+executable = "nuke11.2v3"
+schema = "avalon-core:application-1.0"
+application_dir = "nuke"
+label = "Nuke11.2v3"
+
+[environment]
+PYBLISH_GUI = [
+        "qml"
+    ]
+NUKE_PATH = [
+    "{AVALON_CORE}/setup/nuke",
+    "{PYPE_STUDIO_CONFIG}/setup/nuke/nuke_path"
+]
+PYTHONPATH = [
+    "{PYPE_SETUP_ROOT}",
+    "{PYPE_APP_ROOT}/vendor",
+    "{AVALON_CORE}",
+    "{PYBLISH_QML}",
+    "{PYBLISH_LITE}",
+    "{PYBLISH_BASE}",
+    "{PYPE_STUDIO_CONFIG}",
+
+]
+# PATH = ["C:/Program Files/Nuke11.2v3"]
+PYBLISH_QML_PYTHON_EXECUTABLE = "C:/Program Files/Nuke11.2v3/python.exe"
+PYBLISH_QML_PYQT5 = 'C:\Program Files\Nuke11.2v3\pythonextensions\site-packages\PySide2'

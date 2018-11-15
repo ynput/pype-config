@@ -1,0 +1,39 @@
+    # core and launcher location
+# AVALON_CORE = "{PYPE_STUDIO_PIPELINE}/app/repos/avalon-core"
+# AVALON_LAUNCHER = "{PYPE_STUDIO_PIPELINE}/app/repos/avalon-launcher"
+AVALON_CONFIG = "pype"
+# Root directory of projects on disk
+AVALON_PROJECTS = "{PYPE_STUDIO_PROJECTS_WORK}"
+
+# Generic username and password
+AVALON_USERNAME = "avalon"
+AVALON_PASSWORD = "secret"
+
+# Enable debugging
+AVALON_DEBUG = "1"
+
+AVALON_MONGO_PORT="27072"
+AVALON_MONGO="mongodb://192.168.100.12:{AVALON_MONGO_PORT}"
+AVALON_DB="avalon"
+AVALON_DB_DATA = "{PYPE_SETUP_ROOT}/../mongo_db_data"
+AVALON_EARLY_ADOPTER = "1"
+AVALON_SCHEMA = "{PYPE_STUDIO_TEMPLATES}/schema"
+
+# Address to Deadline Web Service
+# E.g. http://192.167.0.1:8082
+# AVALON_DEADLINE = ""
+
+# Address of central asset repository, contains
+# the following interface:
+#   /upload
+#   /download
+#   /manager (optional)
+AVALON_LOCATION = "http://127.0.0.1"
+
+# Name of Avalon in graphical user interfaces
+# Use this to customise the visual appearance of Avalon
+# to better integrate with your surrounding pipeline
+AVALON_LABEL = "Avalon"
+
+# Used during any connections to the outside world
+AVALON_TIMEOUT = "1000"

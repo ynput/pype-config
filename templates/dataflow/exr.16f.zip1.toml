@@ -1,0 +1,40 @@
+# nuke
+# List of nodes which need to be controlled or created
+[[nuke.nodes]]
+  connected = true  # connected by hierarchical order
+
+  [nuke.nodes.modifymetadata]
+    # hiearchy
+    id = "end_metadata"
+    previous = "ENDING" # this will connect to end of the comp
+    # attributes
+    "metadata.set" = [
+      ["studio_name", "{PYPE_STUDIO_NAME}"],
+      ["project_name", "{AVALON_PROJECT}"],
+      ["context", "{PYPE_CONTEXT}"],
+      ]
+
+  [nuke.nodes.crop]
+    # hiearchy
+    id = "end_crop"
+    previous = "end_metadata"
+    # attributes
+    box = [
+    # taken from whatever preset is selected
+    # in metadata/<preset.toml>:bbox
+    # it is hierarchical
+    # it will be converted to int()
+    "{metadata.bbox.x}",
+    "{metadata.bbox.y}",
+    "{metadata.bbox.right}",
+    "{metadata.bbox.top}"
+    ]
+
+  [nuke.nodes.write.render]
+    # hiearchy
+    id = "output_write"
+    previous = "end_crop"
+    # attributes
+    file_type = "exr"
+    datatype = "16 bit half"
+    compression = "Zip (1 scanline)"

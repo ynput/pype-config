@@ -1,0 +1,45 @@
+# # Default project settings for reading from templates
+#
+# Description:
+#   - each project is having own template definitions and if the folder coresponding
+#     name of the project in AVALON_PROJECT is not found it will read this settings
+#   - PYPE_TEMPLATES_PRESET could be defined in launcher.bat and
+#     some templates defined by `<template>..<PYPE_TEMPLATES_PRESET>.toml` will be selected
+#
+
+[environment]
+global_type = ["system"]
+global_env = ["global", "avalon", "ftrack"]
+including = ['PATH', 'PYTHONPATH', 'NUKE_PATH']
+filtering = ["PYPE", "AVALON", "PATH", "PYTHONPATH"] # if item in environ.keys()
+
+# computing order
+[[templates]]
+type = "system"
+order = ["storage", "locations"]
+preset = "default"
+
+
+[[templates]]
+type = "software"
+preset = "default"
+
+[[templates]]
+type = "metadata"
+file = "commercial"
+preset = "default"
+
+[[templates]]
+type = "anatomy"
+file = "default"
+preset = "default"
+
+[[templates]]
+type = "colorspace"
+file = "ocio.aces-1-0-3.aces-cg"
+preset = "default"
+
+[[templates]]
+type = "dataflow"
+file = "exr.16f.zip1"
+preset = "default"

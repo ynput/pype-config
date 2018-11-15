@@ -1,29 +1,37 @@
-# README #
+# studio-templates
+directory: pipeline, conventions, colorspace, dataflow
+file format: toml
 
-This README would normally document whatever steps are necessary to get your application up and running.
+All the information specific to a studio environment should be kept within this repository. Environments, folder templates, software configs, color profiles, etc...
 
-### What is this repository for? ###
+- the basic layer of studio-oriented configs written in *.toml
+- each of *.toml file's name convention is holding also a preset name for example "mongo...My-testing.toml"
+- examples of keys:  mongo-server-ip, mongo-server-user, mongo-server-passwords, ftrack-server-ip, ftrack-server-user, ftrack-server-password, ftrack-api-key, studio-storage-locations (ftrack's locations concept fork),
+- if no "..." then it is default settings
+- if the launcher is having configuration preset defined then all default setting are read first. If any file with preset matched it will overwrite the already defined keys
+- directiries: pipeline, conventions, colorspace, data-flow
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+`pipeline/mongo.toml:`
+```toml
+[server]
+  ip='127.0.0.1'
+  ports=[5000,5010]
+  user='user'
+  password='user123'
+```
 
-### How do I get set up? ###
+`pipeline/mongo...My-testing.toml:`
+```toml
+[server]
+  user='user2'
+  password='user12358'
+```
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+`resulting config values: `
+```toml
+[server]
+  ip='127.0.0.1'
+  ports=[5000,5010]
+  user='user2'
+  password='user12358'
+```

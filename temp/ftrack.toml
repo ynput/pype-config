@@ -1,0 +1,11 @@
+FTRACK_SERVER="https://pype.ftrackapp.com"
+FTRACK_API_KEY="ddb005c0-fec8-11e7-83b5-0a580aa01115"
+FTRACK_API_USER="pype.admin"
+
+FTRACK_ACTIONS_PATH = ["{PYPE_STUDIO_CONFIG}/pype/ftrack/actions"]
+FTRACK_EVENTS_PATH = ["{PYPE_STUDIO_CONFIG}/pype/ftrack/events"]
+
+FTRACK_ACTION_SERVER = "{PYPE_SETUP_ROOT}/repos/ftrack-event-server"
+
+PYTHONPATH = ["{PYPE_APP_ROOT}/vendor", "{PYPE_STUDIO_CONFIG}/pype/vendor",
+            "{PYPE_SETUP_ROOT}/repos/ftrack-event-server"]

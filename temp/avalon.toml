@@ -1,0 +1,32 @@
+    # core and launcher location
+# AVALON_CORE = "{PYPE_STUDIO_PIPELINE}/app/repos/avalon-core"
+# AVALON_LAUNCHER = "{PYPE_STUDIO_PIPELINE}/app/repos/avalon-launcher"
+
+# Root directory of projects on disk
+AVALON_PROJECTS = "{PYPE_STUDIO_PROJECTS_WORK}"
+AVALON_WORKFILE_TEMPLATE = "{project[name]}_{task[name]}_v{version:0>3}<_{comment}>"
+# Generic username and password
+AVALON_USERNAME = "avalon"
+AVALON_PASSWORD = "secret"
+
+# Enable debugging
+AVALON_DEBUG = 1
+
+# Address to Deadline Web Service
+# E.g. http://192.167.0.1:8082
+# AVALON_DEADLINE = ""
+
+# Address of central asset repository, contains
+# the following interface:
+#   /upload
+#   /download
+#   /manager (optional)
+AVALON_LOCATION = "http://127.0.0.1"
+
+# Name of Avalon in graphical user interfaces
+# Use this to customise the visual appearance of Avalon
+# to better integrate with your surrounding pipeline
+AVALON_LABEL = "Avalon"
+
+# Used during any connections to the outside world
+AVALON_TIMEOUT = "1000"
