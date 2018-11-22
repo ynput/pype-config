@@ -7,7 +7,7 @@ pushd %~dp0..\..\..
 set PYPE_SETUP_ROOT=%cd%
 
 :: debugging
-set PYPE_DEBUG=1
+set PYPE_DEBUG=0
 set PYPE_DEBUG_STDOUT=1
 
 :: maintain python environment
