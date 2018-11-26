@@ -1,0 +1,41 @@
+MAYA_VERSION = "2018"
+
+PYTHONPATH = [
+    "{MAYA_LOOK_ASSIGNER}"
+    ]
+
+MTOA = "{PYPE_STUDIO_SOFTWARE}/arnold/mtoa_{MAYA_VERSION}_{MTOA_VERSION}"
+MTOA_VERSION = "3.1.1"
+MAYA_RENDER_DESC_PATH = "${MTOA}"
+MAYA_MODULE_PATH = "{MTOA}"
+ARNOLD_PLUGIN_PATH = "{MTOA}/shaders"
+
+[MAYA_LOCATION]
+darwin = "/Applications/Autodesk/maya{MAYA_VERSION}/Maya.app/Contents"
+linux = "/usr/autodesk/maya{MAYA_VERSION}"
+windows = "C:/Program Files/Autodesk/Maya{MAYA_VERSION}"
+
+[PATH]
+darwin = "{MAYA_LOCATION}/bin"
+linux = "{MAYA_LOCATION}/bin"
+windows = "{MAYA_LOCATION}/bin;C:/Program Files/Common Files/Autodesk Shared/;C:/Program Files (x86)/Autodesk/Backburner/"
+
+[DYLD_LIBRARY_PATH]
+darwin = "{MAYA_LOCATION}/MacOS"
+
+
+[MTOA_EXTENSIONS_PATH]
+darwin = "{MTOA}/extensions"
+linux = "{MTOA}/extensions"
+windows = "{MTOA}/extensions"
+
+[MTOA_EXTENSIONS]
+darwin = "{MTOA}/extensions"
+linux = "{MTOA}/extensions"
+windows = "{MTOA}/extensions"
+
+[DYLD_LIBRARY_PATH]
+darwin = "{MTOA}/bin"
+
+[PATH]
+windows = "{MTOA}/bin"
