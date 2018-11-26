@@ -41,5 +41,5 @@ export PYTHONPATH="$PYPE_SETUP_ROOT"
 echo -e "${IGreen}>>>${RST} initializing CLI ..."
 
 # Dunno why
-python "$PYPE_SETUP_ROOT/app/cli.py" "$@"
+python "$PYPE_SETUP_ROOT/app/pype --terminal" "$@"
 # exec /bin/bash
