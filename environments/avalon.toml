@@ -21,7 +21,7 @@ AVALON_SCHEMA = "{PYPE_STUDIO_TEMPLATES}/schema"
 
 # Address to Deadline Web Service
 # E.g. http://192.167.0.1:8082
-AVALON_DEADLINE = "http://kre-c01:8082"
+AVALON_DEADLINE = "http://192.168.100.12:8082"
 
 # Address of central asset repository, contains
 # the following interface:
