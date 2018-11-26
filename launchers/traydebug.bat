@@ -18,4 +18,4 @@ set REMOTE_ENV_ON=0
 call %PYPE_SETUP_ROOT%\bin\launch_conda.bat
 
 ::python %PYPE_SETUP_ROOT%\app\cli.py %*
-python %PYPE_SETUP_ROOT%\app\pype-start.py --tray
+pype --tray
