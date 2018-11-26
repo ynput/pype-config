@@ -1,10 +1,9 @@
 PYBLISH_GUI = ["lite"]
 
 NUKE_PATH = [
-  "{AVALON_CORE}/setup/nuke/nuke_path",
-  "{PYPE_STUDIO_CONFIG}/setup/nuke/nuke_path",
+    "{AVALON_CORE}/setup/nuke/nuke_path",
+    "{PYPE_STUDIO_CONFIG}/setup/nuke/nuke_path"
 ]
 
-PATH = [
-    'C:\Program Files (x86)\QuickTime\QTSystem\'
-    ]
+[PATH]
+windows = 'C:/Program Files (x86)/QuickTime/QTSystem/'
