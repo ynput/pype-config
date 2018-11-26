@@ -8,8 +8,7 @@ set PYPE_SETUP_ROOT=%cd%
 set PYPE_APP_ROOT=%PYPE_SETUP_ROOT%\app
 
 :: debugging
-set PYPE_DEBUG=1
-set PYPE_DEBUG_STDOUT=1
+set PYPE_DEBUG=0
 
 :: maintain python environment
 :: will synchronize remote with local
@@ -23,5 +22,5 @@ set FTRACK_API_USER=%1
 set FTRACK_API_KEY=%2
 
 ::python %PYPE_SETUP_ROOT%\app\cli.py %*
-start python %PYPE_SETUP_ROOT%\app\pype-start.py --actionserver
-python %PYPE_SETUP_ROOT%\app\pype-start.py
+start pype --actionserver
+pype --launcher
