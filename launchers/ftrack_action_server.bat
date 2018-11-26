@@ -21,4 +21,4 @@ set FTRACK_API_USER=%1
 set FTRACK_API_KEY=%2
 
 ::python %PYPE_SETUP_ROOT%\app\cli.py %*
-python %PYPE_SETUP_ROOT%\app\pype-start.py --actionserver
+pype --actionserver 

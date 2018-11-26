@@ -18,4 +18,4 @@ set SYNC_ENV=0
 set REMOTE_ENV_ON=0
 
 call %PYPE_SETUP_ROOT%\bin\launch_conda.bat
-pype --launcher
+start pype --launcher %*
