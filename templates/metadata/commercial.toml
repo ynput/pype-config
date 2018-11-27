@@ -8,7 +8,7 @@
   ratio = 1 # pixel aspect ratio
 
 [crop] # in case there is some format cropping and we want an user to preview it
-  x = 0
-  y = 0
+  x = "0"
+  y = "0"
   top = "{format.heigh}" # could be eather int() or str(). This could be changed
   right = "{format.width}" # could be eather int() or str(). This could be changed

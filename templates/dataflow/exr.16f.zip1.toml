@@ -1,39 +1,39 @@
 # nuke
 # List of nodes which need to be controlled or created
-[[nuke.nodes]]
+[nuke.nodes]
   connected = true  # connected by hierarchical order
 
-  [nuke.nodes.modifymetadata]
+  [nuke.nodes.ModifyMetaData]
     # hiearchy
-    id = "end_metadata"
+    id = "connect_metadata"
     previous = "ENDING" # this will connect to end of the comp
     # attributes
-    "metadata.set" = [
-      ["studio_name", "{PYPE_STUDIO_NAME}"],
-      ["project_name", "{AVALON_PROJECT}"],
-      ["context", "{PYPE_CONTEXT}"],
-      ]
+    metadata.set.pype_studio_name = "{PYPE_STUDIO_NAME}"
+    metadata.set.avalon_project_name = "{AVALON_PROJECT}"
+    metadata.set.avalon_project_code = "{PYPE_STUDIO_CODE}"
+    metadata.set.avalon_asset_name = "{AVALON_ASSET}"
 
-  [nuke.nodes.crop]
+  [nuke.nodes.Crop]
     # hiearchy
-    id = "end_crop"
-    previous = "end_metadata"
+    id = "connect_crop"
+    previous = "connect_metadata"
     # attributes
     box = [
     # taken from whatever preset is selected
     # in metadata/<preset.toml>:bbox
     # it is hierarchical
     # it will be converted to int()
-    "{metadata.bbox.x}",
-    "{metadata.bbox.y}",
-    "{metadata.bbox.right}",
-    "{metadata.bbox.top}"
+    "{metadata.crop.x}",
+    "{metadata.crop.y}",
+    "{metadata.crop.right}",
+    "{metadata.crop.top}"
     ]
 
-  [nuke.nodes.write.render]
+  [nuke.nodes.Write]
+    family = "render"
     # hiearchy
     id = "output_write"
-    previous = "end_crop"
+    previous = "connect_crop"
     # attributes
     file_type = "exr"
     datatype = "16 bit half"
