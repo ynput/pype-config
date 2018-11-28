@@ -3,7 +3,7 @@
 [nuke.nodes]
   connected = true  # connected by hierarchical order
 
-  [nuke.nodes.ModifyMetaData]
+  [nuke.nodes.modifymetadata]
     # hiearchy
     id = "connect_metadata"
     previous = "ENDING" # this will connect to end of the comp
@@ -13,7 +13,7 @@
     metadata.set.avalon_project_code = "{PYPE_STUDIO_CODE}"
     metadata.set.avalon_asset_name = "{AVALON_ASSET}"
 
-  [nuke.nodes.Crop]
+  [nuke.nodes.crop]
     # hiearchy
     id = "connect_crop"
     previous = "connect_metadata"
@@ -29,8 +29,7 @@
     "{metadata.crop.top}"
     ]
 
-  [nuke.nodes.Write]
-    family = "render"
+  [nuke.nodes.write.render]
     # hiearchy
     id = "output_write"
     previous = "connect_crop"
@@ -38,3 +37,31 @@
     file_type = "exr"
     datatype = "16 bit half"
     compression = "Zip (1 scanline)"
+    create_directories = true
+    autocrop = true
+    tile_color = "0xff0000ff"
+    channels = "rgb"
+
+[nuke.nodes.write.prerender]
+  # hiearchy
+  id = "output_write"
+  previous = "connect_crop"
+  # attributes
+  file_type = "exr"
+  datatype = "16 bit half"
+  compression = "Zip (1 scanline)"
+  create_directories = true
+  autocrop = true
+  tile_color = "0xc9892aff"
+  channels = "rgba"
+
+  [nuke.nodes.write.still]
+    # hiearchy
+    previous = "connect_crop"
+    # attributes
+    channels = "rgba"
+    file_type = "tiff"
+    datatype = "16 bit"
+    compression = "LZW"
+    create_directories = true
+    tile_color = "0x4145afff"
