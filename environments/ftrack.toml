@@ -7,7 +7,6 @@ FTRACK_ACTION_SERVER = "{PYPE_SETUP_ROOT}/repos/ftrack-event-server"
 
 PYTHONPATH = ["{PYPE_APP_ROOT}/vendor",
               "{PYPE_STUDIO_CONFIG}/pype/vendor",
-              "{PYPE_SETUP_ROOT}/repos/ftrack-event-server",
-              "{PYPE_STUDIO_CONFIG}/pype/vendor/ftrack"]
+              "{PYPE_SETUP_ROOT}/repos/ftrack-event-server"]
 
 PYBLISHPLUGINPATH = ["{PYPE_STUDIO_CONFIG}/pype/plugins/ftrack"]
