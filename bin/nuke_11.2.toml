@@ -2,3 +2,4 @@ executable = "nuke11.2v2"
 schema = "avalon-core:application-1.0"
 application_dir = "nuke"
 label = "Nuke11.2v2"
+icon = 
