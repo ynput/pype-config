@@ -6,7 +6,7 @@ default_dirs = [
 	"images"
 ]
 label = "Autodesk Maya 2018"
-ftrack_label = "Autodesk Maya"
+ftrack_label = "Maya"
 schema = "avalon-core:application-1.0"
 executable = "maya2018"
 description = ""
