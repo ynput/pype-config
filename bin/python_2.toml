@@ -4,5 +4,6 @@ executable = "python"
 label = "Python 2"
 ftrack_label = "Python"
 icon = "https://www.python.org/static/opengraph-icon-200x200.png"
+
 [environment]
 CREATE_NEW_CONSOLE = "Yes"
