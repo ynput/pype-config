@@ -10,8 +10,6 @@ THIS=`readlink -f "${BASH_SOURCE[0]}" 2>/dev/null||echo $0`
 DIR=`dirname "${THIS}"`
 
 # basic Setup
-export PYPE_SETUP_GIT_URL="git@github.com:pypeclub/pype-setup.git"
-export PYPE_SETUP_GIT_BRANCH="new-folder-structure"
 # subshell will not work for symlinks. Use readlink then.
 export PYPE_STUDIO_TEMPLATES="$(cd $DIR/../ ; pwd)"
 export PYPE_SETUP_ROOT="$(cd $DIR/../../../ ; pwd)"
