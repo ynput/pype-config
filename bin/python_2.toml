@@ -2,6 +2,8 @@ schema = "avalon-core:application-1.0"
 application_dir = "python"
 executable = "python"
 label = "Python 2"
+ftrack_label = "Python"
+icon = "https://www.python.org/static/opengraph-icon-200x200.png"
 
 [environment]
 CREATE_NEW_CONSOLE = "Yes"
