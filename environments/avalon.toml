@@ -1,4 +1,4 @@
-    # core and launcher location
+# core and launcher location
 # AVALON_CORE = "{PYPE_STUDIO_PIPELINE}/app/repos/avalon-core"
 # AVALON_LAUNCHER = "{PYPE_STUDIO_PIPELINE}/app/repos/avalon-launcher"
 AVALON_CONFIG = "pype"
