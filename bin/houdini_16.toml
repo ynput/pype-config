@@ -1,0 +1,6 @@
+executable = "houdini"
+schema = "avalon-core:application-1.0"
+application_dir = "houdini"
+label = "SideFX Houdini 16.0"
+ftrack_label = "SideFX Houdini"
+icon = "https://sg-toolkit.s3.amazonaws.com/tank/docs/engines/tk-houdini/v1.5.6_0627_231442/icon_256.png"
