@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 # Pype-setup
 # Linux CLI launcher
@@ -33,7 +33,6 @@ echo -e "${IGreen}>>>${RST} launching Conda ..."
 # Launch Conda
 source "$PYPE_SETUP_ROOT/bin/launch_conda.sh"
 
-export PYTHONPATH="$PYPE_SETUP_ROOT"
 
 # Run python
 echo -e "${IGreen}>>>${RST} initializing CLI ..."
