@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Pype-setup
-# Linux server launcher
+# Linux mongodb server launcher
 #
 
 # Full path of the current script
@@ -10,9 +10,6 @@ THIS=`readlink -f "${BASH_SOURCE[0]}" 2>/dev/null||echo $0`
 DIR=`dirname "${THIS}"`
 
 # basic Setup
-export PYPE_SETUP_GIT_URL="git@github.com:pypeclub/pype-setup.git"
-export PYPE_SETUP_GIT_BRANCH="new-folder-structure"
-# subshell will not work for symlinks. Use readlink then.
 export PYPE_STUDIO_TEMPLATES="$(cd $DIR/../ ; pwd)"
 export PYPE_SETUP_ROOT="$(cd $DIR/../../../ ; pwd)"
 # Directory, where will be local evironment. Should be accessible for all
@@ -20,7 +17,7 @@ CONDA_SHARED="/tmp"
 
 # debugging
 export PYPE_DEBUG=1
-export PYPE_DEBUG_STDOUT=1
+export PYPE_DEBUG_STDOUT=0
 
 # maintain python environment
 SYNC_ENV=0 # will synchronize remote with local
@@ -38,7 +35,7 @@ source "$PYPE_SETUP_ROOT/bin/launch_conda.sh"
 # export PYTHONPATH="$PYPE_SETUP_ROOT"
 
 export AVALON_DB="avalon"
-export AVALON_MONGO_PORT="27017"
+export AVALON_MONGO_PORT="27072"
 export AVALON_MONGO="mongodb://localhost:$AVALON_MONGO_PORT"
 export AVALON_DB_DATA="/tmp/mongo_db_data"
 

@@ -6,9 +6,11 @@ default_dirs = [
 	"images"
 ]
 label = "Autodesk Maya 2016x64"
+ftrack_label = "Maya"
 schema = "avalon-core:application-1.0"
 executable = "maya2016"
 description = ""
+icon = "http://icons.iconarchive.com/icons/froyoshark/enkel/512/Maya-icon.png"
 
 [copy]
 "{AVALON_CORE}/res/workspace.mel" = "workspace.mel"
