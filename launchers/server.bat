@@ -1,5 +1,7 @@
 @echo off
+taskkill /FI "WINDOWTITLE eq Pype's*" /F
 
+title Pype's local mongodb
 :: set basic environments
 pushd %~dp0..
 set PYPE_STUDIO_TEMPLATES=%cd%
@@ -16,11 +18,11 @@ call %PYPE_SETUP_ROOT%\bin\launch_conda.bat
 
 :: debugging
 set PYPE_DEBUG=0
-set PYPE_DEBUG_STDOUT=1
+set DEBUG=%PYPE_DEBUG%
 
 set AVALON_MONGO_PORT=27072
 set AVALON_MONGO=mongodb://localhost:%AVALON_MONGO_PORT%
 set AVALON_DB=avalon
 set AVALON_DB_DATA=%PYPE_SETUP_ROOT%\..\mongo_db_data
 
-start pype --local-mongodb %*
+start "Pype's Avalon mongodb-localserver" pype --local-mongodb %*

@@ -15,9 +15,14 @@
 [nuke.viewer]
   viewerProcess = "sRGB D60 sim. (ACES)"
 
-[nuke.write]
-  colorspace="ACES - ACEScg"
+[nuke.write.render]
+  colorspace = "ACES - ACEScg"
 
+[nuke.write.prerender]
+  colorspace = "ACES - ACEScg"
+
+[nuke.write.still]
+  colorspace = "Utility - Curve - sRGB"
 # Maya
 
 # Hudiny

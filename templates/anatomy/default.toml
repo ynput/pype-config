@@ -58,10 +58,10 @@
   path = "{work.root}/{work.folder}/{work.file}"
 
 [render]
-  # TODO: check if it is possible to have conditional "or"
+  padding = 5
   root = "{PYPE_STUDIO_PROJECTS_RENDER}/{project.name}"
-  folder = "{hierarchy}/{asset}/publish/render/{task}/{renderlayer}/{version.main}"
-  file = "{work.filebase}_{renderlayer}<_{aov}>.{frame}.{representation}"
+  folder = "{hierarchy}/{asset}/publish/render/{task}/{subset}/{version.main}"
+  file = "{work.filebase}_{subset}<_{aov}>.{frame}.{representation}"
   path = "{render.root}/{render.folder}/{render.file}"
 
 [publish]

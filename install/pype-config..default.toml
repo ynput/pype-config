@@ -13,17 +13,18 @@ global_env = ["global", "avalon", "ftrack", "deadline"]
 including = ['PATH', 'PYTHONPATH', 'NUKE_PATH']
 filtering = ["PYPE", "AVALON", "PATH", "PYTHONPATH"] # if item in environ.keys()
 
-# computing order
+# PYPE basic templates for running the system
 [[templates]]
 type = "system"
 order = ["storage", "locations"]
 preset = "default"
 
-
+# PYPE software discoveries templates
 [[templates]]
 type = "software"
 preset = "default"
 
+# PYPE contextual templates
 [[templates]]
 type = "metadata"
 file = "commercial"
