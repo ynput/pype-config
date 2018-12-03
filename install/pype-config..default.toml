@@ -9,7 +9,7 @@
 
 [environment]
 global_type = ["system"]
-global_env = ["global", "avalon", "ftrack", "deadline"]
+global_env = ["global", "avalon", "ftrack", "deadline", "ocio", "software"]
 including = ['PATH', 'PYTHONPATH', 'NUKE_PATH']
 filtering = ["PYPE", "AVALON", "PATH", "PYTHONPATH"] # if item in environ.keys()
 
