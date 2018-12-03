@@ -1,0 +1,2 @@
+# ocio confing
+PYPE_OCIO_CONFIG = "{PYPE_STUDIO_TOOLS}/OpenColorIO-Configs"

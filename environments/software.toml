@@ -1,0 +1,3 @@
+# FFmpeg, DJV viewer
+[PATH]
+windows = "{PYPE_STUDIO_SOFTWARE}/ffmpeg/bin;{PYPE_STUDIO_SOFTWARE}/djv/bin"
