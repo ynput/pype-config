@@ -10,7 +10,7 @@ pushd %~dp0..\..\..
 set PYPE_SETUP_ROOT=%cd%
 
 :: debugging
-set PYPE_DEBUG=0
+set PYPE_DEBUG=3
 set DEBUG=%PYPE_DEBUG%
 :: maintain python environment
 :: will synchronize remote with local
