@@ -41,33 +41,33 @@
 
 
 [version]
-  main = "v{VERSION}"
-  sub = "<{SUBVERSION}>"
+  main = "v{VERSION:0>3}"
+  sub = "{SUBVERSION:0>4}"
 
 [resources]
-  root = "{PYPE_STUDIO_PROJECTS_RESOURCES}/{project.name}/resources"
+  root = "{PYPE_STUDIO_PROJECTS_RESOURCES}/{project[name]}/resources"
   raw = "{resources.root}/footage/raw"
   graded = "{resources.root}/footage/graded"
   reference = "{resources.root}/reference"
 
 [work]
-  root = "{PYPE_STUDIO_PROJECTS_WORK}/{project.name}"
+  root = "{PYPE_STUDIO_PROJECTS_WORK}/{project[name]}"
   folder = "{hierarchy}/{asset}/work/{task}"
-  filebase = "{project.code}_{asset}_{task}_{version.main}"
+  filebase = "{project[code]}_{asset}_{task}_{version.main}"
   file = "{work.filebase}<_{version.sub}><_{comment}>.{representation}"
   path = "{work.root}/{work.folder}/{work.file}"
 
 [render]
   padding = 5
-  root = "{PYPE_STUDIO_PROJECTS_RENDER}/{project.name}"
+  root = "{PYPE_STUDIO_PROJECTS_RENDER}/{project[name]}"
   folder = "{hierarchy}/{asset}/publish/render/{task}/{subset}/{version.main}"
   file = "{work.filebase}_{subset}<_{aov}>.{frame}.{representation}"
   path = "{render.root}/{render.folder}/{render.file}"
 
 [publish]
-  root = "{PYPE_STUDIO_PROJECTS_PUBLISH}/{project.name}"
+  root = "{PYPE_STUDIO_PROJECTS_PUBLISH}/{project[name]}"
   folder = "{hierarchy}/{asset}/publish/{family}/{subset}"
-  file = "{project.code}_{asset}_{subset}_{version.main}<_{part}>.{representation}"
-  filemaster = "{project.code}_{asset}_{subset}<_{part}>.{representation}"
+  file = "{project[code]}_{asset}_{subset}_{version.main}<_{part}>.{representation}"
+  filemaster = "{project[code]}_{asset}_{subset}<_{part}>.{representation}"
   path = "{publish.root}/{publish.folder}/{version.main}/{publish.file}"
   pathmaster = "{publish.root}/{publish.folder}/{publish.filemaster}"
