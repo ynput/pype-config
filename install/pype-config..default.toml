@@ -9,7 +9,7 @@
 
 [environment]
 global_type = ["system"]
-global_env = ["global", "avalon", "ftrack", "deadline", "ocio", "software"]
+global_env = ["global", "avalon", "ftrack", "deadline"]
 including = ['PATH', 'PYTHONPATH', 'NUKE_PATH']
 filtering = ["PYPE", "AVALON", "PATH", "PYTHONPATH"] # if item in environ.keys()
 
@@ -27,7 +27,7 @@ preset = "default"
 # PYPE contextual templates
 [[templates]]
 type = "metadata"
-file = "commercial"
+file = "default"
 preset = "default"
 
 [[templates]]

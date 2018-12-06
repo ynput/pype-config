@@ -14,7 +14,7 @@
   name = "kre-p01"
   ip = "10.0.0.2"
   api_key = "" # could be perhaps used for access
-  path = {windows = "P:/projects/_AVALON", darvin = "/Volume/share/projects/_AVALON", linux = "/mnt/share/projects/_AVALON"}
+  path = {windows = "C:/projects/_AVALON", darvin = "/Volume/share/projects/_AVALON", linux = "/mnt/share/projects/_AVALON"}
 
 # [kredenc.projects.render]
 #   name = "kre-p01"
