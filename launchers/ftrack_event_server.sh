@@ -15,7 +15,7 @@ export PYPE_SETUP_ROOT="$(cd $DIR/../../../ ; pwd)"
 CONDA_SHARED="/tmp"
 
 # debugging
-export PYPE_DEBUG=3
+export PYPE_DEBUG=0
 export PYPE_DEBUG_STDOUT=0
 
 # maintain python environment
