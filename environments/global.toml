@@ -18,5 +18,9 @@ PYTHONPATH = [
 PATH = [
     "{PYPE_STUDIO_TEMPLATES}/bin",
     "{PYPE_STUDIO_TEMPLATES}/bin/{platform}",
-    "{PYPE_APP_ROOT}"
+    "{PYPE_APP_ROOT}",
+    "{PYPE_STUDIO_SOFTWARE}/ffmpeg/bin",
+    "{PYPE_STUDIO_SOFTWARE}/djv/bin"
 ]
+
+PYPE_OCIO_CONFIG = "{PYPE_STUDIO_TOOLS}/OpenColorIO-Configs"

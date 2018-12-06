@@ -2,7 +2,7 @@
 ## pipeline (keys are mandatory)
 PYPE_STUDIO_SOFTWARE = "{locations.kredenc.core.path}/software"
 PYPE_STUDIO_TOOLS = "{locations.kredenc.core.path}/tools"
-# PYPE_STUDIO_PIPELINE = "{locations.kredenc.pipeline.path}/pype-setup"
+PYPE_STUDIO_PLUGINS = "{locations.kredenc.core.path}/repos"
 
 ## project related (keys are mandatory)
 PYPE_STUDIO_PROJECTS_RESOURCES = "{locations.kredenc.projects.work.path}"

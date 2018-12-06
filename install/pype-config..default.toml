@@ -27,7 +27,7 @@ preset = "default"
 # PYPE contextual templates
 [[templates]]
 type = "metadata"
-file = "commercial"
+file = "default"
 preset = "default"
 
 [[templates]]
