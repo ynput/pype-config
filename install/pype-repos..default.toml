@@ -8,7 +8,7 @@
 
 [AVALON_LAUNCHER]
     name = "avalon-launcher"
-    url = "git@github.com:getavalon/launcher.git"
+    url = "git@github.com:pypeclub/avalon-launcher.git"
     branch = "master"
     submodule_root = "repos"
 
