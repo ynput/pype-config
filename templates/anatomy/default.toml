@@ -71,3 +71,8 @@
   filemaster = "{project[code]}_{asset}_{subset}<_{part}>.{representation}"
   path = "{publish.root}/{publish.folder}/{version.main}/{publish.file}"
   pathmaster = "{publish.root}/{publish.folder}/{publish.filemaster}"
+
+[avalon]
+  workfile = "{asset[name]}_{task[name]}_v{version:0>3}<_{comment}>"
+  work = "{root}/{project}/{hierarchy}/{asset}/work/{task}"
+  publish = "{root}/{project}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version}/{projectcode}_{asset}_{subset}_v{version}.{representation}"
