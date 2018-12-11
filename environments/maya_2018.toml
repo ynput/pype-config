@@ -1,26 +1,10 @@
 MAYA_VERSION = "2018"
 
-PYTHONPATH = [
-    "{AVALON_CORE}/setup/maya",
-    "{MAYA_LOOK_ASSIGNER}"
-    ]
-
-MAYA_DISABLE_CLIC_IPM = "Yes"  # Disable the AdSSO process
-MAYA_DISABLE_CIP = "Yes"  # Shorten time to boot
-MAYA_DISABLE_CER = "Yes"
-PYMEL_SKIP_MEL_INIT = "Yes"
-LC_ALL= "C"  # Mute color management warnings
-
 
 [MAYA_LOCATION]
 darwin = "/Applications/Autodesk/maya{MAYA_VERSION}/Maya.app/Contents"
 linux = "/usr/autodesk/maya{MAYA_VERSION}"
 windows = "C:/Program Files/Autodesk/Maya{MAYA_VERSION}"
-
-[PATH]
-darwin = "{MAYA_LOCATION}/bin"
-linux = "{MAYA_LOCATION}/bin"
-windows = "{MAYA_LOCATION}/bin;C:/Program Files/Common Files/Autodesk Shared/;C:/Program Files (x86)/Autodesk/Backburner/"
 
 [DYLD_LIBRARY_PATH]
 darwin = "{MAYA_LOCATION}/MacOS"
