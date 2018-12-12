@@ -20,7 +20,7 @@ call %PYPE_SETUP_ROOT%\bin\launch_conda.bat
 set PYPE_DEBUG=0
 set DEBUG=%PYPE_DEBUG%
 
-set AVALON_MONGO_PORT=27072
+set AVALON_MONGO_PORT=2707
 set AVALON_MONGO=mongodb://localhost:%AVALON_MONGO_PORT%
 set AVALON_DB=avalon
 set AVALON_DB_DATA=%PYPE_SETUP_ROOT%\..\mongo_db_data
