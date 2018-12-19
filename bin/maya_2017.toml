@@ -10,7 +10,7 @@ ftrack_label = "Maya"
 schema = "avalon-core:application-1.0"
 executable = "maya2017"
 description = ""
-icon ="icons/maya.png"
+icon ="maya_icon"
 ftrack_icon = "http://icons.iconarchive.com/icons/froyoshark/enkel/512/Maya-icon.png"
 
 [copy]
