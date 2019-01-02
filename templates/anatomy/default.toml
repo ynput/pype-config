@@ -61,7 +61,7 @@
   padding = 5
   root = "{PYPE_STUDIO_PROJECTS_RENDER}/{project[name]}"
   folder = "{hierarchy}/{asset}/publish/render/{task}/{subset}/{version.main}"
-  file = "{work.filebase}_{subset}<_{aov}>.{frame}.{representation}"
+  file = "{work.filebase}_{subset}<_{aov}><.{frame}>.{representation}"
   path = "{render.root}/{render.folder}/{render.file}"
 
 [publish]
