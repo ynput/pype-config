@@ -36,7 +36,12 @@
 [kredenc.core]
   name = "kre-c01"
   ip = "10.0.0.3"
-  path = {windows = "K:/core", darvin = "/Volume/share/core", linux = "/mnt/share/core"}
+  path = {windows = '\\kre-c01\share\core', darvin = "/Volume/share/core", linux = "/mnt/share/core"}
+
+[kredenc.core.mount]
+  name = "kre-c01"
+  ip = "10.0.0.3"
+  path = {windows = 'K:/core', darvin = "/Volume/share/core", linux = "/mnt/share/core"}
 
 [local.projects]
   name = "cache"
