@@ -2,5 +2,9 @@
     "timer":{
         "full_time": 15,
         "message_time": 0.5
+    },
+
+    "sync_to_avalon": {
+        "statuses_name_change": ["not ready", "ready"]
     }
 }
