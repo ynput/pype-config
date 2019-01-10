@@ -6,5 +6,8 @@ NUKE_PATH = [
     "{PYPE_STUDIO_PLUGINS}/nuke"
 ]
 
+[PYTHONPATH]
+windows = "{PYPE_ENV}/python2/Lib/site-packages"
+
 [PATH]
 windows = 'C:/Program Files (x86)/QuickTime/QTSystem/'

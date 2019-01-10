@@ -1,23 +1,17 @@
 @echo off
-taskkill /FI "WINDOWTITLE eq Pype's*" /F
-
-title Pype's tray app
-
 :: set basic environments
-pushd %~dp0..
-set PYPE_STUDIO_TEMPLATES=%cd%
+title Pype tray - debug mode
+
 pushd %~dp0..\..\..
 set PYPE_SETUP_ROOT=%cd%
+: debugging
+set PYPE_DEBUG=0
+set PYPE_DEBUG_STDOUT=0
 
-:: debugging
-set PYPE_DEBUG=3
-set DEBUG=%PYPE_DEBUG%
 :: maintain python environment
 :: will synchronize remote with local
 set SYNC_ENV=0
 :: will switch to remote
 set REMOTE_ENV_ON=0
-call %PYPE_SETUP_ROOT%\bin\launch_conda.bat
 
-::python %PYPE_SETUP_ROOT%\app\cli.py %*
-start "Pype's tray app" pype --traydebug
+start powershell -noexit -nologo -executionpolicy bypass -File pype.ps1 --traydebug %*
