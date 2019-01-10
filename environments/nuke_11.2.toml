@@ -8,3 +8,6 @@ NUKE_PATH = [
 
 [PATH]
 windows = 'C:/Program Files (x86)/QuickTime/QTSystem/'
+
+[PYTHONPATH]
+windows = "{PYPE_ENV}/python2/Lib/site-packages"
