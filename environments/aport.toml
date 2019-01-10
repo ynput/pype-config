@@ -1,0 +1,8 @@
+APORT_PATH = '{AVALON_CORE}/setup/aport/pythonpath'
+
+# settings of pico.server.run_app()
+PICO_IP = "127.0.0.1"
+PICO_PORT = 4242
+PICO_DEBUG = false
+PICO_RELOADER = true
+PICO_THREADED = true
