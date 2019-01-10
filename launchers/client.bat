@@ -1,10 +1,17 @@
 @echo off
-:: set basic environments
-title Pype client
 
+taskkill /FI "WINDOWTITLE eq Pype's*" /F
+
+title Pype's local mongodb
+
+:: set basic environments
+pushd %~dp0..
+set PYPE_STUDIO_TEMPLATES=%cd%
 pushd %~dp0..\..\..
 set PYPE_SETUP_ROOT=%cd%
-: debugging
+set PYPE_APP_ROOT=%PYPE_SETUP_ROOT%\app
+
+:: debugging
 set PYPE_DEBUG=0
 set PYPE_DEBUG_STDOUT=0
 
@@ -14,4 +21,5 @@ set SYNC_ENV=0
 :: will switch to remote
 set REMOTE_ENV_ON=0
 
-start powershell -noexit -nologo -executionpolicy bypass -File pype.ps1 --launcher %*
+call %PYPE_SETUP_ROOT%\bin\launch_conda.bat
+start "Pype's launcher" pype --launcher %*
