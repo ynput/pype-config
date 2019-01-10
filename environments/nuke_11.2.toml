@@ -1,4 +1,8 @@
-PYBLISH_GUI = ["lite"]
+PYBLISH_GUI = ["qml"]
+
+PYTHONPATH = [
+    "{PYTHON_ENV}/python2/Lib/site-packages"
+]
 
 NUKE_PATH = [
     "{AVALON_CORE}/setup/nuke/nuke_path",
@@ -8,6 +12,3 @@ NUKE_PATH = [
 
 [PATH]
 windows = 'C:/Program Files (x86)/QuickTime/QTSystem/'
-
-[PYTHONPATH]
-windows = "{PYTHON_ENV}/python2/Lib/site-packages"
