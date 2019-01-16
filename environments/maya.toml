@@ -9,3 +9,4 @@ MAYA_DISABLE_CIP = "Yes"  # Shorten time to boot
 MAYA_DISABLE_CER = "Yes"
 PYMEL_SKIP_MEL_INIT = "Yes"
 LC_ALL= "C"  # Mute color management warnings
+PYPE_LOG_NO_COLORS = "Yes"

@@ -23,7 +23,7 @@
 [PYBLISH_QML]
     name = "pyblish-qml"
     url = "git@github.com:pypeclub/pyblish-qml.git"
-    branch = "develop"
+    branch = "fix/filter_pype_paths"
     submodule_root = "repos"
 
 
