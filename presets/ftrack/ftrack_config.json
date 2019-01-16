@@ -6,5 +6,7 @@
 
     "sync_to_avalon": {
         "statuses_name_change": ["not ready", "ready"]
-    }
+    },
+
+    "status_on_app_launch": "In Progress"
 }

@@ -1,6 +1,7 @@
 PYTHONPATH = [
     "{AVALON_CORE}/setup/maya",
-    "{MAYA_LOOK_ASSIGNER}"
+    "{MAYA_LOOK_ASSIGNER}",
+    "{PYTHON_ENV}/python2/Lib/site-packages"
     ]
 
 MAYA_DISABLE_CLIC_IPM = "Yes"  # Disable the AdSSO process

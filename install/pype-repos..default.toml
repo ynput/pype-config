@@ -2,28 +2,28 @@
 [AVALON_CORE]
     name = "avalon-core"
     url = "git@github.com:pypeclub/avalon-core.git"
-    branch = "master"
+    branch = "develop"
     submodule_root = "repos"
 
 
 [AVALON_LAUNCHER]
     name = "avalon-launcher"
     url = "git@github.com:pypeclub/avalon-launcher.git"
-    branch = "master"
+    branch = "develop"
     submodule_root = "repos"
 
 
 [PYBLISH_BASE]
     name = "pyblish-base"
     url = "git@github.com:pyblish/pyblish-base.git"
-    branch = "master"
+    branch = "develop"
     submodule_root = "repos"
 
 
 [PYBLISH_QML]
     name = "pyblish-qml"
-    url = "git@github.com:pyblish/pyblish-qml.git"
-    branch = "master"
+    url = "git@github.com:pypeclub/pyblish-qml.git"
+    branch = "develop"
     submodule_root = "repos"
 
 
@@ -38,21 +38,21 @@
 [PYPE_STUDIO_CONFIG]
     name = "pype-config"
     url = "git@bitbucket.org:pypeclub/pype-config.git"
-    branch = "master"
+    branch = "develop"
     submodule_root = "repos"
 
 
 [PYPE_STUDIO_TEMPLATES]
     name = "pype-templates"
     url = "git@bitbucket.org:pypeclub/pype-templates.git"
-    branch = "master"
+    branch = "develop"
     submodule_root = "repos"
 
 
 [PYPE_STUDIO_PROJECTS]
     name = "pype-projects"
     url = "git@bitbucket.org:pypeclub/pype-projects.git"
-    branch = "master"
+    branch = "develop"
     submodule_root = "repos"
 
 
