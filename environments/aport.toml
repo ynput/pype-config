@@ -6,3 +6,13 @@ PICO_PORT = 4242
 PICO_DEBUG = false
 PICO_RELOADER = true
 PICO_THREADED = true
+
+[PICO_HTML_DIR]
+windows = [
+    "{PYPE_STUDIO_CONFIG}/pype/premiere/extensions/com.pype.avalon/ppro",
+    "{PYPE_STUDIO_CONFIG}/pype/aport/static"
+]
+darvin = [
+    "{PYPE_STUDIO_CONFIG}/pype/premiere/extensions/com.pype.avalon/ppro",
+    "{PYPE_STUDIO_CONFIG}/pype/aport/static"
+]
