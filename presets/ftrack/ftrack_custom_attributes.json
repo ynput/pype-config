@@ -51,6 +51,16 @@
         "write_security_role": ["API","Administrator"],
         "read_security_role": ["API","Administrator"]
     },
+    "library_project": {
+        "label": "Library Project",
+        "key": "library_project",
+        "type": "boolean",
+        "entity_type": "show",
+        "group": "avalon",
+        "default": false,
+        "write_security_role": ["API","Administrator"],
+        "read_security_role": ["API","Administrator"]
+    },
     "crop": {
         "label": "Crop(x.y.right.top)",
         "key": "crop",
