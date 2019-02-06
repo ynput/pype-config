@@ -1,7 +1,7 @@
 @echo off
 
-set __app__="Houdini 17.0"
-set __exe__="C:\Program Files\Side Effects Software\Houdini 17.0.459\bin\houdini.exe"
+set __app__="Houdini 16.0"
+set __exe__="C:\Program Files\Side Effects Software\Houdini 16.0.621\bin\houdini.exe"
 if not exist %__exe__% goto :missing_app
 
 start %__app__% %__exe__% %*

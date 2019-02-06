@@ -5,7 +5,7 @@ title Pype tray
 pushd %~dp0..\..\..
 set PYPE_SETUP_ROOT=%cd%
 : debugging
-set PYPE_DEBUG=0
+set PYPE_DEBUG=3
 set PYPE_DEBUG_STDOUT=0
 
 :: maintain python environment
