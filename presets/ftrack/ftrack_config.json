@@ -9,7 +9,8 @@
     },
 
     "status_update": {
-        "Ready": ["not ready", "on hold"],
+        "_ignore_": ["in progress", "ommited", "on hold"],
+        "Ready": ["not ready"],
         "In Progress" : ["_any_"]
     }
 }
