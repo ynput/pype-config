@@ -1,0 +1,13 @@
+{
+    "djv_paths": [
+        "Application/DJV.app/Contents/MacOS/DJV",
+        "C:/Program Files/djv-1.1.0-Windows-64/bin/djv_view.exe",
+        "usr/local/djv/djv_view"
+    ],
+    "file_ext": [
+        "cin", "dpx", "avi", "dv", "gif", "flv", "mkv", "mov", "mpg", "mpeg",
+        "mp4", "m4v", "mxf", "iff", "z", "ifl", "jpeg", "jpg", "jfif", "lut",
+        "1dl", "exr", "pic", "png", "ppm", "pnm", "pgm", "pbm", "rla", "rpf",
+        "sgi", "rgba", "rgb", "bw", "tga", "tiff", "tif", "img"
+    ]
+}
