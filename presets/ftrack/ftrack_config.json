@@ -8,5 +8,8 @@
         "statuses_name_change": ["not ready", "ready"]
     },
 
-    "status_on_app_launch": "In progress"
+    "status_update": {
+        "In Progress" : ["not ready", "ready"],
+        "On Hold": ["in progress"]
+    }
 }
