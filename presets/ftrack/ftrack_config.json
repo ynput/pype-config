@@ -9,7 +9,7 @@
     },
 
     "status_update": {
-        "In Progress" : ["not ready", "ready"],
-        "On Hold": ["in progress"]
+        "Ready": ["not ready", "on hold"],
+        "In Progress" : ["_any_"]
     }
 }
