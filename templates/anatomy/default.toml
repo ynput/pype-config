@@ -6,10 +6,10 @@
 # keys comming from outside:
 #   {PYPE_STUDIO_PROJECTS_WORK}: str, referencing template env-var from `system/__locations__.toml`
 #
-#   {project.name}: str, full name of the project
+#   {project[name]}: str, full name of the project
 #             example: C001_cool_commercial, D001_projectx
 #
-#   {project.code}: str, shorter version of project name 2-4 letters usually
+#   {project[code]}: str, shorter version of project name 2-4 letters usually
 #             example: ccm, prj, dogz
 #
 #   {AVALON_SILO}: str, the highest folder in the hierarchy of the asset, legacy
@@ -53,10 +53,10 @@
   path = "{work.root}/{work.folder}/{work.file}"
 
 [render]
-  padding = 5
+  padding = 4
   root = "{PYPE_STUDIO_PROJECTS_RENDER}/{project[name]}"
   folder = "{hierarchy}/{asset}/publish/render/{task}/{subset}/v{version:0>3}"
-  file = "{work.filebase}_{subset}<_{aov}><.{frame}>.{representation}"
+  file = "{work.filebase}_{subset}<.{frame}>.{representation}"
   path = "{render.root}/{render.folder}/{render.file}"
   fullpath = "{publish.root}/{hierarchy}/{asset}/publish/render/{task}/{subset}/{version}/{project[code]}_{asset}_{task}_v{version:0>3}_{subset}.{frame}.{representation}"
 
