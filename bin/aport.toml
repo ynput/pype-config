@@ -3,6 +3,7 @@ schema = "avalon-core:application-1.0"
 application_dir = "aport"
 label = "Pype Aport Server"
 icon ="retweet"
+script_path = "{AVALON_CORE}\\setup\\aport\\pythonpath\\init.py"
 
 ftrack_label = "Pype Aport Server"
 ftrack_icon = "https://cdn.icon-icons.com/icons2/936/PNG/512/retweet-arrows-symbol_icon-icons.com_73433.png"
