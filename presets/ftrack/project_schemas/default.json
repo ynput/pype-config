@@ -25,15 +25,15 @@
   }],
   "task_templates": [{
     "name": "Character",
-    "statuses": ["Art", "Modeling", "Lookdev", "Rigging"]
+    "task_types": ["Art", "Modeling", "Lookdev", "Rigging"]
   }, {
     "name": "Element",
-    "statuses": ["Modeling", "Lookdev"]
+    "task_types": ["Modeling", "Lookdev"]
   }, {
     "name": "Prop",
-    "statuses": ["Modeling", "Lookdev", "Rigging"]
+    "task_types": ["Modeling", "Lookdev", "Rigging"]
   }, {
     "name": "Location",
-    "statuses": ["Layout", "Setdress"]
+    "task_types": ["Layout", "Setdress"]
   }]
 }
