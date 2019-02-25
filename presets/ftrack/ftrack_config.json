@@ -8,5 +8,9 @@
         "statuses_name_change": ["not ready", "ready"]
     },
 
-    "status_on_app_launch": "In progress"
+    "status_update": {
+        "_ignore_": ["in progress", "ommited", "on hold"],
+        "Ready": ["not ready"],
+        "In Progress" : ["_any_"]
+    }
 }

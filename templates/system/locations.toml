@@ -1,6 +1,6 @@
 # studio storage locations
 ## pipeline (keys are mandatory)
-PYPE_STUDIO_SOFTWARE = "{locations.kredenc.core.path}/software"
+PYPE_STUDIO_SOFTWARE = "{locations.kredenc.core.mount.path}/software"
 PYPE_STUDIO_TOOLS = "{locations.kredenc.core.path}/tools"
 PYPE_STUDIO_PLUGINS = "{locations.kredenc.core.path}/repos"
 PYPE_STUDIO_CORE = "{locations.kredenc.core.path}"
