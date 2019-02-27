@@ -1,0 +1,73 @@
+# '''
+# description:
+#   - all keys which are in <> are optional - if they are not in dict(data) then they are ignored
+#   - all capital keys {ENV_VAR} are computed first and eather coming from outside or inside
+#
+# keys comming from outside:
+#   {PYPE_STUDIO_PROJECTS_WORK}: str, referencing template env-var from `system/__locations__.toml`
+#
+#   {project[name]}: str, full name of the project
+#             example: C001_cool_commercial, D001_projectx
+#
+#   {project[code]}: str, shorter version of project name 2-4 letters usually
+#             example: ccm, prj, dogz
+#
+#   {AVALON_SILO}: str, the highest folder in the hierarchy of the asset, legacy
+#
+#   {asset}: str, name of the entity, e.g. sh010, bob, 101sh020
+#             example: sh010, bob, car-big, 101sh050, sq02
+#
+#   {asset.type}: str, type of the entity,
+#             example: shot, asset, sequence, folder
+#
+#   {family}: str, general type of the published file
+#             example: model, cache, render, look, rig
+#
+#   {subset}: str, a published part of an asset. Always contains family string too
+#             example: modelMain, modelDamaged, renderMain, lookMain
+#
+#   {version}: int, example: 14
+#
+#   {subversion}: int, a minor wersion within a workfile, example: 001, 0004
+#
+#   {frame}: int, a frame number in image sequences, example: 0001, 989, 49593
+#
+#   {representation}: str, example: abc, ma, nk, exr, png, curves, history, metadata
+#
+#   {padding:0>6}: int, number of frame from image sequence, example: ####, %04d
+#
+#   - {padding:0>6}: need to be careful because every app is referencing padding differently
+# '''
+
+[resources]
+  root = "{PYPE_STUDIO_PROJECTS_RESOURCES}/{project[name]}/resources"
+  footage = "{resources.root}/footage"
+  reference = "{resources.root}/reference"
+
+[work]
+  root = "{PYPE_STUDIO_PROJECTS_WORK}/{project[name]}"
+  folder = "{hierarchy}/{asset}/work/{task}"
+  file = "{project[code]}_{asset}_{task}_v{version:0>3}<_{comment}>.{ext}"
+  path = "{work.root}/{work.folder}/{work.file}"
+  fullpath = "{PYPE_STUDIO_PROJECTS_WORK}/{project[name]}/{hierarchy}/{asset}/work/{task}/{asset}_{task}_v{version:0>3}<_{comment}>.{ext}"
+
+
+[render]
+  padding = 4
+  root = "{PYPE_STUDIO_PROJECTS_RENDER}/{project[name]}"
+  folder = "{hierarchy}/{asset}/publish/render/{task}/{subset}/v{version:0>3}"
+  file = "{project[code]}_{asset}_{task}_v{version:0>3}_{subset}<.{frame}>.{representation}"
+  path = "{render.root}/{render.folder}/{render.file}"
+  fullpath = "{PYPE_STUDIO_PROJECTS_RENDER}/{project[name]}/{hierarchy}/{asset}/publish/render/{task}/{subset}/{version}/{project[code]}_{asset}_{task}_v{version:0>3}_{subset}<.{frame}>.{representation}"
+
+[publish]
+  root = "{PYPE_STUDIO_PROJECTS_PUBLISH}/{project[name]}"
+  folder = "{hierarchy}/{asset}/publish/{family}/{subset}"
+  file = "{project[code]}_{asset}_{subset}_v{version:0>3}<_{part}>.{representation}"
+  path = "{publish.root}/{publish.folder}/v{version:0>3}/{publish.file}"
+  fullpath = "{PYPE_STUDIO_PROJECTS_PUBLISH}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}/{project[code]}_{asset}_{subset}_v{version:0>3}.{representation}"
+
+[avalon]
+    workfile = "{asset}_{task}_v{version:0>3}<_{comment}>"
+    work = "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}"
+    publish = "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}/{project[code]}_{asset}_{subset}_v{version:0>3}.{representation}"
