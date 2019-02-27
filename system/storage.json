@@ -1,0 +1,45 @@
+{
+  "studio": {
+    "projects": {
+      "name": "kre-p01",
+      "path": {
+        "windows": "//kre-p01/share/projects",
+        "darvin": "/Volume/share/projects",
+        "linux": "/mnt/share/projects"
+      }
+    },
+    "core": {
+      "name": "kre-c01",
+      "path": {
+        "windows": "//kre-c01/share/core",
+        "darvin": "/Volume/share/core",
+        "linux": "/mnt/share/core"
+      },
+      "mount": {
+        "path": {
+          "windows": "K:/core",
+          "darvin": "/Volume/share/core",
+          "linux": "/mnt/share/core"
+        }
+      }
+    }
+  },
+  "local": {
+    "projects": {
+      "name": "projects",
+      "path": {
+        "windows": "D:/projects",
+        "darvin": "/Volume/data/projects",
+        "linux": "/mnt/data/projects"
+      }
+    },
+    "cache": {
+      "name": "cache",
+      "path": {
+        "windows": "D:/cache",
+        "darvin": "/Volume/data/cache",
+        "linux": "/mnt/data/cache"
+      }
+    }
+  }
+}
