@@ -1,9 +1,6 @@
 application_dir = "maya"
 default_dirs = [
-	"scenes",
-	"data",
-	"renderData/shaders",
-	"images"
+	"renders"
 ]
 label = "Autodesk Maya 2018"
 ftrack_label = "Maya"
