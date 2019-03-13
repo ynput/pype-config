@@ -1,4 +1,4 @@
-executable = "aport"
+executable = "aport_0.1"
 schema = "avalon-core:application-1.0"
 application_dir = "aport"
 label = "Pype Aport Server"
