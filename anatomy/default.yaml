@@ -40,31 +40,19 @@
 # '''
 
 resources:
-  root: {PYPE_STUDIO_PROJECTS_RESOURCES}/{project[name]}/resources
-  footage: {resources.root}/footage
-  reference: {resources.root}/reference
+  footage: {root[resources]}/{project[name]}/resources/footage
+  reference: {root[resources]}/{project[name]}/resources/reference
 
 work:
-  root: {PYPE_STUDIO_PROJECTS_WORK}/{project[name]}
-  folder: {hierarchy}/{asset}/work/{task}
+  folder: {root[work]}/{project[name]}/{hierarchy}/{asset}/work/{task}
   file: {project[code]}_{asset}_{task}_v{version:0>3}<_{comment}>.{ext}
-  path: {work.root}/{work.folder}/{work.file}
-  fullpath: {PYPE_STUDIO_PROJECTS_WORK}/{project[name]}/{hierarchy}/{asset}/work/{task}/{asset}_{task}_v{version:0>3}<_{comment}>.{ext}
+  path: {root[work]}/{project[name]}/{hierarchy}/{asset}/work/{task}/{asset}_{task}_v{version:0>3}<_{comment}>.{ext}
 
 render:
-  padding: 4
-  root: {PYPE_STUDIO_PROJECTS_RENDER}/{project[name]}
-  folder: {hierarchy}/{asset}/publish/render/{task}/{subset}/v{version:0>3}
-  file: {project[code]}_{asset}_{task}_v{version:0>3}_{subset}<.{frame}>.{representation}
-  path: {render.root}/{render.folder}/{render.file}
-  fullpath: {PYPE_STUDIO_PROJECTS_RENDER}/{project[name]}/{hierarchy}/{asset}/publish/render/{task}/{subset}/{version}/{project[code]}_{asset}_{task}_v{version:0>3}_{subset}<.{frame}>.{representation}
+  path: {root[render]}/{project[name]}/{hierarchy}/{asset}/publish/render/{task}/{subset}/{version}/{project[code]}_{asset}_{task}_v{version:0>3}_{subset}<.{frame}>.{representation}
 
 publish:
-  root: {PYPE_STUDIO_PROJECTS_PUBLISH}/{project[name]}
-  folder: {hierarchy}/{asset}/publish/{family}/{subset}
-  file: {project[code]}_{asset}_{subset}_v{version:0>3}<_{part}>.{representation}
-  path: {publish.root}/{publish.folder}/v{version:0>3}/{publish.file}
-  fullpath: {PYPE_STUDIO_PROJECTS_PUBLISH}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}/{project[code]}_{asset}_{subset}_v{version:0>3}.{representation}
+  path: {root[publish]}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}/{project[code]}_{asset}_{subset}_v{version:0>3}.{representation}
 
 avalon:
   workfile: {asset}_{task}_v{version:0>3}<_{comment}>
