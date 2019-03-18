@@ -1,0 +1,17 @@
+{
+  "nuke": {
+    "nodes": {
+      "write": {
+          "id": "output_write",
+          "previous": "connect_crop",
+          "file_type": "exr",
+          "datatype": "16 bit half",
+          "compression": "Zip (1 scanline)",
+          "create_directories": true,
+          "autocrop": true,
+          "tile_color": "0xff0000ff",
+          "channels": "rgb",
+      }
+    }
+  }
+}

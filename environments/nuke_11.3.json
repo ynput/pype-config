@@ -1,0 +1,16 @@
+{
+  "PYBLISH_GUI": [
+    "qml"
+  ],
+  "PYTHONPATH": [
+    "{PYTHON_ENV}/python2/Lib/site-packages"
+  ],
+  "NUKE_PATH": [
+    "{AVALON_CORE}/setup/nuke/nuke_path",
+    "{PYPE_STUDIO_CONFIG}/setup/nuke/nuke_path",
+    "{PYPE_STUDIO_PLUGINS}/nuke"
+  ],
+  "PATH": {
+    "windows": "C:/Program Files (x86)/QuickTime/QTSystem/"
+  }
+}
