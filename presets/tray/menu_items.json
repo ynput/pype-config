@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Ftrack",
+    	"type": "module",
+    	"import_path": "pype.ftrack",
+        "fromlist": ["pype"]
+    },
+    {
+        "title": "Avalon",
+    	"type": "module",
+    	"import_path": "pype.avalon_apps",
+        "fromlist": ["pype"]
+    }
+]
