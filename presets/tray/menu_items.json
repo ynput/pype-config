@@ -12,13 +12,13 @@
         "fromlist": ["pype"]
     },
     {
-        "title": "IdleManager",
+        "title": "Idle Manager",
     	"type": "module",
     	"import_path": "pype.services.idle_manager",
         "fromlist": ["pype","services"]
     },
     {
-        "title": "TimersManager",
+        "title": "Timers Manager",
     	"type": "module",
     	"import_path": "pype.services.timers_manager",
         "fromlist": ["pype","services"]
