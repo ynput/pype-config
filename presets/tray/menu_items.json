@@ -10,5 +10,17 @@
     	"type": "module",
     	"import_path": "pype.avalon_apps",
         "fromlist": ["pype"]
+    },
+    {
+        "title": "IdleManager",
+    	"type": "module",
+    	"import_path": "pype.services.idle_manager",
+        "fromlist": ["pype","services"]
+    },
+    {
+        "title": "TimersManager",
+    	"type": "module",
+    	"import_path": "pype.services.timers_manager",
+        "fromlist": ["pype","services"]
     }
 ]
