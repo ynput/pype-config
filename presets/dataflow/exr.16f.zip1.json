@@ -10,7 +10,7 @@
           "create_directories": true,
           "autocrop": true,
           "tile_color": "0xff0000ff",
-          "channels": "rgb",
+          "channels": "rgb"
       }
     }
   }
