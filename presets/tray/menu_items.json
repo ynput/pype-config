@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Ftrack",
+    	"type": "module",
+    	"import_path": "pype.ftrack",
+        "fromlist": ["pype"]
+    },
+    {
+        "title": "Avalon",
+    	"type": "module",
+    	"import_path": "pype.avalon_apps",
+        "fromlist": ["pype"]
+    },
+    {
+        "title": "Idle Manager",
+    	"type": "module",
+    	"import_path": "pype.services.idle_manager",
+        "fromlist": ["pype","services"]
+    },
+    {
+        "title": "Timers Manager",
+    	"type": "module",
+    	"import_path": "pype.services.timers_manager",
+        "fromlist": ["pype","services"]
+    }
+]
