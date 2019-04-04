@@ -1,1 +1,1 @@
-CLOCKIFY_WORKSPACE = "test_workspace"
+CLOCKIFY_WORKSPACE = "*workspace_name*"
