@@ -40,19 +40,19 @@
 # '''
 
 resources:
-  footage: "{root[resources]}/{project[name]}/resources/footage"
-  reference: "{root[resources]}/{project[name]}/resources/reference"
+  footage: "{root}/{project[name]}/resources/footage"
+  reference: "{root}/{project[name]}/resources/reference"
 
 work:
-  folder: "{root[work]}/{project[name]}/{hierarchy}/{asset}/work/{task}"
+  folder: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}"
   file: "{project[code]}_{asset}_{task}_v{version:0>3}<_{comment}>.{ext}"
-  path: "{root[work]}/{project[name]}/{hierarchy}/{asset}/work/{task}/{asset}_{task}_v{version:0>3}<_{comment}>.{ext}"
+  path: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}/{asset}_{task}_v{version:0>3}<_{comment}>.{ext}"
 
 render:
-  path: "{root[render]}/{project[name]}/{hierarchy}/{asset}/publish/render/{task}/{subset}/{version}/{project[code]}_{asset}_{task}_v{version:0>3}_{subset}<.{frame}>.{representation}"
+  path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/render/{task}/{subset}/{version}/{project[code]}_{asset}_{task}_v{version:0>3}_{subset}<.{frame}>.{representation}"
 
 publish:
-  path: "{root[publish]}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}/{project[code]}_{asset}_{subset}_v{version:0>3}.{representation}"
+  path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}/{project[code]}_{asset}_{subset}_v{version:0>3}.{representation}"
 
 avalon:
   workfile: "{asset}_{task}_v{version:0>3}<_{comment}>"
