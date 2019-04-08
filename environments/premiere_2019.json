@@ -1,7 +1,7 @@
 {
   "PREMIERA_PATH": "{AVALON_CORE}/setup/premiere/pythonpath",
   "PRESETS_PATH": [
-    "{PYPE_STUDIO_TEMPLATES}/presets/premiere"
+    "{PYPE_CONFIG}/presets/premiere"
   ],
   "EXTENSIONS_PATH": {
     "windows": "{USERPROFILE}/AppData/Roaming/Adobe/CEP/extensions",
