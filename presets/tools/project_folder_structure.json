@@ -1,56 +1,23 @@
 
 {
-    "name": "__project_root__",
-    "subfolders": [{
-        "name": "publish",
-        "subfolders": [{
-            "name": "animation"
-        }, {
-            "name": "camera"
-        }, {
-            "name": "cloth"
-        }, {
-            "name": "matchmove",
-            "subfolders": [{"name": "defaultMatchmove"}]
-        }]
-    }, {
-        "name": "workfiles",
-        "subfolders": [{
-            "name": "animation",
-            "subfolders": [{
-                "name": "houdini",
-                "subfolders": [
-                    {"name": "chan"},
-                    {"name": "dso"},
-                    {"name": "geo"},
-                    {"name": "hip"},
-                    {"name": "otls"},
-                    {"name": "pic"},
-                    {"name": "scripts"},
-                    {"name": "toolbars"}
-                ]
-            }, {
-                "name": "maya",
-                "subfolders": [
-                    {"name": "autosave"},
-                    {"name": "cache",
-                     "subfolders": [{"name": "v001"}]},
-                    {"name": "images",
-                     "subfolders": [{"name": "v001"}]},
-                    {"name": "iprImages"},
-                    {"name": "particles",
-                     "subfolders": [{"name": "v001"}]},
-                    {"name": "playblast",
-                     "subfolders": [{"name": "v001"}]},
-                    {"name": "scenes"},
-                    {"name": "sound",
-                     "subfolders": [{"name": "v001"}]},
-                    {"name": "sourceimages",
-                     "subfolders": [{"name": "v001"}]},
-                    {"name": "vrscene",
-                     "subfolders": [{"name": "v001"}]}
-                ]
-            }]
-        }]
-    }]
+    "__project_root__": {
+        "1_prod" : {},
+        "2_resources" : {
+          "footage": {
+            "plates": {},
+            "offline": {}
+          },
+          "audio": {},
+          "art_dept": {}
+        },
+        "3_editorial" : {},
+        "4_assets[ftrack.library]": {
+          "characters[ftrack]": {},
+          "locations[ftrack]": {}
+        },
+        "5_shots[ftrack.library]": {
+          "scripts": {},
+          "editorial[ftrack.folder]": {}
+        }
+    }
 }
