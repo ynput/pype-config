@@ -1,7 +1,7 @@
 {
   "PYTHONPATH": [
-    "{AVALON_CORE}/setup/maya",
-    "{MAYA_LOOK_ASSIGNER}",
+    "{PYPE_ROOT}/repos/avalon-core/setup/maya",
+    "{PYPE_ROOT}/repos/maya-look-assigner",
     "{PYTHON_ENV}/python2/Lib/site-packages"
   ],
   "MAYA_DISABLE_CLIC_IPM": "Yes",
