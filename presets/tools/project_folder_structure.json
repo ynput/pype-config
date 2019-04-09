@@ -1,4 +1,3 @@
-
 {
     "__project_root__": {
         "1_prod" : {},
@@ -11,13 +10,13 @@
           "art_dept": {}
         },
         "3_editorial" : {},
-        "4_assets[ftrack.library]": {
+        "4_assets[ftrack.Library]": {
           "characters[ftrack]": {},
           "locations[ftrack]": {}
         },
-        "5_shots[ftrack.library]": {
+        "5_shots[ftrack.Sequence]": {
           "scripts": {},
-          "editorial[ftrack.folder]": {}
+          "editorial[ftrack.Folder]": {}
         }
     }
 }
