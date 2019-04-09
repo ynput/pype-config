@@ -1,15 +1,16 @@
 {
   "PYPE_STUDIO_NAME": "Studio Name",
   "PYPE_STUDIO_CODE": "stu",
-  "PYPE_APP_ROOT": "{PYPE_ROOT}/app",
+  "PYPE_APP_ROOT": "{PYPE_ROOT}/pypeapp",
   "PYPE_MODULE_ROOT": "{PYPE_ROOT}/repos/pype",
   "STUDIO_SOFT": "{PYPE_STUDIO_SOFTWARE}",
   "PATH": [
-    "{PYPE_CONFIG}/bin",
-    "{PYPE_CONFIG}/bin/{platform}",
+    "{PYPE_CONFIG}/launchers",
+    "{PYPE_CONFIG}/launchers/{platform}",
     "{PYPE_APP_ROOT}",
     "{PYPE_STUDIO_SOFTWARE}/ffmpeg/bin",
     "{PYPE_STUDIO_SOFTWARE}/djv/bin"
   ],
-  "PYPE_OCIO_CONFIG": "{PYPE_STUDIO_TOOLS}/OpenColorIO-Configs"
+  "PYPE_OCIO_CONFIG": "{PYPE_STUDIO_TOOLS}/OpenColorIO-Configs",
+  "PYTHONPATH": "{VIRTUAL_ENV}/Lib/site-packages"
 }
