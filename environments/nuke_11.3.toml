@@ -1,6 +1,10 @@
-PYBLISH_GUI = ["qml"]
+PYBLISH_GUI = ["pyblish_qml"]
+PYBLISH_QML_MODAL = "1"
+PYBLISH_QML_PYQT5 = "{PYTHON_ENV}/qt5/python-qt5"
+PYBLISH_QML_PYTHON_EXECUTABLE = "{PYTHON_ENV}/python2/python.exe"
 
 PYTHONPATH = [
+    "{PYTHON_ENV}/qt5/python-qt5",
     "{PYTHON_ENV}/python2/Lib/site-packages"
 ]
 
