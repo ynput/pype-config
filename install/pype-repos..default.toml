@@ -15,7 +15,7 @@
 
 [PYBLISH_BASE]
     name = "pyblish-base"
-    url = "git@github.com:pyblish/pyblish-base.git"
+    url = "git@github.com:pypeclub/pyblish-base.git"
     branch = "develop"
     submodule_root = "repos"
 
@@ -67,3 +67,9 @@
     url = "git@github.com:pypeclub/maya-look-assigner.git"
     branch = "master"
     submodule_root = "repos"
+
+[PYTHON_QT5]
+    name = "python-qt5"
+    url = "git@github.com:pyqt/python-qt5.git"
+    branch = "master"
+    submodule_root = "qt5"
