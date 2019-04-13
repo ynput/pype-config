@@ -11,4 +11,4 @@ icon ="maya_icon"
 ftrack_icon = "http://icons.iconarchive.com/icons/froyoshark/enkel/512/Maya-icon.png"
 
 [copy]
-"{PYPE_STUDIO_CONFIG}/res/workspace.mel" = "workspace.mel"
+"{PYPE_MODULE_ROOT}/res/workspace.mel" = "workspace.mel"

@@ -1,12 +1,12 @@
 {
   "HOUDINI_PATH": {
-    "darwin": "{PYPE_STUDIO_CONFIG}/setup/houdini:&",
-    "linux": "{PYPE_STUDIO_CONFIG}/setup/houdini:&",
-    "windows": "{PYPE_STUDIO_CONFIG}/setup/houdini;&"
+    "darwin": "{PYPE_MODULE_ROOT}/setup/houdini:&",
+    "linux": "{PYPE_MODULE_ROOT}/setup/houdini:&",
+    "windows": "{PYPE_MODULE_ROOT}/setup/houdini;&"
   },
   "HOUDINI_MENU_PATH": {
-    "darwin": "{PYPE_STUDIO_CONFIG}/setup/houdini:&",
-    "linux": "{PYPE_STUDIO_CONFIG}/setup/houdini:&",
-    "windows": "{PYPE_STUDIO_CONFIG}/setup/houdini;&"
+    "darwin": "{PYPE_MODULE_ROOT}/setup/houdini:&",
+    "linux": "{PYPE_MODULE_ROOT}/setup/houdini:&",
+    "windows": "{PYPE_MODULE_ROOT}/setup/houdini;&"
   }
 }
