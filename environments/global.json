@@ -6,7 +6,7 @@
   "STUDIO_SOFT": "{PYPE_STUDIO_SOFTWARE}",
   "PATH": [
     "{PYPE_CONFIG}/launchers",
-    "{PYPE_CONFIG}/launchers/{platform}",
+    "{PYPE_CONFIG}/launchers/{PLATFORM}",
     "{PYPE_APP_ROOT}",
     "{PYPE_STUDIO_SOFTWARE}/ffmpeg/bin",
     "{PYPE_STUDIO_SOFTWARE}/djv/bin"
