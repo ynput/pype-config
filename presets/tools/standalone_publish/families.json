@@ -1,0 +1,17 @@
+{
+    "create_review": {
+        "name": "reviewDefault",
+        "label": "Review",
+        "family": "review",
+        "icon": "video-camera",
+        "defaults": ["Main"],
+        "help": "Single baked camera"
+    },
+    "create_look": {
+        "name": "look",
+        "label": "Look",
+        "family": "look",
+        "icon": "paint-brush",
+        "defaults": ["Main"],
+        "help": "Shader connections defining shape look"
+}
