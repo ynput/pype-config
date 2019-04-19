@@ -5,4 +5,4 @@ label = "Adobe Premiere Pro CC 2019"
 icon ="premiere_icon"
 
 ftrack_label = "Premiere"
-ftrack_icon = "https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg"
+ftrack_icon = '{}/app_icons/premiere.png'

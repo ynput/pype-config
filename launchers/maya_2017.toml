@@ -11,7 +11,7 @@ schema = "avalon-core:application-1.0"
 executable = "maya2017"
 description = ""
 icon ="maya_icon"
-ftrack_icon = "http://icons.iconarchive.com/icons/froyoshark/enkel/512/Maya-icon.png"
+ftrack_icon = '{}/app_icons/maya.png'
 
 [copy]
 "{AVALON_CORE}/res/workspace.mel" = "workspace.mel"
