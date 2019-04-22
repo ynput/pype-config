@@ -4,7 +4,7 @@
 #   - all capital keys {ENV_VAR} are computed first and eather coming from outside or inside
 #
 # keys comming from outside:
-#   {PYPE_STUDIO_PROJECTS_WORK}: str, referencing template env-var from `system/__locations__.toml`
+#   {PYPE_STUDIO_PROJECTS_WORK}: str, referencing template env-var from `system/locations.json`
 #
 #   {project[name]}: str, full name of the project
 #             example: C001_cool_commercial, D001_projectx
@@ -28,15 +28,9 @@
 #
 #   {version}: int, example: 14
 #
-#   {subversion}: int, a minor wersion within a workfile, example: 001, 0004
-#
 #   {frame}: int, a frame number in image sequences, example: 0001, 989, 49593
 #
 #   {representation}: str, example: abc, ma, nk, exr, png, curves, history, metadata
-#
-#   {padding:0>6}: int, number of frame from image sequence, example: ####, %04d
-#
-#   - {padding:0>6}: need to be careful because every app is referencing padding differently
 # '''
 
 resources:
@@ -49,6 +43,7 @@ work:
   path: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}/{asset}_{task}_v{version:0>3}<_{comment}>.{ext}"
 
 render:
+  padding: "4"
   path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/render/{task}/{subset}/{version}/{project[code]}_{asset}_{task}_v{version:0>3}_{subset}<.{frame}>.{representation}"
 
 publish:
