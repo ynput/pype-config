@@ -37,14 +37,14 @@
 # studio repos
 [PYPE_STUDIO_CONFIG]
     name = "pype-config"
-    url = "git@bitbucket.org:pypeclub/pype-config.git"
+    url = "git@bitbucket.org:pypeclub/pype.git"
     branch = "develop"
     submodule_root = "repos"
 
 
 [PYPE_STUDIO_TEMPLATES]
     name = "pype-templates"
-    url = "git@bitbucket.org:pypeclub/pype-templates.git"
+    url = "git@bitbucket.org:pypeclub/pype-config.git"
     branch = "develop"
     submodule_root = "repos"
 
