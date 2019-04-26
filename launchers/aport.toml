@@ -5,4 +5,4 @@ label = "Pype Aport Server"
 icon ="retweet"
 
 ftrack_label = "Pype Aport Server"
-ftrack_icon = "https://cdn.icon-icons.com/icons2/936/PNG/512/retweet-arrows-symbol_icon-icons.com_73433.png"
+ftrack_icon = '{}/app_icons/Aport.png'

@@ -22,5 +22,11 @@
     	"type": "module",
     	"import_path": "pype.services.timers_manager",
         "fromlist": ["pype","services"]
+    },
+    {
+        "title": "Statics Server",
+    	"type": "module",
+    	"import_path": "pype.services.statics_server",
+        "fromlist": ["pype","services"]
     }
 ]
