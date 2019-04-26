@@ -4,4 +4,4 @@ application_dir = "nuke"
 label = "Nuke 11.3"
 ftrack_label = "Nuke"
 icon ="nuke_icon"
-ftrack_icon = "https://mbtskoudsalg.com/images/nuke-icon-png-2.png"
+ftrack_icon = '{}/app_icons/nuke.png'

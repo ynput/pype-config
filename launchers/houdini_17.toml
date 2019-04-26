@@ -4,4 +4,4 @@ application_dir = "houdini"
 label = "Houdini 17.0"
 ftrack_label = "Houdini"
 icon = "houdini_icon"
-ftrack_icon = "https://sg-toolkit.s3.amazonaws.com/tank/docs/engines/tk-houdini/v1.5.6_0627_231442/icon_256.png"
+ftrack_icon = '{}/app_icons/houdini.png'
