@@ -1,5 +1,4 @@
 {
-    "thumbnailable": [".jpeg", ".jpg", ".png"],
     "nuke": [".nk"],
     "maya": [".ma", ".mb"],
     "houdini": [".hip"],
