@@ -27,17 +27,39 @@
         "group": "avalon",
         "config": {
             "multiselect": true,
-            "data": [
-                {"maya_2018": "Maya 2018"},
-                {"maya_2017": "Maya 2017"},
-                {"nuke_11.2": "Nuke 11.2"},
-                {"nuke_11.1": "Nuke 11.1"},
-                {"deadline": "Deadline"},
-                {"houdini_16.5": "Houdini 16.5"},
-                {"houdini_17": "Houdini 17"},
-                {"python_2": "Python 2"},
-                {"premiere_2019": "Premiere Pro 2019"},
-                {"aport": "Aport Server"}
+            "data": [{
+                    "maya_2018": "Maya 2018"
+                },
+                {
+                    "maya_2017": "Maya 2017"
+                },
+                {
+                    "nuke_11.2": "Nuke 11.2"
+                },
+                {
+                    "nuke_11.1": "Nuke 11.1"
+                },
+                {
+                    "nukestudio_11.2": "NukeStudio 11.2"
+                },
+                {
+                    "deadline": "Deadline"
+                },
+                {
+                    "houdini_16.5": "Houdini 16.5"
+                },
+                {
+                    "houdini_17": "Houdini 17"
+                },
+                {
+                    "python_2": "Python 2"
+                },
+                {
+                    "premiere_2019": "Premiere Pro 2019"
+                },
+                {
+                    "aport": "Aport Server"
+                }
             ]
         }
     },
