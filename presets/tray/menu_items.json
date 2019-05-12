@@ -12,6 +12,12 @@
         "fromlist": ["pype"]
     },
     {
+        "title": "Standalone Publish",
+    	"type": "module",
+    	"import_path": "pype.standalonepublish",
+        "fromlist": ["pype"]
+    },
+    {
         "title": "Idle Manager",
     	"type": "module",
     	"import_path": "pype.services.idle_manager",
