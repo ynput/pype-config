@@ -1,0 +1,12 @@
+{
+    "defaultTasks": ["compositing"],
+    "taskHost": {
+        "nuke": ["compositing"],
+        "maya": ["layout", "modeling", "blocking", "animation"],
+        "nukeAssist": ["rotoscoping"]
+    },
+    "hostSubsets": {
+        "nuke": ["nukescript", "read", "write"],
+        "maya": ["scene", "camera", "imageplane"],
+    }
+}
