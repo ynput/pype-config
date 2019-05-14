@@ -7,6 +7,6 @@
     },
     "hostSubsets": {
         "nuke": ["nukescript", "read", "write"],
-        "maya": ["scene", "camera", "imageplane"],
+        "maya": ["scene", "camera", "imageplane"]
     }
 }
