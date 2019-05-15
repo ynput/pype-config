@@ -34,6 +34,9 @@
                     "maya_2017": "Maya 2017"
                 },
                 {
+                    "nuke_11.3": "Nuke 11.3"
+                },
+                {
                     "nuke_11.2": "Nuke 11.2"
                 },
                 {
@@ -70,8 +73,8 @@
         "entity_type": "show",
         "group": "avalon",
         "default": false,
-        "write_security_role": ["API","Administrator"],
-        "read_security_role": ["API","Administrator"]
+        "write_security_role": ["API", "Administrator"],
+        "read_security_role": ["API", "Administrator"]
     },
     "library_project": {
         "label": "Library Project",
@@ -80,8 +83,8 @@
         "entity_type": "show",
         "group": "avalon",
         "default": false,
-        "write_security_role": ["API","Administrator"],
-        "read_security_role": ["API","Administrator"]
+        "write_security_role": ["API", "Administrator"],
+        "read_security_role": ["API", "Administrator"]
     },
     "crop": {
         "label": "Crop(x.y.right.top)",
@@ -122,10 +125,15 @@
         "group": "avalon",
         "config": {
             "multiselect": true,
-            "data": [
-                {"mtoa_3.0.1": "mtoa_3.0.1"},
-                {"mtoa_3.1.1": "mtoa_3.1.1"},
-                {"yeti_2.1.2": "yeti_2.1"}
+            "data": [{
+                    "mtoa_3.0.1": "mtoa_3.0.1"
+                },
+                {
+                    "mtoa_3.1.1": "mtoa_3.1.1"
+                },
+                {
+                    "yeti_2.1.2": "yeti_2.1"
+                }
             ]
         }
     },
@@ -153,7 +161,7 @@
         "group": "avalon",
         "default": 1,
         "config": {
-            "isdecimal":true
+            "isdecimal": true
         }
     },
     "handle": {
