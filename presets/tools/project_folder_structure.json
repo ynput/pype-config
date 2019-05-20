@@ -1,0 +1,22 @@
+{
+    "__project_root__": {
+        "1_prod" : {},
+        "2_resources" : {
+          "footage": {
+            "plates": {},
+            "offline": {}
+          },
+          "audio": {},
+          "art_dept": {}
+        },
+        "3_editorial" : {},
+        "4_assets[ftrack.Library]": {
+          "characters[ftrack]": {},
+          "locations[ftrack]": {}
+        },
+        "5_shots[ftrack.Sequence]": {
+          "scripts": {},
+          "editorial[ftrack.Folder]": {}
+        }
+    }
+}

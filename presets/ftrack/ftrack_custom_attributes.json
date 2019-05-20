@@ -1,0 +1,175 @@
+{
+    "fps": {
+        "label": "FPS",
+        "key": "fps",
+        "type": "number",
+        "is_hierarchical": true,
+        "group": "avalon",
+        "default": 25,
+        "write_security_role": ["ALL"],
+        "read_security_role": ["ALL"]
+    },
+    "resolution_width": {
+        "label": "Resolution Width",
+        "key": "resolution_width",
+        "type": "number",
+        "is_hierarchical": true,
+        "group": "avalon",
+        "default": 1920,
+        "write_security_role": ["ALL"],
+        "read_security_role": ["ALL"]
+    },
+    "applications": {
+        "label": "Applications",
+        "key": "applications",
+        "type": "enumerator",
+        "entity_type": "show",
+        "group": "avalon",
+        "config": {
+            "multiselect": true,
+            "data": [{
+                    "maya_2018": "Maya 2018"
+                },
+                {
+                    "maya_2017": "Maya 2017"
+                },
+                {
+                    "nuke_11.3": "Nuke 11.3"
+                },
+                {
+                    "nuke_11.2": "Nuke 11.2"
+                },
+                {
+                    "nuke_11.1": "Nuke 11.1"
+                },
+                {
+                    "nukestudio_11.2": "NukeStudio 11.2"
+                },
+                {
+                    "deadline": "Deadline"
+                },
+                {
+                    "houdini_16.5": "Houdini 16.5"
+                },
+                {
+                    "houdini_17": "Houdini 17"
+                },
+                {
+                    "python_2": "Python 2"
+                },
+                {
+                    "premiere_2019": "Premiere Pro 2019"
+                },
+                {
+                    "aport": "Aport Server"
+                }
+            ]
+        }
+    },
+    "avalon_auto_sync": {
+        "label": "Avalon auto-sync",
+        "key": "avalon_auto_sync",
+        "type": "boolean",
+        "entity_type": "show",
+        "group": "avalon",
+        "default": false,
+        "write_security_role": ["API", "Administrator"],
+        "read_security_role": ["API", "Administrator"]
+    },
+    "library_project": {
+        "label": "Library Project",
+        "key": "library_project",
+        "type": "boolean",
+        "entity_type": "show",
+        "group": "avalon",
+        "default": false,
+        "write_security_role": ["API", "Administrator"],
+        "read_security_role": ["API", "Administrator"]
+    },
+    "crop": {
+        "label": "Crop(x.y.right.top)",
+        "key": "crop",
+        "type": "text",
+        "is_hierarchical": true,
+        "group": "avalon",
+        "default": "0.0.1920.1080",
+        "config": {
+            "markdown": true
+        },
+        "write_security_role": ["ALL"],
+        "read_security_role": ["ALL"]
+    },
+    "frame_start": {
+        "label": "Frame start",
+        "key": "fstart",
+        "type": "number",
+        "entity_type": "task",
+        "object_type": "shot",
+        "group": "avalon",
+        "default": 1
+    },
+    "frame_end": {
+        "label": "Frame end",
+        "key": "fend",
+        "type": "number",
+        "entity_type": "task",
+        "object_type": "shot",
+        "group": "avalon",
+        "default": 1
+    },
+    "tools_env": {
+        "label": "Tools",
+        "key": "tools_env",
+        "type": "enumerator",
+        "is_hierarchical": true,
+        "group": "avalon",
+        "config": {
+            "multiselect": true,
+            "data": [{
+                    "mtoa_3.0.1": "mtoa_3.0.1"
+                },
+                {
+                    "mtoa_3.1.1": "mtoa_3.1.1"
+                },
+                {
+                    "yeti_2.1.2": "yeti_2.1"
+                }
+            ]
+        }
+    },
+    "resolution_width": {
+        "label": "Resolution Width",
+        "key": "resolution_width",
+        "type": "number",
+        "is_hierarchical": true,
+        "group": "avalon",
+        "default": 1920
+    },
+    "resolution_height": {
+        "label": "Resolution Height",
+        "key": "resolution_height",
+        "type": "number",
+        "is_hierarchical": true,
+        "group": "avalon",
+        "default": 1080
+    },
+    "pixel_aspect": {
+        "label": "Pixel aspect",
+        "key": "pixel_aspect",
+        "type": "number",
+        "is_hierarchical": true,
+        "group": "avalon",
+        "default": 1,
+        "config": {
+            "isdecimal": true
+        }
+    },
+    "handle": {
+        "label": "Frame handles",
+        "key": "handles",
+        "type": "number",
+        "is_hierarchical": true,
+        "group": "avalon",
+        "default": 10
+    }
+}
