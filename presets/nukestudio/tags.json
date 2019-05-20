@@ -1,0 +1,22 @@
+{
+    "Audio": {
+        "editable": "1",
+        "note": "Export with Audio",
+        "icon": {
+            "path": "volume.png"
+        }
+    },
+    "[Tasks]": {
+        "Animation": {
+            "editable": "1",
+            "note": "Tag note",
+            "icon": {
+                "path": "Tag.png"
+            },
+            "metadata": {
+                "family": "task",
+                "frame": "45"
+            }
+        }
+    }
+}
