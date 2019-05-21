@@ -1,0 +1,34 @@
+{
+    "options": {
+        "opacity": 1,
+        "x_offset": 5,
+        "y_offset": 5,
+        "bg_padding": 5,
+        "bg_opacity": 0.5,
+        "font_size": 42
+    },
+    "burnins":{
+        "TOP_LEFT": {
+            "function": "text",
+            "text": "static_text"
+        },
+        "TOP_CENTERED": {
+            "function": "text",
+            "text": "{username}"
+        },
+        "TOP_RIGHT": {
+            "function": "text",
+            "text": "{shot}"
+        },
+        "BOTTOM_LEFT": {
+            "function": "timecode"
+        },
+        "BOTTOM_CENTERED": {
+            "function": "text",
+            "text": "{task}"
+        },
+        "BOTTOM_RIGHT": {
+            "function": "frame_numbers"
+        }
+    }
+}
