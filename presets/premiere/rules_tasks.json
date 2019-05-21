@@ -1,0 +1,13 @@
+{
+    "defaultTasks": ["compositing"],
+    "taskHost":{
+        "compositing": "nuke",
+        "3d": "maya",
+        "roto": "nukeAssist"
+    },
+    "taskSubsets": {
+        "compositing": ["nukescript", "read", "write"],
+        "3d": ["scene", "camera", "imageplane"],
+        "roto": ["nukescript", "read", "write"]
+    }
+}

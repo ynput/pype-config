@@ -1,0 +1,15 @@
+{
+    "__default__": {
+        "input": [
+            "-gamma 2.2"
+        ],
+        "output": [
+            "-pix_fmt yuv420p",
+            "-crf 18"
+        ],
+        "output_backup": [
+            "-c:v libx264",
+            "-vf colormatrix=bt601:bt709"
+        ]
+    }
+}
