@@ -50,6 +50,6 @@ publish:
   path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}/{project[code]}_{asset}_{subset}_v{version:0>3}.{representation}"
 
 avalon:
-  workfile: "{asset}_{task}_v{version:0>3}<_{comment}>"
+  workfile: "{project[code]}_{asset}_{task}_v{version:0>3}<_{comment}>"
   work: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}"
   publish: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}/{project[code]}_{asset}_{subset}_v{version:0>3}.{representation}"
