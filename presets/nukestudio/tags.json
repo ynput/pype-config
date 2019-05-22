@@ -1,21 +1,327 @@
 {
+    "Hierarchy": {
+        "editable": "1",
+        "note": "{root}/{folder}/{episode}/{sequence}/{shot}",
+        "icon": {
+            "path": "hierarchy.png"
+        },
+        "metadata": {
+            "folder": "FOLDER_NAME",
+            "shot": "{clip}",
+            "sequence": "{sequence}",
+            "episode": "EPISODE_NAME",
+            "root": "{projectroot}",
+            "track": "{track}"
+        }
+    },
     "Audio": {
         "editable": "1",
         "note": "Export with Audio",
         "icon": {
             "path": "volume.png"
+        },
+        "metadata": {
+            "family": "audio"
         }
     },
     "[Tasks]": {
+        "Edit": {
+            "editable": "1",
+            "note": "Tag note",
+            "icon": {
+                "path": "edit.png"
+            },
+            "metadata": {
+                "family": "task"
+            }
+        },
+        "Previz": {
+            "editable": "1",
+            "note": "Tag note",
+            "icon": {
+                "path": "3d.png"
+            },
+            "metadata": {
+                "family": "task"
+            }
+        },
+        "FX": {
+            "editable": "1",
+            "note": "Tag note",
+            "icon": {
+                "path": "3d.png"
+            },
+            "metadata": {
+                "family": "task"
+            }
+        },
         "Animation": {
             "editable": "1",
             "note": "Tag note",
             "icon": {
-                "path": "Tag.png"
+                "path": "3d.png"
             },
             "metadata": {
-                "family": "task",
-                "frame": "45"
+                "family": "task"
+            }
+        },
+        "Texturing": {
+            "editable": "1",
+            "note": "Tag note",
+            "icon": {
+                "path": "3d.png"
+            },
+            "metadata": {
+                "family": "task"
+            }
+        },
+        "Layout": {
+            "editable": "1",
+            "note": "Tag note",
+            "icon": {
+                "path": "3d.png"
+            },
+            "metadata": {
+                "family": "task"
+            }
+        },
+        "Build": {
+            "editable": "1",
+            "note": "Tag note",
+            "icon": {
+                "path": "3d.png"
+            },
+            "metadata": {
+                "family": "task"
+            }
+        },
+        "Paint": {
+            "editable": "1",
+            "note": "Tag note",
+            "icon": {
+                "path": "2d.png"
+            },
+            "metadata": {
+                "family": "task"
+            }
+        },
+        "Mattepaint": {
+            "editable": "1",
+            "note": "Tag note",
+            "icon": {
+                "path": "2d.png"
+            },
+            "metadata": {
+                "family": "task"
+            }
+        },
+        "Rigging": {
+            "editable": "1",
+            "note": "Tag note",
+            "icon": {
+                "path": "3d.png"
+            },
+            "metadata": {
+                "family": "task"
+            }
+        },
+        "Match Move": {
+            "editable": "1",
+            "note": "Tag note",
+            "icon": {
+                "path": "3d.png"
+            },
+            "metadata": {
+                "family": "task"
+            }
+        },
+        "Rigging": {
+            "editable": "1",
+            "note": "Tag note",
+            "icon": {
+                "path": "3d.png"
+            },
+            "metadata": {
+                "family": "task"
+            }
+        },
+        "Compositing": {
+            "editable": "1",
+            "note": "Tag note",
+            "icon": {
+                "path": "2d.png"
+            },
+            "metadata": {
+                "family": "task"
+            }
+        },
+        "Lighting": {
+            "editable": "1",
+            "note": "Tag note",
+            "icon": {
+                "path": "3d.png"
+            },
+            "metadata": {
+                "family": "task"
+            }
+        },
+        "Lookdev": {
+            "editable": "1",
+            "note": "Tag note",
+            "icon": {
+                "path": "3d.png"
+            },
+            "metadata": {
+                "family": "task"
+            }
+        },
+        "Modeling": {
+            "editable": "1",
+            "note": "Tag note",
+            "icon": {
+                "path": "3d.png"
+            },
+            "metadata": {
+                "family": "task"
+            }
+        },
+        "Setdress": {
+            "editable": "1",
+            "note": "Tag note",
+            "icon": {
+                "path": "3d.png"
+            },
+            "metadata": {
+                "family": "task"
+            }
+        }
+    },
+    "[Handles]": {
+        "25 frames": {
+            "editable": "1",
+            "note": "Add frames to start and end of clip",
+            "icon": {
+                "path": "add_handles.png"
+            },
+            "metadata": {
+                "family": "handles",
+                "value": "25"
+            }
+        },
+        "20 frames": {
+            "editable": "1",
+            "note": "Add frames to start and end of clip",
+            "icon": {
+                "path": "add_handles.png"
+            },
+            "metadata": {
+                "family": "handles",
+                "value": "20"
+            }
+        },
+        "15 frames": {
+            "editable": "1",
+            "note": "Add frames to start and end of clip",
+            "icon": {
+                "path": "add_handles.png"
+            },
+            "metadata": {
+                "family": "handles",
+                "value": "15"
+            }
+        },
+        "10 frames": {
+            "editable": "1",
+            "note": "Add frames to start and end of clip",
+            "icon": {
+                "path": "add_handles.png"
+            },
+            "metadata": {
+                "family": "handles",
+                "value": "10"
+            }
+        },
+        "5 frames": {
+            "editable": "1",
+            "note": "Add frames to start and end of clip",
+            "icon": {
+                "path": "add_handles.png"
+            },
+            "metadata": {
+                "family": "handles",
+                "value": "5"
+            }
+        },
+        "start: add 20 frames": {
+            "editable": "1",
+            "note": "Adding frames to start of selected clip",
+            "icon": {
+                "path": "add_handles_start.png"
+            },
+            "metadata": {
+                "family": "handles",
+                "value": "20",
+                "args": "{'op':'add','where':'start'}"
+            }
+        },
+        "start: add 10 frames": {
+            "editable": "1",
+            "note": "Adding frames to start of selected clip",
+            "icon": {
+                "path": "add_handles_start.png"
+            },
+            "metadata": {
+                "family": "handles",
+                "value": "10",
+                "args": "{'op':'add','where':'start'}"
+            }
+        },
+        "start: add 5 frames": {
+            "editable": "1",
+            "note": "Adding frames to start of selected clip",
+            "icon": {
+                "path": "add_handles_start.png"
+            },
+            "metadata": {
+                "family": "handles",
+                "value": "5",
+                "args": "{'op':'add','where':'start'}"
+            }
+        },
+        "end: add 20 frames": {
+            "editable": "1",
+            "note": "Adding frames to end of selected clip",
+            "icon": {
+                "path": "add_handles_end.png"
+            },
+            "metadata": {
+                "family": "handles",
+                "value": "20",
+                "args": "{'op':'add','where':'end'}"
+            }
+        },
+        "end: add 10 frames": {
+            "editable": "1",
+            "note": "Adding frames to end of selected clip",
+            "icon": {
+                "path": "add_handles_end.png"
+            },
+            "metadata": {
+                "family": "handles",
+                "value": "10",
+                "args": "{'op':'add','where':'end'}"
+            }
+        },
+        "end: add 5 frames": {
+            "editable": "1",
+            "note": "Adding frames to end of selected clip",
+            "icon": {
+                "path": "add_handles_end.png"
+            },
+            "metadata": {
+                "family": "handles",
+                "value": "5",
+                "args": "{'op':'add','where':'end'}"
             }
         }
     }
