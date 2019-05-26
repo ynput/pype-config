@@ -1,17 +1,23 @@
 {
     "Hierarchy": {
         "editable": "1",
-        "note": "{root}/{folder}/{episode}/{sequence}/{shot}",
+        "note": "{folder}/ep{episode}/{episode}{sequence}/{episode}{shot}",
         "icon": {
             "path": "hierarchy.png"
         },
         "metadata": {
+            "_folder_help": "change `FOLDER_NAME` with anything. '_' instead of space.",
             "folder": "FOLDER_NAME",
+            "_shot_help": "{clip} is taken from clip name on timeline. It can be replaced with any name",
             "shot": "{clip}",
+            "_track_help": "Use {track} in the note in case you wish to use it in hierarchy. It is taken from name of track on the timeline",
+            "track": "{track}",
+            "_sequence_help": "Keep {sequence} in here in case you wish to use it in hierarchy. It is taken from name of timeline. It can be replaced by any desired string.",
             "sequence": "{sequence}",
+            "_episode_help": "change `EPISODE_NAME` with anything. '_' instead of space.",
             "episode": "EPISODE_NAME",
-            "root": "{projectroot}",
-            "track": "{track}"
+            "_root_help": "{projectroot} taken from project export path settings, but no need to set as those is generated automatically by AVALON_PROJECTS and AVALON_PROJECT environment variables",
+            "root": "{projectroot}"
         }
     },
     "Audio": {
