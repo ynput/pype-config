@@ -71,7 +71,7 @@
                 "family": "task"
             }
         },
-        "Texturing": {
+        "Texture": {
             "editable": "1",
             "note": "Tag note",
             "icon": {
@@ -101,7 +101,7 @@
                 "family": "task"
             }
         },
-        "Paint": {
+        "Roto-paint": {
             "editable": "1",
             "note": "Tag note",
             "icon": {
@@ -111,7 +111,7 @@
                 "family": "task"
             }
         },
-        "Mattepaint": {
+        "Matte-paint": {
             "editable": "1",
             "note": "Tag note",
             "icon": {
@@ -131,17 +131,7 @@
                 "family": "task"
             }
         },
-        "Match Move": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Rigging": {
+        "Match-moving": {
             "editable": "1",
             "note": "Tag note",
             "icon": {
@@ -210,17 +200,15 @@
                 "path": "lense.png"
             },
             "metadata": {
-                "apparature": 11,
-                "shatter": 500,
-                "focalLengthMm": 57,
-                "iso": 800
+                "focalLengthMm": 57
+
             }
         }
     },
     "[Types]": {
         "Main": {
             "editable": "1",
-            "note": "Add to Clip if main Compositing Plate",
+            "note": "Add to Clip if main Compositing Plate. Only one tag per clip is allowed!",
             "icon": {
                 "path": "z_layer_main.png"
             },
@@ -231,7 +219,7 @@
         },
         "Background": {
             "editable": "1",
-            "note": "Add to Clip if main Compositing Plate",
+            "note": "Add to Clip if main Compositing Plate. Only one tag per clip is allowed!",
             "icon": {
                 "path": "z_layer_bg.png"
             },
@@ -243,7 +231,7 @@
         },
         "Forground": {
             "editable": "1",
-            "note": "Add to Clip if main Compositing Plate",
+            "note": "Add to Clip if main Compositing Plate. Only one tag per clip is allowed!",
             "icon": {
                 "path": "z_layer_fg.png"
             },
