@@ -2,8 +2,8 @@
     {
         "title": "Ftrack",
     	"type": "module",
-    	"import_path": "pype.ftrack",
-        "fromlist": ["pype"]
+    	"import_path": "pype.ftrack.tray",
+        "fromlist": ["pype", "ftrack"]
     },
     {
         "title": "Avalon",
