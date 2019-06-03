@@ -1,4 +1,7 @@
 {
+    "project": {
+        "start_timecode": "01:00:00:00"
+    },
     "clip": {
         "fstart": 1001
     }
