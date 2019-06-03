@@ -177,5 +177,23 @@
         "is_hierarchical": true,
         "group": "avalon",
         "default": 10
+    },
+    "handle_start": {
+        "label": "Frame handles start",
+        "key": "handle_start",
+        "type": "number",
+        "entity_type": "task",
+        "object_type": "shot",
+        "group": "avalon",
+        "default": 0
+    },
+    "handle_end": {
+        "label": "Frame handles end",
+        "key": "handle_end",
+        "type": "number",
+        "entity_type": "task",
+        "object_type": "shot",
+        "group": "avalon",
+        "default": 0
     }
 }
