@@ -4,10 +4,15 @@
   "PYPE_APP_ROOT": "{PYPE_ROOT}/pypeapp",
   "PYPE_MODULE_ROOT": "{PYPE_ROOT}/repos/pype",
   "STUDIO_SOFT": "{PYPE_STUDIO_SOFTWARE}",
+  "FFMPEG_PATH": {
+    "windows": "{PYPE_ROOT}/vendor/bin/ffmpeg_exec/windows/bin",
+    "linux": "{PYPE_ROOT}/vendor/bin/ffmpeg_exec/linux"
+  },
   "PATH": [
     "{PYPE_CONFIG}/launchers",
     "{PYPE_CONFIG}/launchers/{PLATFORM}",
     "{PYPE_APP_ROOT}",
+    "{FFMPEG_PATH}",
     "{PYPE_STUDIO_SOFTWARE}/ffmpeg/bin",
     "{PYPE_STUDIO_SOFTWARE}/djv/bin"
   ],
