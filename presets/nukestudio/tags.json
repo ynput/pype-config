@@ -1,17 +1,23 @@
 {
     "Hierarchy": {
         "editable": "1",
-        "note": "{folder}/{episode}/{sequence}/{shot}",
+        "note": "{folder}/{sequence}/{shot}",
         "icon": {
             "path": "hierarchy.png"
         },
         "metadata": {
+            "_folder_help": "change `FOLDER_NAME` with anything. '_' instead of space.",
             "folder": "FOLDER_NAME",
+            "_shot_help": "{clip} is taken from clip name on timeline. It can be replaced with any name",
             "shot": "{clip}",
+            "_track_help": "Use {track} in the note in case you wish to use it in hierarchy. It is taken from name of track on the timeline",
+            "track": "{track}",
+            "_sequence_help": "Keep {sequence} in here in case you wish to use it in hierarchy. It is taken from name of timeline. It can be replaced by any desired string.",
             "sequence": "{sequence}",
+            "_episode_help": "change `EPISODE_NAME` with anything. '_' instead of space.",
             "episode": "EPISODE_NAME",
-            "root": "{projectroot}",
-            "track": "{track}"
+            "_root_help": "{projectroot} taken from project export path settings, but no need to set as those is generated automatically by AVALON_PROJECTS and AVALON_PROJECT environment variables",
+            "root": "{projectroot}"
         }
     },
     "Audio": {
@@ -65,7 +71,7 @@
                 "family": "task"
             }
         },
-        "Texturing": {
+        "Texture": {
             "editable": "1",
             "note": "Tag note",
             "icon": {
@@ -95,21 +101,21 @@
                 "family": "task"
             }
         },
-        "Paint": {
+        "Roto-paint": {
             "editable": "1",
             "note": "Tag note",
             "icon": {
-                "path": "2d.png"
+                "path": "4_2D.png"
             },
             "metadata": {
                 "family": "task"
             }
         },
-        "Mattepaint": {
+        "Matte-paint": {
             "editable": "1",
             "note": "Tag note",
             "icon": {
-                "path": "2d.png"
+                "path": "4_2D.png"
             },
             "metadata": {
                 "family": "task"
@@ -125,17 +131,7 @@
                 "family": "task"
             }
         },
-        "Match Move": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Rigging": {
+        "Match-moving": {
             "editable": "1",
             "note": "Tag note",
             "icon": {
@@ -149,7 +145,7 @@
             "editable": "1",
             "note": "Tag note",
             "icon": {
-                "path": "2d.png"
+                "path": "4_2D.png"
             },
             "metadata": {
                 "family": "task"
@@ -196,12 +192,62 @@
             }
         }
     },
+    "[Lenses]": {
+        "Set lense here": {
+            "editable": "1",
+            "note": "Adjust parameters of your lense and then drop to clip. Remember! You can always overwrite on clip",
+            "icon": {
+                "path": "lense.png"
+            },
+            "metadata": {
+                "focalLengthMm": 57
+
+            }
+        }
+    },
+    "[Types]": {
+        "Main": {
+            "editable": "1",
+            "note": "Add to Clip if main Compositing Plate. Only one tag per clip is allowed!",
+            "icon": {
+                "path": "z_layer_main.png"
+            },
+            "metadata": {
+                "family": "plate",
+                "type": "main"
+            }
+        },
+        "Background": {
+            "editable": "1",
+            "note": "Add to Clip if main Compositing Plate. Only one tag per clip is allowed!",
+            "icon": {
+                "path": "z_layer_bg.png"
+            },
+            "metadata": {
+                "family": "plate",
+                "type": "bg",
+                "order": 1
+            }
+        },
+        "Forground": {
+            "editable": "1",
+            "note": "Add to Clip if main Compositing Plate. Only one tag per clip is allowed!",
+            "icon": {
+                "path": "z_layer_fg.png"
+            },
+            "metadata": {
+                "family": "plate",
+                "type": "fg",
+                "order": 1
+            }
+        }
+    },
     "[Handles]": {
         "25 frames": {
             "editable": "1",
             "note": "Add frames to start and end of clip",
             "icon": {
-                "path": "add_handles.png"
+                "path": "2_add_handles.png"
             },
             "metadata": {
                 "family": "handles",
@@ -212,7 +258,7 @@
             "editable": "1",
             "note": "Add frames to start and end of clip",
             "icon": {
-                "path": "add_handles.png"
+                "path": "2_add_handles.png"
             },
             "metadata": {
                 "family": "handles",
@@ -223,7 +269,7 @@
             "editable": "1",
             "note": "Add frames to start and end of clip",
             "icon": {
-                "path": "add_handles.png"
+                "path": "2_add_handles.png"
             },
             "metadata": {
                 "family": "handles",
@@ -234,7 +280,7 @@
             "editable": "1",
             "note": "Add frames to start and end of clip",
             "icon": {
-                "path": "add_handles.png"
+                "path": "2_add_handles.png"
             },
             "metadata": {
                 "family": "handles",
@@ -245,7 +291,7 @@
             "editable": "1",
             "note": "Add frames to start and end of clip",
             "icon": {
-                "path": "add_handles.png"
+                "path": "2_add_handles.png"
             },
             "metadata": {
                 "family": "handles",
@@ -256,7 +302,7 @@
             "editable": "1",
             "note": "Adding frames to start of selected clip",
             "icon": {
-                "path": "add_handles_start.png"
+                "path": "3_add_handles_start.png"
             },
             "metadata": {
                 "family": "handles",
@@ -268,7 +314,7 @@
             "editable": "1",
             "note": "Adding frames to start of selected clip",
             "icon": {
-                "path": "add_handles_start.png"
+                "path": "3_add_handles_start.png"
             },
             "metadata": {
                 "family": "handles",
@@ -280,7 +326,7 @@
             "editable": "1",
             "note": "Adding frames to start of selected clip",
             "icon": {
-                "path": "add_handles_start.png"
+                "path": "3_add_handles_start.png"
             },
             "metadata": {
                 "family": "handles",
@@ -292,7 +338,7 @@
             "editable": "1",
             "note": "Adding frames to end of selected clip",
             "icon": {
-                "path": "add_handles_end.png"
+                "path": "3_add_handles_start.png"
             },
             "metadata": {
                 "family": "handles",
@@ -304,7 +350,7 @@
             "editable": "1",
             "note": "Adding frames to end of selected clip",
             "icon": {
-                "path": "add_handles_end.png"
+                "path": "1_add_handles_end.png"
             },
             "metadata": {
                 "family": "handles",
@@ -316,7 +362,7 @@
             "editable": "1",
             "note": "Adding frames to end of selected clip",
             "icon": {
-                "path": "add_handles_end.png"
+                "path": "1_add_handles_end.png"
             },
             "metadata": {
                 "family": "handles",

@@ -3,16 +3,16 @@
         "nodes": {
             "connected": true,
             "modifymetadata": {
-                "id": "connect_metadata",
-                "previous": "ENDING",
+                "_id": "connect_metadata",
+                "_previous": "ENDING",
                 "metadata.set.pype_studio_name": "{PYPE_STUDIO_NAME}",
                 "metadata.set.avalon_project_name": "{AVALON_PROJECT}",
                 "metadata.set.avalon_project_code": "{PYPE_STUDIO_CODE}",
                 "metadata.set.avalon_asset_name": "{AVALON_ASSET}"
             },
             "crop": {
-                "id": "connect_crop",
-                "previous": "connect_metadata",
+                "_id": "connect_crop",
+                "_previous": "connect_metadata",
                 "box": [
                     "{metadata.crop.x}",
                     "{metadata.crop.y}",
@@ -22,8 +22,8 @@
             },
             "write": {
                 "render": {
-                    "id": "output_write",
-                    "previous": "connect_crop",
+                    "_id": "output_write",
+                    "_previous": "connect_crop",
                     "file_type": "exr",
                     "datatype": "16 bit half",
                     "compression": "Zip (1 scanline)",
@@ -33,8 +33,8 @@
                     "channels": "rgb"
                 },
                 "prerender": {
-                    "id": "output_write",
-                    "previous": "connect_crop",
+                    "_id": "output_write",
+                    "_previous": "connect_crop",
                     "file_type": "exr",
                     "datatype": "16 bit half",
                     "compression": "Zip (1 scanline)",
@@ -44,7 +44,7 @@
                     "channels": "rgba"
                 },
                 "still": {
-                    "previous": "connect_crop",
+                    "_previous": "connect_crop",
                     "channels": "rgba",
                     "file_type": "tiff",
                     "datatype": "16 bit",

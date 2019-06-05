@@ -1,0 +1,31 @@
+{
+    "nukescript": {
+        "families": ["ftrack"],
+        "representation": "nk"
+    },
+    "plates": {
+        "families": ["ftrack"],
+        "nodes": {
+            "write": {
+                "family": "render",
+                "presets": {
+                    "colorspace": ["nuke"],
+                    "dataflow": ["nuke", "nodes"]
+                }
+            }
+        },
+        "includeEffects": false,
+        "includeRetimes": true,
+        "retimeMethod": "Frame",
+        "includeAnnotations": false
+    },
+    "audio": {
+        "families": ["ftrack"],
+        "representation": "wav"
+    },
+    "reference": {
+        "families": ["ftrack"],
+        "representation": "mov"
+    }
+
+}
