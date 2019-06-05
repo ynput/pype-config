@@ -1,7 +1,7 @@
 {
     "Hierarchy": {
         "editable": "1",
-        "note": "{folder}/ep{episode}/{episode}{sequence}/{episode}{shot}",
+        "note": "{folder}/{sequence}/{shot}",
         "icon": {
             "path": "hierarchy.png"
         },
