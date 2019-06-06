@@ -54,5 +54,13 @@
         "icon": "cubes",
         "defaults": ["Main"],
         "help": "Simple scene for animators with camera"
+    },
+    "create_plate": {
+        "name": "plate",
+        "label": "Plate",
+        "family": "plate",
+        "icon": "camera",
+        "defaults": ["Main", "BG", "Reference"],
+        "help": "Plates for compositors"
     }
 }
