@@ -3,7 +3,7 @@
         "families": ["ftrack"],
         "representation": "nk"
     },
-    "plates": {
+    "plate": {
         "families": ["ftrack"],
         "nodes": {
             "write": {

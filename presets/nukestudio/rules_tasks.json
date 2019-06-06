@@ -6,7 +6,7 @@
         "nukeAssist": ["Paint"]
     },
     "hostSubsets": {
-        "nuke": ["nukescript", "plates"],
+        "nuke": ["plate"],
         "nukeAssist": ["nukescript", "plates", "reference"]
     }
 }
