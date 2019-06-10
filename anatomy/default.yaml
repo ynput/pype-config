@@ -40,7 +40,7 @@ resources:
 work:
   folder: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}"
   file: "{project[code]}_{asset}_{task}_v{version:0>3}<_{comment}>.{ext}"
-  path: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}/{asset}_{task}_v{version:0>3}<_{comment}>.{ext}"
+  path: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}/{project[code]}_{asset}_{task}_v{version:0>3}<_{comment}>.{ext}"
 
 render:
   padding: "4"
