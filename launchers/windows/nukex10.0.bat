@@ -1,7 +1,7 @@
 @echo off
 
 set __app__="NukeX10.0v4"
-set __exe__="C:\Program Files\Nuke10.0v4\Nuke10.0.exe -nukex"
+set __exe__="C:\Program Files\Nuke10.0v4\Nuke10.0.exe" -nukex
 if not exist %__exe__% goto :missing_app
 
 start %__app__% %__exe__% %*
