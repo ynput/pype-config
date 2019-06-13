@@ -6,6 +6,12 @@
         "fromlist": ["pype", "ftrack"]
     },
     {
+      "title": "Muster",
+      "type": "module",
+      "import_path": "pype.muster",
+      "fromlist": ["pype"]
+    },
+    {
         "title": "Avalon",
     	"type": "module",
     	"import_path": "pype.avalon_apps",
