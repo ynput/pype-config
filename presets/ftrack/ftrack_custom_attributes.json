@@ -65,6 +65,9 @@
                     "houdini_17": "Houdini 17"
                 },
                 {
+                    "python_3": "Python 3"
+                },
+                {
                     "python_2": "Python 2"
                 },
                 {
@@ -140,6 +143,9 @@
                 },
                 {
                     "mtoa_3.1.1": "mtoa_3.1.1"
+                },
+                {
+                    "mtoa_3.2.0": "mtoa_3.2.0"
                 },
                 {
                     "yeti_2.1.2": "yeti_2.1"
