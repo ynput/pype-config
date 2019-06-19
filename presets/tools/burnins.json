@@ -10,25 +10,22 @@
     "burnins":{
         "TOP_LEFT": {
             "function": "text",
-            "text": "static_text"
-        },
-        "TOP_CENTERED": {
-            "function": "text",
-            "text": "{username}"
+            "text": "{task}"
         },
         "TOP_RIGHT": {
             "function": "text",
-            "text": "{shot}"
+            "text": "{version}"
         },
         "BOTTOM_LEFT": {
-            "function": "timecode"
+            "function": "frame_numbers"
         },
         "BOTTOM_CENTERED": {
             "function": "text",
-            "text": "{task}"
+            "text": "{asset}"
         },
         "BOTTOM_RIGHT": {
-            "function": "frame_numbers"
+            "function": "text",
+            "text": "{username}"
         }
     }
 }

@@ -27,7 +27,6 @@
                     "file_type": "exr",
                     "datatype": "16 bit half",
                     "compression": "Zip (1 scanline)",
-                    "create_directories": true,
                     "autocrop": true,
                     "tile_color": "0xff0000ff",
                     "channels": "rgb"
@@ -38,7 +37,6 @@
                     "file_type": "exr",
                     "datatype": "16 bit half",
                     "compression": "Zip (1 scanline)",
-                    "create_directories": true,
                     "autocrop": true,
                     "tile_color": "0xc9892aff",
                     "channels": "rgba"
@@ -49,7 +47,6 @@
                     "file_type": "tiff",
                     "datatype": "16 bit",
                     "compression": "LZW",
-                    "create_directories": true,
                     "tile_color": "0x4145afff"
                 }
             }

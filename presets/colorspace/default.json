@@ -5,14 +5,14 @@
       "OCIO_config": "aces_1.0.3",
       "workingSpaceLUT": "ACES - ACEScg",
       "defaultViewerLUT": "OCIO LUTs",
-      "monitorLut": "ACES/sRGB D60 sim.",
+      "monitorLut": "ACES/sRGB",
       "int8Lut": "Utility - sRGB - Texture",
       "int16Lut": "Utility - sRGB - Texture",
       "logLut": "Input - ARRI - V3 LogC (EI800) - Wide Gamut",
-      "floatLut": "ACES - ACES2065-1"
+      "floatLut": "ACES - ACEScg"
     },
     "viewer": {
-      "viewerProcess": "sRGB D60 sim. (ACES)"
+      "viewerProcess": "sRGB (ACES)"
     },
     "write": {
       "render": {
