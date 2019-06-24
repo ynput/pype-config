@@ -18,7 +18,6 @@
   ],
   "PYPE_OCIO_CONFIG": "{PYPE_STUDIO_TOOLS}/OpenColorIO-Configs",
   "PYTHONPATH": [
-    "{VIRTUAL_ENV}/Lib/site-packages",
-    "{PYPE_ROOT}/repos/pype/pype/vendor"
+    "{VIRTUAL_ENV}/Lib/site-packages"
   ]
 }
