@@ -17,7 +17,5 @@
     "{PYPE_STUDIO_SOFTWARE}/djv/bin"
   ],
   "PYPE_OCIO_CONFIG": "{PYPE_STUDIO_TOOLS}/OpenColorIO-Configs",
-  "PYTHONPATH": [
-    "{VIRTUAL_ENV}/Lib/site-packages"
-  ]
+  "PYTHONPATH": "{VIRTUAL_ENV}/Lib/site-packages"
 }
