@@ -21,169 +21,19 @@
             "path": "volume.png"
         },
         "metadata": {
-            "family": "audio"
+            "family": "audio",
+            "subset": "main"
         }
     },
-    "[Tasks]": {
-        "Edit": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "edit.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
+    "Review": {
+        "editable": "1",
+        "note": "Export with review.",
+        "icon": {
+            "path": ""
         },
-        "Previz": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "FX": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Animation": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Texture": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Layout": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Build": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Roto-paint": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "4_2D.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Matte-paint": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "4_2D.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Rigging": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Match-moving": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Compositing": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "4_2D.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Lighting": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Lookdev": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Modeling": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Setdress": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
+        "metadata": {
+            "family": "review",
+            "subset": "main"
         }
     },
     "[Lenses]": {
@@ -199,51 +49,27 @@
             }
         }
     },
-    "[Types]": {
-        "Main": {
+    "[Plates]": {
+        "plateMain": {
             "editable": "1",
-            "note": "Add to Clip if main Compositing Plate. Only one tag per clip is allowed!",
+            "note": "Add to publish to \"main\" subset.",
             "icon": {
-                "path": "z_layer_main.png"
+                "path": ""
             },
             "metadata": {
                 "family": "plate",
-                "type": "main"
+                "subset": "main"
             }
         },
-        "Background": {
+        "plateProxy": {
             "editable": "1",
-            "note": "Add to Clip if main Compositing Plate. Only one tag per clip is allowed!",
+            "note": "Add to publish to \"proxy\" subset.",
             "icon": {
-                "path": "z_layer_bg.png"
+                "path": ""
             },
             "metadata": {
                 "family": "plate",
-                "type": "bg",
-                "order": 1
-            }
-        },
-        "Foreground": {
-            "editable": "1",
-            "note": "Add to Clip if main Compositing Plate. Only one tag per clip is allowed!",
-            "icon": {
-                "path": "z_layer_fg.png"
-            },
-            "metadata": {
-                "family": "plate",
-                "type": "fg",
-                "order": 1
-            }
-        },
-        "Reference": {
-            "editable": "1",
-            "note": "Add to Clip if main Compositing Plate. Only one tag per clip is allowed!",
-            "icon": {
-                "path": "reference.png"
-            },
-            "metadata": {
-                "family": "plate",
-                "type": "ref"
+                "subset": "proxy"
             }
         }
     },
