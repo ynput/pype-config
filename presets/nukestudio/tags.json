@@ -29,7 +29,7 @@
         "editable": "1",
         "note": "Export with review.",
         "icon": {
-            "path": ""
+            "path": "icons:TagClapperBoard.png"
         },
         "metadata": {
             "family": "review",
@@ -54,7 +54,7 @@
             "editable": "1",
             "note": "Add to publish to \"main\" subset.",
             "icon": {
-                "path": ""
+                "path": "icons:TagMiddleGround.png"
             },
             "metadata": {
                 "family": "plate",
@@ -65,7 +65,7 @@
             "editable": "1",
             "note": "Add to publish to \"proxy\" subset.",
             "icon": {
-                "path": ""
+                "path": "icons:TagMiddleGround.png"
             },
             "metadata": {
                 "family": "plate",
