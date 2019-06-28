@@ -112,6 +112,24 @@
         "write_security_role": ["ALL"],
         "read_security_role": ["ALL"]
     },
+    "edit_in": {
+        "label": "Frame start",
+        "key": "edit_in",
+        "type": "number",
+        "entity_type": "task",
+        "object_type": "shot",
+        "group": "avalon",
+        "default": 1
+    },
+    "edit_out": {
+        "label": "Frame start",
+        "key": "edit_out",
+        "type": "number",
+        "entity_type": "task",
+        "object_type": "shot",
+        "group": "avalon",
+        "default": 1
+    },
     "frame_start": {
         "label": "Frame start",
         "key": "fstart",
