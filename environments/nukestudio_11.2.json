@@ -7,5 +7,6 @@
     ],
     "PATH": {
         "windows": "C:/Program Files (x86)/QuickTime/QTSystem/"
-    }
+    },
+    "WORKFILES_STARTUP": "1"
 }

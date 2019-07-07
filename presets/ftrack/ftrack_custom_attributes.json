@@ -5,7 +5,6 @@
         "type": "number",
         "is_hierarchical": true,
         "group": "avalon",
-        "default": 25,
         "write_security_role": ["ALL"],
         "read_security_role": ["ALL"]
     },
@@ -15,7 +14,6 @@
         "type": "number",
         "is_hierarchical": true,
         "group": "avalon",
-        "default": 1920,
         "write_security_role": ["ALL"],
         "read_security_role": ["ALL"]
     },
@@ -27,8 +25,7 @@
         "group": "avalon",
         "config": {
             "multiselect": true,
-            "data": [
-                {
+            "data": [{
                     "maya_2017": "Maya 2017"
                 },
                 {
@@ -44,13 +41,22 @@
                     "nuke_11.3": "Nuke 11.3"
                 },
                 {
+                    "nuke_11.2": "Nuke 11.2"
+                },
+                {
                     "nukex_10.0": "NukeX 10.0"
                 },
                 {
                     "nukex_11.3": "NukeX 11.3"
                 },
                 {
+                    "nukex_11.2": "NukeX 11.2"
+                },
+                {
                     "nukestudio_10.0": "NukeStudio 10.0"
+                },
+                {
+                    "nukestudio_11.2": "NukeStudio 11.2"
                 },
                 {
                     "nukestudio_11.3": "NukeStudio 11.3"
@@ -85,7 +91,6 @@
         "type": "boolean",
         "entity_type": "show",
         "group": "avalon",
-        "default": false,
         "write_security_role": ["API", "Administrator"],
         "read_security_role": ["API", "Administrator"]
     },
@@ -95,7 +100,6 @@
         "type": "boolean",
         "entity_type": "show",
         "group": "avalon",
-        "default": false,
         "write_security_role": ["API", "Administrator"],
         "read_security_role": ["API", "Administrator"]
     },
@@ -105,7 +109,6 @@
         "type": "text",
         "is_hierarchical": true,
         "group": "avalon",
-        "default": "0.0.1920.1080",
         "config": {
             "markdown": true
         },
@@ -113,22 +116,20 @@
         "read_security_role": ["ALL"]
     },
     "edit_in": {
-        "label": "Frame start",
+        "label": "Edit in",
         "key": "edit_in",
         "type": "number",
         "entity_type": "task",
         "object_type": "shot",
-        "group": "avalon",
-        "default": 1
+        "group": "avalon"
     },
     "edit_out": {
-        "label": "Frame start",
+        "label": "Edit out",
         "key": "edit_out",
         "type": "number",
         "entity_type": "task",
         "object_type": "shot",
-        "group": "avalon",
-        "default": 1
+        "group": "avalon"
     },
     "frame_start": {
         "label": "Frame start",
@@ -136,8 +137,7 @@
         "type": "number",
         "entity_type": "task",
         "object_type": "shot",
-        "group": "avalon",
-        "default": 1
+        "group": "avalon"
     },
     "frame_end": {
         "label": "Frame end",
@@ -145,8 +145,7 @@
         "type": "number",
         "entity_type": "task",
         "object_type": "shot",
-        "group": "avalon",
-        "default": 1
+        "group": "avalon"
     },
     "tools_env": {
         "label": "Tools",
@@ -176,16 +175,14 @@
         "key": "resolution_width",
         "type": "number",
         "is_hierarchical": true,
-        "group": "avalon",
-        "default": 1920
+        "group": "avalon"
     },
     "resolution_height": {
         "label": "Resolution Height",
         "key": "resolution_height",
         "type": "number",
         "is_hierarchical": true,
-        "group": "avalon",
-        "default": 1080
+        "group": "avalon"
     },
     "pixel_aspect": {
         "label": "Pixel aspect",
@@ -193,7 +190,6 @@
         "type": "number",
         "is_hierarchical": true,
         "group": "avalon",
-        "default": 1,
         "config": {
             "isdecimal": true
         }
@@ -203,8 +199,7 @@
         "key": "handles",
         "type": "number",
         "is_hierarchical": true,
-        "group": "avalon",
-        "default": 10
+        "group": "avalon"
     },
     "handle_start": {
         "label": "Frame handles start",
@@ -212,8 +207,7 @@
         "type": "number",
         "entity_type": "task",
         "object_type": "shot",
-        "group": "avalon",
-        "default": 0
+        "group": "avalon"
     },
     "handle_end": {
         "label": "Frame handles end",
@@ -221,7 +215,6 @@
         "type": "number",
         "entity_type": "task",
         "object_type": "shot",
-        "group": "avalon",
-        "default": 0
+        "group": "avalon"
     }
 }
