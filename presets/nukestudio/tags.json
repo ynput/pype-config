@@ -25,6 +25,17 @@
             "subset": "main"
         }
     },
+    "Frame start": {
+        "editable": "1",
+        "note": "Starting frame for comps",
+        "icon": {
+            "path": "icons:TagBackground.png"
+        },
+        "metadata": {
+            "family": "frameStart",
+            "number": "10001"
+        }
+    },
     "Review": {
         "editable": "1",
         "note": "Export with review.",
