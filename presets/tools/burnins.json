@@ -8,10 +8,6 @@
         "font_size": 42
     },
     "burnins":{
-        "TOP_LEFT": {
-            "function": "text",
-            "text": "{task}"
-        },
         "TOP_RIGHT": {
             "function": "text",
             "text": "{version}"

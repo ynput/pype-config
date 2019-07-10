@@ -14,176 +14,25 @@
             "root": "{projectroot}"
         }
     },
-    "Audio": {
+    "Source Resolution": {
         "editable": "1",
-        "note": "Export with Audio",
+        "note": "Use source resolution",
         "icon": {
-            "path": "volume.png"
+            "path": "resolution.png"
         },
         "metadata": {
-            "family": "audio"
+            "family": "resolution"
         }
     },
-    "[Tasks]": {
-        "Edit": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "edit.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
+    "Frame start": {
+        "editable": "1",
+        "note": "Starting frame for comps",
+        "icon": {
+            "path": "icons:TagBackground.png"
         },
-        "Previz": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "FX": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Animation": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Texture": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Layout": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Build": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Roto-paint": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "4_2D.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Matte-paint": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "4_2D.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Rigging": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Match-moving": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Compositing": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "4_2D.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Lighting": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Lookdev": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Modeling": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
-        },
-        "Setdress": {
-            "editable": "1",
-            "note": "Tag note",
-            "icon": {
-                "path": "3d.png"
-            },
-            "metadata": {
-                "family": "task"
-            }
+        "metadata": {
+            "family": "frameStart",
+            "number": "10001"
         }
     },
     "[Lenses]": {
@@ -199,110 +48,86 @@
             }
         }
     },
-    "[Types]": {
-        "Main": {
+    "[Subsets]": {
+        "Audio": {
             "editable": "1",
-            "note": "Add to Clip if main Compositing Plate. Only one tag per clip is allowed!",
+            "note": "Export with Audio",
             "icon": {
-                "path": "z_layer_main.png"
+                "path": "volume.png"
             },
             "metadata": {
-                "family": "plate",
-                "type": "main"
+                "family": "audio",
+                "subset": "main"
             }
         },
-        "Background": {
+        "plateFg": {
             "editable": "1",
-            "note": "Add to Clip if main Compositing Plate. Only one tag per clip is allowed!",
-            "icon": {
-                "path": "z_layer_bg.png"
-            },
-            "metadata": {
-                "family": "plate",
-                "type": "bg",
-                "order": 1
-            }
-        },
-        "Foreground": {
-            "editable": "1",
-            "note": "Add to Clip if main Compositing Plate. Only one tag per clip is allowed!",
+            "note": "Add to publish to \"forground\" subset. Change metadata subset name if different order number",
             "icon": {
                 "path": "z_layer_fg.png"
             },
             "metadata": {
                 "family": "plate",
-                "type": "fg",
-                "order": 1
+                "subset": "Fg01"
             }
         },
-        "Reference": {
+        "plateBg": {
             "editable": "1",
-            "note": "Add to Clip if main Compositing Plate. Only one tag per clip is allowed!",
+            "note": "Add to publish to \"background\" subset. Change metadata subset name if different order number",
             "icon": {
-                "path": "reference.png"
+                "path": "z_layer_bg.png"
             },
             "metadata": {
                 "family": "plate",
-                "type": "ref"
+                "subset": "Bg01"
+            }
+        },
+        "plateRef": {
+            "editable": "1",
+            "note": "Add to publish to \"reference\" subset.",
+            "icon": {
+                "path": "icons:Reference.png"
+            },
+            "metadata": {
+                "family": "plate",
+                "subset": "Ref"
+            }
+        },
+        "plateMain": {
+            "editable": "1",
+            "note": "Add to publish to \"main\" subset.",
+            "icon": {
+                "path": "z_layer_main.png"
+            },
+            "metadata": {
+                "family": "plate",
+                "subset": "main"
+            }
+        },
+        "plateProxy": {
+            "editable": "1",
+            "note": "Add to publish to \"proxy\" subset.",
+            "icon": {
+                "path": "z_layer_main.png"
+            },
+            "metadata": {
+                "family": "plate",
+                "subset": "proxy"
+            }
+        },
+        "review": {
+            "editable": "1",
+            "note": "Upload to Ftrack as review component.",
+            "icon": {
+                "path": "review.png"
+            },
+            "metadata": {
+                "family": "review",
+                "track": "review"
             }
         }
     },
     "[Handles]": {
-        "25 frames": {
-            "editable": "1",
-            "note": "Add frames to start and end of clip",
-            "icon": {
-                "path": "2_add_handles.png"
-            },
-            "metadata": {
-                "family": "handles",
-                "value": "25"
-            }
-        },
-        "20 frames": {
-            "editable": "1",
-            "note": "Add frames to start and end of clip",
-            "icon": {
-                "path": "2_add_handles.png"
-            },
-            "metadata": {
-                "family": "handles",
-                "value": "20"
-            }
-        },
-        "15 frames": {
-            "editable": "1",
-            "note": "Add frames to start and end of clip",
-            "icon": {
-                "path": "2_add_handles.png"
-            },
-            "metadata": {
-                "family": "handles",
-                "value": "15"
-            }
-        },
-        "10 frames": {
-            "editable": "1",
-            "note": "Add frames to start and end of clip",
-            "icon": {
-                "path": "2_add_handles.png"
-            },
-            "metadata": {
-                "family": "handles",
-                "value": "10"
-            }
-        },
-        "5 frames": {
-            "editable": "1",
-            "note": "Add frames to start and end of clip",
-            "icon": {
-                "path": "2_add_handles.png"
-            },
-            "metadata": {
-                "family": "handles",
-                "value": "5"
-            }
-        },
         "start: add 20 frames": {
             "editable": "1",
             "note": "Adding frames to start of selected clip",
@@ -339,11 +164,23 @@
                 "args": "{'op':'add','where':'start'}"
             }
         },
+        "start: add 0 frames": {
+            "editable": "1",
+            "note": "Adding frames to start of selected clip",
+            "icon": {
+                "path": "3_add_handles_start.png"
+            },
+            "metadata": {
+                "family": "handles",
+                "value": "0",
+                "args": "{'op':'add','where':'start'}"
+            }
+        },
         "end: add 20 frames": {
             "editable": "1",
             "note": "Adding frames to end of selected clip",
             "icon": {
-                "path": "3_add_handles_start.png"
+                "path": "1_add_handles_end.png"
             },
             "metadata": {
                 "family": "handles",
@@ -372,6 +209,18 @@
             "metadata": {
                 "family": "handles",
                 "value": "5",
+                "args": "{'op':'add','where':'end'}"
+            }
+        },
+        "end: add 0 frames": {
+            "editable": "1",
+            "note": "Adding frames to end of selected clip",
+            "icon": {
+                "path": "1_add_handles_end.png"
+            },
+            "metadata": {
+                "family": "handles",
+                "value": "0",
                 "args": "{'op':'add','where':'end'}"
             }
         }
