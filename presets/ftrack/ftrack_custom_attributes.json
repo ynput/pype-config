@@ -94,7 +94,7 @@
         "entity_type": "show",
         "group": "avalon",
         "write_security_role": ["API", "Administrator"],
-        "read_security_role": ["API", "Administrator"],
+        "read_security_role": ["API", "Administrator"]
     },
     "library_project": {
         "label": "Library Project",
@@ -103,7 +103,7 @@
         "entity_type": "show",
         "group": "avalon",
         "write_security_role": ["API", "Administrator"],
-        "read_security_role": ["API", "Administrator"],
+        "read_security_role": ["API", "Administrator"]
     },
     "crop": {
         "label": "Crop(x.y.right.top)",
