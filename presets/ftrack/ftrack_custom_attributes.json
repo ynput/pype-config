@@ -6,7 +6,8 @@
         "is_hierarchical": true,
         "group": "avalon",
         "write_security_role": ["ALL"],
-        "read_security_role": ["ALL"]
+        "read_security_role": ["ALL"],
+        "default": null
     },
     "resolution_width": {
         "label": "Resolution Width",
@@ -15,7 +16,8 @@
         "is_hierarchical": true,
         "group": "avalon",
         "write_security_role": ["ALL"],
-        "read_security_role": ["ALL"]
+        "read_security_role": ["ALL"],
+        "default": null
     },
     "applications": {
         "label": "Applications",
@@ -113,39 +115,40 @@
             "markdown": true
         },
         "write_security_role": ["ALL"],
-        "read_security_role": ["ALL"]
+        "read_security_role": ["ALL"],
+        "default": null
     },
     "edit_in": {
         "label": "Edit in",
         "key": "edit_in",
         "type": "number",
-        "entity_type": "task",
-        "object_type": "shot",
-        "group": "avalon"
+        "is_hierarchical": true,
+        "group": "avalon",
+        "default": null
     },
     "edit_out": {
         "label": "Edit out",
         "key": "edit_out",
         "type": "number",
-        "entity_type": "task",
-        "object_type": "shot",
-        "group": "avalon"
+        "is_hierarchical": true,
+        "group": "avalon",
+        "default": null
     },
     "frame_start": {
         "label": "Frame start",
         "key": "fstart",
         "type": "number",
-        "entity_type": "task",
-        "object_type": "shot",
-        "group": "avalon"
+        "is_hierarchical": true,
+        "group": "avalon",
+        "default": null
     },
     "frame_end": {
         "label": "Frame end",
         "key": "fend",
         "type": "number",
-        "entity_type": "task",
-        "object_type": "shot",
-        "group": "avalon"
+        "is_hierarchical": true,
+        "group": "avalon",
+        "default": null
     },
     "tools_env": {
         "label": "Tools",
@@ -175,14 +178,16 @@
         "key": "resolution_width",
         "type": "number",
         "is_hierarchical": true,
-        "group": "avalon"
+        "group": "avalon",
+        "default": null
     },
     "resolution_height": {
         "label": "Resolution Height",
         "key": "resolution_height",
         "type": "number",
         "is_hierarchical": true,
-        "group": "avalon"
+        "group": "avalon",
+        "default": null
     },
     "pixel_aspect": {
         "label": "Pixel aspect",
@@ -199,22 +204,23 @@
         "key": "handles",
         "type": "number",
         "is_hierarchical": true,
-        "group": "avalon"
+        "group": "avalon",
+        "default": null
     },
     "handle_start": {
         "label": "Frame handles start",
         "key": "handle_start",
         "type": "number",
-        "entity_type": "task",
-        "object_type": "shot",
-        "group": "avalon"
+        "is_hierarchical": true,
+        "group": "avalon",
+        "default": null
     },
     "handle_end": {
         "label": "Frame handles end",
         "key": "handle_end",
         "type": "number",
-        "entity_type": "task",
-        "object_type": "shot",
-        "group": "avalon"
+        "is_hierarchical": true,
+        "group": "avalon",
+        "default": null
     }
 }
