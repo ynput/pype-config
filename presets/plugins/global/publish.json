@@ -7,29 +7,37 @@
                 "input": [
                     "-gamma 2.2"
                 ],
+                "letter_box": 2.35,
                 "output": [
                     "-pix_fmt yuv420p",
                     "-crf 18"
                 ],
-                "output_backup": [
-                    "-c:v libx264",
-                    "-vf colormatrix=bt601:bt709"
-                ],
-                "tags": ["preview", "burnin"]
+                "tags": ["preview", "burnin"],
+                "ext": "mov"
             },
-            "mxf": {
-                "families": ["write", "ftrack"],
-                "input": [
-                    "-r 25"
-                ],
+            "edit": {
+                "families": ["write"],
                 "output": [
+                    "-vf scale=1920x1080",
                     "-vcodec dnxhd",
                     "-pix_fmt yuv422p",
-                    "-b:v 185M",
+                    "-b:v 120M",
                     "-ar 48000",
                     "-ac 2",
                     "-qmax 51"
-                ]
+                ],
+                "ext": "mxf"
+            },
+            "preview": {
+                "families": ["write"],
+                "letter_box": 2.35,
+                "output": [
+                    "-vf scale=1920x1080",
+                    "-c:v prores_ks",
+                    "-profile:v 3"
+                ],
+                "tags": ["burnin"],
+                "ext": "mov"
             }
         }
     }
