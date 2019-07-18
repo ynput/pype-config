@@ -1,8 +1,9 @@
 {
     "ExtractReview": {
-        "ext_filter": ["exr", "jpg", "jpeg", "mov", "png"],
+        "ext_filter": ["exr", "jpg", "jpeg", "mov", "png", "dpx", "mp4"],
         "outputs": {
             "h264": {
+                "families": ["write", "ftrack"],
                 "input": [
                     "-gamma 2.2"
                 ],
@@ -17,6 +18,7 @@
                 "tags": ["preview", "burnin"]
             },
             "mxf": {
+                "families": ["write", "ftrack"],
                 "input": [
                     "-r 25"
                 ],
