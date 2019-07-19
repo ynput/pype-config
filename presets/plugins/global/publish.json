@@ -1,1 +1,45 @@
-{}
+{
+    "ExtractReview": {
+        "ext_filter": ["exr", "jpg", "jpeg", "mov", "png", "dpx", "mp4"],
+        "outputs": {
+            "h264": {
+                "families": ["write", "ftrack"],
+                "input": [
+                    "-gamma 2.2"
+                ],
+                "letter_box": 2.35,
+                "output": [
+                    "-pix_fmt yuv420p",
+                    "-crf 18"
+                ],
+                "tags": ["preview", "burnin"],
+                "ext": "mov"
+            },
+            "edit": {
+                "families": ["write"],
+                "output": [
+                    "-vf scale=1920x1080",
+                    "-vcodec dnxhd",
+                    "-pix_fmt yuv422p",
+                    "-b:v 120M",
+                    "-ar 48000",
+                    "-ac 2",
+                    "-qmax 51"
+                ],
+                "ext": "mxf"
+            },
+            "preview": {
+                "families": ["write"],
+                "letter_box": 2.35,
+                "output": [
+                    "-vf scale=1920x1080",
+                    "-c:v prores_ks",
+                    "-profile:v 3"
+                ],
+                "tags": ["burnin"],
+                "ext": "mov"
+            }
+        }
+    }
+
+}

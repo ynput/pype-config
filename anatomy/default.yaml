@@ -44,15 +44,15 @@ work:
 
 render:
   padding: "4"
-  path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/render/{task}/{subset}/v{version:0>3}/{project[code]}_{asset}_{task}_v{version:0>3}_{subset}<.{frame}>.{representation}"
+  path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/render/{task}/{subset}/v{version:0>3}/{project[code]}_{asset}_{task}_v{version:0>3}_{subset}<_{output}><.{frame}>.{representation}"
 
 texture:
   path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}"
-  
+
 publish:
-  path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}/{project[code]}_{asset}_{subset}_v{version:0>3}<.{frame}>.{representation}"
+  path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}/{project[code]}_{asset}_{subset}_v{version:0>3}<_{output}><.{frame}>.{representation}"
 
 avalon:
   workfile: "{project[code]}_{asset}_{task}_v{version:0>3}<_{comment}>"
   work: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}"
-  publish: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}/{project[code]}_{asset}_{subset}_v{version:0>3}<.{frame}>.{representation}"
+  publish: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}/{project[code]}_{asset}_{subset}_v{version:0>3}<_{output}><.{frame}>.{representation}"
