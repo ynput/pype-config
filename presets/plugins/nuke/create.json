@@ -1,1 +1,5 @@
-{}
+{
+    "CreateWriteRender": {
+        "fpath_template": "{work}/renders/v{version}/{subset}.{frame}.{ext}"
+    }
+}
