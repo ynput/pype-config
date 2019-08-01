@@ -118,17 +118,17 @@
         "read_security_role": ["ALL"],
         "default": null
     },
-    "edit_in": {
-        "label": "Edit in",
-        "key": "edit_in",
+    "clip_in": {
+        "label": "Clip in",
+        "key": "clipIn",
         "type": "number",
         "is_hierarchical": true,
         "group": "avalon",
         "default": null
     },
-    "edit_out": {
-        "label": "Edit out",
-        "key": "edit_out",
+    "clip_out": {
+        "label": "Clip out",
+        "key": "clipOut",
         "type": "number",
         "is_hierarchical": true,
         "group": "avalon",
@@ -136,7 +136,7 @@
     },
     "frame_start": {
         "label": "Frame start",
-        "key": "fstart",
+        "key": "frameStart",
         "type": "number",
         "is_hierarchical": true,
         "group": "avalon",
@@ -144,7 +144,7 @@
     },
     "frame_end": {
         "label": "Frame end",
-        "key": "fend",
+        "key": "frameEnd",
         "type": "number",
         "is_hierarchical": true,
         "group": "avalon",
@@ -175,7 +175,7 @@
     },
     "resolution_width": {
         "label": "Resolution Width",
-        "key": "resolution_width",
+        "key": "resolutionWidth",
         "type": "number",
         "is_hierarchical": true,
         "group": "avalon",
@@ -183,7 +183,7 @@
     },
     "resolution_height": {
         "label": "Resolution Height",
-        "key": "resolution_height",
+        "key": "resolutionHeight",
         "type": "number",
         "is_hierarchical": true,
         "group": "avalon",
@@ -191,7 +191,7 @@
     },
     "pixel_aspect": {
         "label": "Pixel aspect",
-        "key": "pixel_aspect",
+        "key": "pixelAspect",
         "type": "number",
         "is_hierarchical": true,
         "group": "avalon",
@@ -209,7 +209,7 @@
     },
     "handle_start": {
         "label": "Frame handles start",
-        "key": "handle_start",
+        "key": "handleStart",
         "type": "number",
         "is_hierarchical": true,
         "group": "avalon",
@@ -217,7 +217,7 @@
     },
     "handle_end": {
         "label": "Frame handles end",
-        "key": "handle_end",
+        "key": "handleEnd",
         "type": "number",
         "is_hierarchical": true,
         "group": "avalon",
