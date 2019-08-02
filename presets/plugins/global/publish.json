@@ -28,7 +28,7 @@
                 ],
                 "ext": "mxf"
             },
-            "wip-mov": {
+            "wipmov": {
                 "families": ["write"],
                 "letter_box": 2.35,
                 "output": [
