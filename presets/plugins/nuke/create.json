@@ -1,5 +1,5 @@
 {
     "CreateWriteRender": {
-        "fpath_template": "{work}/renders/v{version}/{subset}.{frame}.{ext}"
+        "fpath_template": "{work}/renders/nuke/{subset}/{subset}.{frame}.{ext}"
     }
 }
