@@ -132,13 +132,6 @@
         "isdecimal": true
     }
 }, {
-    "label": "Frame handles",
-    "key": "handles",
-    "type": "number",
-    "is_hierarchical": true,
-    "group": "avalon",
-    "default": null
-}, {
     "label": "Frame handles start",
     "key": "handleStart",
     "type": "number",
