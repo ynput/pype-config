@@ -1,0 +1,10 @@
+{
+    "ExtractReviewData": {
+        "nodes": {
+            "Reformat": [
+                ["type", "to format"],
+                ["filter", "Lanczos6"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,58 @@
+# '''
+# description:
+#   - all keys which are in <> are optional - if they are not in dict(data) then they are ignored
+#   - all capital keys {ENV_VAR} are computed first and eather coming from outside or inside
+#
+# keys comming from outside:
+#   {PYPE_STUDIO_PROJECTS_WORK}: str, referencing template env-var from `system/locations.json`
+#
+#   {project[name]}: str, full name of the project
+#             example: C001_cool_commercial, D001_projectx
+#
+#   {project[code]}: str, shorter version of project name 2-4 letters usually
+#             example: ccm, prj, dogz
+#
+#   {AVALON_SILO}: str, the highest folder in the hierarchy of the asset, legacy
+#
+#   {asset}: str, name of the entity, e.g. sh010, bob, 101sh020
+#             example: sh010, bob, car-big, 101sh050, sq02
+#
+#   {asset.type}: str, type of the entity,
+#             example: shot, asset, sequence, folder
+#
+#   {family}: str, general type of the published file
+#             example: model, cache, render, look, rig
+#
+#   {subset}: str, a published part of an asset. Always contains family string too
+#             example: modelMain, modelDamaged, renderMain, lookMain
+#
+#   {version}: int, example: 14
+#
+#   {frame}: int, a frame number in image sequences, example: 0001, 989, 49593
+#
+#   {representation}: str, example: abc, ma, nk, exr, png, curves, history, metadata
+# '''
+
+resources:
+  footage: "{root}/{project[name]}/resources/footage"
+  reference: "{root}/{project[name]}/resources/reference"
+
+work:
+  folder: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}"
+  file: "{project[code]}_{asset}_{task}_v{version:0>3}<_{comment}>.{ext}"
+  path: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}/{project[code]}_{asset}_{task}_v{version:0>3}<_{comment}>.{ext}"
+
+render:
+  padding: "4"
+  path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/render/{task}/{subset}/v{version:0>3}/{project[code]}_{asset}_{task}_v{version:0>3}_{subset}<_{output}><.{frame}>.{representation}"
+
+texture:
+  path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}"
+
+publish:
+  path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}/{project[code]}_{asset}_{subset}_v{version:0>3}<_{output}><.{frame}>.{representation}"
+
+avalon:
+  workfile: "{project[code]}_{asset}_{task}_v{version:0>3}<_{comment}>"
+  work: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}"
+  publish: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}/{project[code]}_{asset}_{subset}_v{version:0>3}<_{output}><.{frame}>.{representation}"

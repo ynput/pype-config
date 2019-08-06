@@ -1,0 +1,21 @@
+{
+    "nk": {
+        "ext": ".nk"
+    },
+    "wav": {
+        "ext": ".wav"
+    },
+    "mov": {
+        "ext": ".mov",
+        "input": [
+            "-r 25"
+        ],
+        "output": [
+            "-c:v libx264",
+            "-vf colormatrix=bt601:bt709",
+            "-ar 48000",
+            "-ac 2"
+        ]
+    }
+
+}

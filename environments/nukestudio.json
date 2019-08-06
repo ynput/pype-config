@@ -1,0 +1,13 @@
+{
+    "PYBLISH_GUI": [
+        "pyblish_lite"
+    ],
+    "HIERO_PLUGIN_PATH": [
+        "{PYPE_MODULE_ROOT}/setup/nukestudio/hiero_plugin_path"
+    ],
+    "PATH": {
+        "windows": "C:/Program Files (x86)/QuickTime/QTSystem/"
+    },
+    "WORKFILES_STARTUP": "1",
+    "TAG_ASSETBUILD_STARTUP": "0"
+}

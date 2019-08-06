@@ -1,0 +1,27 @@
+{
+    "options": {
+        "opacity": 1,
+        "x_offset": 5,
+        "y_offset": 5,
+        "bg_padding": 5,
+        "bg_opacity": 0.5,
+        "font_size": 42
+    },
+    "burnins":{
+        "TOP_RIGHT": {
+            "function": "text",
+            "text": "{version}"
+        },
+        "BOTTOM_LEFT": {
+            "function": "frame_numbers"
+        },
+        "BOTTOM_CENTERED": {
+            "function": "text",
+            "text": "{asset}"
+        },
+        "BOTTOM_RIGHT": {
+            "function": "text",
+            "text": "{username}"
+        }
+    }
+}

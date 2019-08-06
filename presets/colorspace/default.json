@@ -1,0 +1,38 @@
+{
+  "nuke": {
+    "root": {
+      "colorManagement": "OCIO",
+      "OCIO_config": "aces_1.0.3",
+      "workingSpaceLUT": "ACES - ACEScg",
+      "defaultViewerLUT": "OCIO LUTs",
+      "monitorLut": "ACES/sRGB",
+      "int8Lut": "Utility - sRGB - Texture",
+      "int16Lut": "Utility - sRGB - Texture",
+      "logLut": "Input - ARRI - V3 LogC (EI800) - Wide Gamut",
+      "floatLut": "ACES - ACEScg"
+    },
+    "viewer": {
+      "viewerProcess": "sRGB (ACES)"
+    },
+    "write": {
+      "render": {
+        "colorspace": "ACES - ACEScg"
+      },
+      "prerender": {
+        "colorspace": "ACES - ACEScg"
+      },
+      "still": {
+        "colorspace": "Utility - Curve - sRGB"
+      }
+    }
+  },
+  "maya":{
+
+  },
+  "houdini":{
+
+  },
+  "resolve":{
+
+  }
+}
