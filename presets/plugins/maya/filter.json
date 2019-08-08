@@ -1,7 +1,7 @@
 {
     "Preset n1": {
         "ValidateNoAnimation": false,
-        "ValidateShapeDefaultNames": false,
+        "ValidateShapeDefaultNames": false
     },
     "Preset n2": {
         "ValidateNoAnimation": false
