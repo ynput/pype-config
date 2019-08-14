@@ -18,6 +18,12 @@
         "fromlist": ["pype"]
     },
     {
+        "title": "Clockify",
+    	"type": "module",
+    	"import_path": "pype.clockify",
+        "fromlist": ["pype"]
+    },
+    {
         "title": "Standalone Publish",
     	"type": "module",
     	"import_path": "pype.standalonepublish",
