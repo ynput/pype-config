@@ -236,5 +236,16 @@
                 "args": "{'op':'add','where':'end'}"
             }
         }
+    },
+    "NukeScript": {
+        "editable": "1",
+        "note": "Collecting track items to Nuke scripts.",
+        "icon": {
+            "path": "icons:TagNuke.png"
+        },
+        "metadata": {
+          "family": "nukescript",
+          "subset": "main"
+        }
     }
 }
