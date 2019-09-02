@@ -18,6 +18,7 @@
     ],
     "PYPE_OCIO_CONFIG": "{PYPE_STUDIO_TOOLS}/OpenColorIO-Configs",
     "PYTHONPATH": "{VIRTUAL_ENV}/Lib/site-packages",
+    "PYPE_PROJECT_CONFIGS": "",
     "PYPE_PYTHON_EXE": {
         "windows": "{VIRTUAL_ENV}/Scripts/python.exe",
         "linux": "{VIRTUAL_ENV}/Scripts/python"
