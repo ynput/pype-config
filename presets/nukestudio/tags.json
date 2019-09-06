@@ -24,15 +24,27 @@
             "family": "resolution"
         }
     },
+    "Retiming": {
+        "editable": "1",
+        "note": "Clip has retime or TimeWarp effects (or multiple effects stacked on the clip)",
+        "icon": {
+            "path": "retiming.png"
+        },
+        "metadata": {
+            "family": "retiming",
+            "marginIn": 1,
+            "marginOut": 1
+        }
+    },
     "Frame start": {
         "editable": "1",
-        "note": "Starting frame for comps",
+        "note": "Starting frame for comps. \n\n> Use `value` and add either number or write `source` (if you want to preserve source frame numbering)",
         "icon": {
             "path": "icons:TagBackground.png"
         },
         "metadata": {
             "family": "frameStart",
-            "number": "10001"
+            "value": "1001"
         }
     },
     "[Lenses]": {
