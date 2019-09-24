@@ -20,7 +20,7 @@
         "schema": {
             "description": "Schema identifier for payload",
             "type": "string",
-            "enum": ["pype:representation-2.0"],
+            "enum": ["avalon-core:representation-2.0", "pype:representation-2.0"],
             "example": "pype:representation-2.0"
         },
         "type": {

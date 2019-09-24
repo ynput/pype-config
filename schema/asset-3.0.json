@@ -19,7 +19,7 @@
         "schema": {
             "description": "Schema identifier for payload",
             "type": "string",
-            "enum": ["avalon-core:asset-3.0"],
+            "enum": ["avalon-core:asset-3.0", "pype:asset-3.0"],
             "example": "avalon-core:asset-3.0"
         },
         "type": {

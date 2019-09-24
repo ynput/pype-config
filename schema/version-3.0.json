@@ -20,7 +20,7 @@
         "schema": {
             "description": "The schema associated with this document",
             "type": "string",
-            "enum": ["pype:version-3.0"],
+            "enum": ["avalon-core:version-3.0", "pype:version-3.0"],
             "example": "pype:version-3.0"
         },
         "type": {
