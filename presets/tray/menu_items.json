@@ -5,6 +5,7 @@
         "Avalon": true,
         "Clockify": false,
         "Standalone Publish": true,
+        "Logging": true,
         "Idle Manager": true,
         "Timers Manager": true,
         "Statics Server": true
@@ -35,6 +36,11 @@
             "type": "module",
             "import_path": "pype.standalonepublish",
             "fromlist": ["pype"]
+        }, {
+            "title": "Logging",
+            "type": "module",
+            "import_path": "pype.logging.tray",
+            "fromlist": ["pype", "logging"]
         }, {
             "title": "Idle Manager",
             "type": "module",
