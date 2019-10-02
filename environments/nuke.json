@@ -11,8 +11,5 @@
         "windows": "C:/Program Files (x86)/QuickTime/QTSystem/"
     },
     "PYPE_LOG_NO_COLORS": "True",
-    "PYTHONPATH": {
-        "windows": "{VIRTUAL_ENV}/Lib/site-packages",
-        "linux": "{VIRTUAL_ENV}/lib/python3.6/site-packages"
-    }
+    "PYTHONPATH": "{VIRTUAL_ENV}/Lib/site-packages"
 }
