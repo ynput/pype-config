@@ -8,6 +8,7 @@
         "Idle Manager": true,
         "Timers Manager": true,
         "Statics Server": true
+        "Rest Api": true
     },
     "item_import": [
         {
@@ -49,6 +50,11 @@
             "title": "Statics Server",
             "type": "module",
             "import_path": "pype.services.statics_server",
+            "fromlist": ["pype","services"]
+        }, {
+            "title": "Rest Api",
+            "type": "module",
+            "import_path": "pype.services.rest_api",
             "fromlist": ["pype","services"]
         }
     ]
