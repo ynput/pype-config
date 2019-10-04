@@ -6,7 +6,10 @@
     "group": "avalon",
     "write_security_role": ["ALL"],
     "read_security_role": ["ALL"],
-    "default": null
+    "default": null,
+    "config": {
+        "isdecimal": true
+    }
 }, {
     "label": "Applications",
     "key": "applications",
