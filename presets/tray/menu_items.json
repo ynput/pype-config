@@ -7,7 +7,7 @@
         "Standalone Publish": true,
         "Idle Manager": true,
         "Timers Manager": true,
-        "Statics Server": true
+        "Statics Server": true,
         "Rest Api": true
     },
     "item_import": [
