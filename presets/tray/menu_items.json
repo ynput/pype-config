@@ -1,5 +1,6 @@
 {
     "item_usage": {
+        "User settings": false,
         "Ftrack": true,
         "Muster": false,
         "Avalon": true,
@@ -12,6 +13,11 @@
     },
     "item_import": [
         {
+            "title": "User settings",
+            "type": "module",
+            "import_path": "pype.user",
+            "fromlist": ["pype"]
+        },{
             "title": "Ftrack",
             "type": "module",
             "import_path": "pype.ftrack.tray",
