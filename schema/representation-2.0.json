@@ -58,9 +58,9 @@
             "description": "Summary of the context to which this representation belong.",
             "type": "object",
             "properties": {
-                "project": {"type": "string"},
+                "project": {"type": "object"},
                 "asset": {"type": "string"},
-                "silo": {"type": "string"},
+                "silo": {"type": ["string", "null"]},
                 "subset": {"type": "string"},
                 "version": {"type": "number"},
                 "representation": {"type": "string"}

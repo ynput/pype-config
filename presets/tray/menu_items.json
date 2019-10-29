@@ -6,11 +6,11 @@
         "Avalon": true,
         "Clockify": false,
         "Standalone Publish": true,
-        "Logging": true,
+        "Logging": false,
         "Idle Manager": true,
         "Timers Manager": true,
         "Statics Server": true,
-        "Rest Api": true
+        "Rest Api": false
     },
     "item_import": [
         {
