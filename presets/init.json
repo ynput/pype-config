@@ -1,4 +1,4 @@
 {
-    "colorspace": "default",
+    "colorspace": "aces103-cg",
     "dataflow": "default"
 }
