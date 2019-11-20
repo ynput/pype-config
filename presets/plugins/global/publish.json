@@ -40,5 +40,19 @@
                 "ext": "mov"
             }
         }
-    }
+    },
+    "ExtractScaledThumbnails": {"output_data": {
+        "small": {
+            "file_end": "S",
+            "filters": ["scale=160:-1"]
+        },
+        "middle": {
+            "file_end": "M",
+            "filters": ["scale=320:-1"]
+        },
+        "large": {
+            "file_end": "L",
+            "filters": ["scale=1024:-1"]
+        }
+    }}
 }
