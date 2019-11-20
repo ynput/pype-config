@@ -1,44 +1,73 @@
-[
-    {
-        "title": "Ftrack",
-    	"type": "module",
-    	"import_path": "pype.ftrack.tray",
-        "fromlist": ["pype", "ftrack"]
+{
+    "item_usage": {
+        "User settings": false,
+        "Ftrack": true,
+        "Muster": false,
+        "Avalon": true,
+        "Clockify": false,
+        "Standalone Publish": true,
+        "Logging": false,
+        "Idle Manager": true,
+        "Timers Manager": true,
+        "Statics Server": true,
+        "Rest Api": false
     },
-    {
-      "title": "Muster",
-      "type": "module",
-      "import_path": "pype.muster",
-      "fromlist": ["pype"]
-    },
-    {
-        "title": "Avalon",
-    	"type": "module",
-    	"import_path": "pype.avalon_apps",
-        "fromlist": ["pype"]
-    },
-    {
-        "title": "Standalone Publish",
-    	"type": "module",
-    	"import_path": "pype.standalonepublish",
-        "fromlist": ["pype"]
-    },
-    {
-        "title": "Idle Manager",
-    	"type": "module",
-    	"import_path": "pype.services.idle_manager",
-        "fromlist": ["pype","services"]
-    },
-    {
-        "title": "Timers Manager",
-    	"type": "module",
-    	"import_path": "pype.services.timers_manager",
-        "fromlist": ["pype","services"]
-    },
-    {
-        "title": "Statics Server",
-    	"type": "module",
-    	"import_path": "pype.services.statics_server",
-        "fromlist": ["pype","services"]
-    }
-]
+    "item_import": [
+        {
+            "title": "User settings",
+            "type": "module",
+            "import_path": "pype.user",
+            "fromlist": ["pype"]
+        },{
+            "title": "Ftrack",
+            "type": "module",
+            "import_path": "pype.ftrack.tray",
+            "fromlist": ["pype", "ftrack"]
+        }, {
+            "title": "Muster",
+            "type": "module",
+            "import_path": "pype.muster",
+            "fromlist": ["pype"]
+        }, {
+            "title": "Avalon",
+            "type": "module",
+            "import_path": "pype.avalon_apps",
+            "fromlist": ["pype"]
+        }, {
+            "title": "Clockify",
+            "type": "module",
+            "import_path": "pype.clockify",
+            "fromlist": ["pype"]
+        }, {
+            "title": "Standalone Publish",
+            "type": "module",
+            "import_path": "pype.standalonepublish",
+            "fromlist": ["pype"]
+        }, {
+            "title": "Logging",
+            "type": "module",
+            "import_path": "pype.logging.tray",
+            "fromlist": ["pype", "logging"]
+        }, {
+            "title": "Idle Manager",
+            "type": "module",
+            "import_path": "pype.services.idle_manager",
+            "fromlist": ["pype","services"]
+        }, {
+            "title": "Timers Manager",
+            "type": "module",
+            "import_path": "pype.services.timers_manager",
+            "fromlist": ["pype","services"]
+        }, {
+            "title": "Statics Server",
+            "type": "module",
+            "import_path": "pype.services.statics_server",
+            "fromlist": ["pype","services"]
+        }, {
+            "title": "Rest Api",
+            "type": "module",
+            "import_path": "pype.services.rest_api",
+            "fromlist": ["pype","services"]
+        }
+    ]
+}
