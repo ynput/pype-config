@@ -8,6 +8,10 @@
         "font_size": 42
     },
     "burnins":{
+        "TOP_LEFT": {
+            "function": "datetime",
+            "format": "%d.%m.%Y"
+        },
         "TOP_RIGHT": {
             "function": "text",
             "text": "{version}"
