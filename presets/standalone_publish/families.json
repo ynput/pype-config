@@ -62,5 +62,21 @@
         "icon": "camera",
         "defaults": ["Main", "BG", "Reference"],
         "help": "Plates for compositors"
+    },
+    "create_matchmove": {
+        "name": "matchmove",
+        "label": "Matchmove script",
+        "family": "matchmove",
+        "icon": "empire",
+        "defaults": ["Camera", "Object", "Mocap"],
+        "help": "Script exported from matchmoving application"
+    },
+    "create_images": {
+      "name": "image",
+      "label": "Image file",
+      "family": "image",
+      "icon": "image",
+      "defaults": ["ConceptArt", "Reference", "Texture", "MattePaint"],
+      "help": "Holder for all kinds of image data"
     }
 }
