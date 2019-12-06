@@ -7,5 +7,10 @@
         "_ignore_": ["in progress", "ommited", "on hold"],
         "Ready": ["not ready"],
         "In Progress" : ["_any_"]
+    },
+    "status_version_to_task": {
+        "__description__": "Status `from` (key) must be lowered!",
+        "reviewed": "Change requested",
+        "approved": "Complete"
     }
 }
