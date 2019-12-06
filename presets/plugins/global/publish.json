@@ -1,10 +1,13 @@
 {
     "ExtractReview": {
         "documentation": {
-            "add_this_to_preset_data_for_letter_box": {
+            "add letter_box": {
                 "letter_box": 2.35
-                }
             },
+            "rescale up to 1920x1080": {
+                "reformat": true
+            }
+        },
         "ext_filter": ["exr", "jpg", "jpeg", "mov", "png", "dpx", "mp4"],
         "outputs": {
             "h264": {
