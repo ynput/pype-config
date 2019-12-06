@@ -1,6 +1,6 @@
 {
     "ExtractReview": {
-        "documentation": {
+        "__documentation__": {
             "add letter_box": {
                 "letter_box": 2.35
             },
