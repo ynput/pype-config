@@ -10,7 +10,7 @@
     },
     "status_version_to_task": {
         "__description__": "Status `from` (key) must be lowered!",
-        "reviewed": "Change requested",
-        "approved": "Complete"
+        "in progress": "in progress",
+        "approved": "approved"
     }
 }
