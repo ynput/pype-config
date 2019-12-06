@@ -36,6 +36,7 @@
                     "-crf 18"
                 ],
                 "output": [],
+                "letter_box": 2.8,
                 "tags": ["burnin", "reformat", "bake-lut"],
                 "ext": "mov"
             },
@@ -52,6 +53,7 @@
                     "-qmax 51"
                 ],
                 "output": [],
+                "tags": [],
                 "ext": "mxf"
             },
             "wipmov": {
