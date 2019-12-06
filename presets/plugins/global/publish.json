@@ -1,5 +1,10 @@
 {
     "ExtractReview": {
+        "documentation": {
+            "add_this_to_preset_data_for_letter_box": {
+                "letter_box": 2.35
+                }
+            },
         "ext_filter": ["exr", "jpg", "jpeg", "mov", "png", "dpx", "mp4"],
         "outputs": {
             "h264": {
@@ -17,8 +22,7 @@
             },
             "edit": {
                 "families": ["write"],
-                "output": [
-                    "-vf scale=1920x1080",
+                "codec": [
                     "-vcodec dnxhd",
                     "-pix_fmt yuv422p",
                     "-b:v 120M",
@@ -26,15 +30,20 @@
                     "-ac 2",
                     "-qmax 51"
                 ],
+                "output": [
+                    "-vf scale=1920x1080"
+                ],
                 "ext": "mxf"
             },
             "wipmov": {
                 "families": ["write"],
                 "letter_box": 2.35,
-                "output": [
-                    "-vf scale=1920x1080",
+                "codec": [
                     "-c:v prores_ks",
                     "-profile:v 3"
+                ],
+                "output": [
+                    "-vf scale=1920x1080"
                 ],
                 "tags": ["burnin"],
                 "ext": "mov"
