@@ -37,6 +37,7 @@
             {"deadline": "Deadline"},
             {"houdini_16.5": "Houdini 16.5"},
             {"houdini_17": "Houdini 17"},
+            {"houdini_18": "Houdini 18"},
             {"python_3": "Python 3"},
             {"python_2": "Python 2"},
             {"premiere_2019": "Premiere Pro 2019"},
