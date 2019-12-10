@@ -22,6 +22,7 @@
                     "-pix_fmt yuv420p",
                     "-crf 18"
                 ],
+                "letter_box": 2.35,
                 "output": [],
                 "tags": ["preview", "burnin", "reformat", "bake-lut"],
                 "ext": "mov"
@@ -36,7 +37,6 @@
                     "-crf 18"
                 ],
                 "output": [],
-                "letter_box": 2.8,
                 "tags": ["burnin", "reformat", "bake-lut"],
                 "ext": "mov"
             },
@@ -63,7 +63,7 @@
                     "-c:v prores_ks",
                     "-profile:v 3"
                 ],
-                "letter_box": 2.8,
+                "letter_box": 2.35,
                 "output": [],
                 "tags": ["burnin", "bake-lut"],
                 "ext": "mov"
