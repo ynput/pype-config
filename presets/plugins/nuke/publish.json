@@ -1,9 +1,13 @@
 {
-    "ExtractReviewData": {
+    "ExtractThumbnail": {
         "nodes": {
             "Reformat": [
                 ["type", "to format"],
-                ["filter", "Lanczos6"]
+                ["format", "HD_1080"],
+                ["filter", "Lanczos6"],
+                ["black_outside", true],
+                ["pbb", true],
+                ["type", "to format"]
             ]
         }
     }
