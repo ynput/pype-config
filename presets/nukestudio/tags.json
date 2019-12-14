@@ -247,5 +247,16 @@
           "family": "nukescript",
           "subset": "main"
         }
+    },
+    "Comment": {
+        "editable": "1",
+        "note": "Comment on a shot.",
+        "icon": {
+            "path": "icons:TagComment.png"
+        },
+        "metadata": {
+          "family": "comment",
+          "subset": "main"
+        }
     }
 }
