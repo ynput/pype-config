@@ -8,6 +8,7 @@
     "PATH": {
         "windows": "C:/Program Files (x86)/QuickTime/QTSystem/"
     },
-    "WORKFILES_STARTUP": "1",
-    "TAG_ASSETBUILD_STARTUP": "0"
+    "WORKFILES_STARTUP": "0",
+    "TAG_ASSETBUILD_STARTUP": "0",
+    "PYPE_LOG_NO_COLORS": "True"
 }
