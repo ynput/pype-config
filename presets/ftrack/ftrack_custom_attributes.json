@@ -19,8 +19,8 @@
     "config": {
         "multiselect": true,
         "data": [
-            {"blender_280": "Blender 2.80"},
-            {"blender_281": "Blender 2.81"},
+            {"blender_2.80": "Blender 2.80"},
+            {"blender_2.81": "Blender 2.81"},
             {"maya_2017": "Maya 2017"},
             {"maya_2018": "Maya 2018"},
             {"maya_2019": "Maya 2019"},
