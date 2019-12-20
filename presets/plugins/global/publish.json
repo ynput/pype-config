@@ -23,16 +23,8 @@
                     "-crf 18"
                 ],
                 "letter_box": 2.35,
-                "output": [],
-                "tags": ["preview", "burnin", "reformat", "bake-lut"],
-                "ext": "mov"
-            },
-            "h264_keep": {
-                "families": ["write"],
-                "input": [
-                    "-gamma 2.2"
-                ],
-                "codec": [
+                "output": [
+                    "-vf scale=1920x1080:flags=lanczos,setsar=1",
                     "-pix_fmt yuv420p",
                     "-crf 18"
                 ],
