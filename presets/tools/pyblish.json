@@ -1,0 +1,16 @@
+{
+    "ui": {
+        "intents": {
+            "__description__": [
+                "In items you can specify {label: value} of intents",
+                "First item in intent gui is `{'< Not Set >': None}` when default is set to `true`."
+            ],
+            "default": true,
+            "items": {
+                "Test": "test",
+                "WIP": "WIP",
+                "Final": "final"
+            }
+        }
+    }
+}
