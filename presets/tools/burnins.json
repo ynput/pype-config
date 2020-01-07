@@ -16,14 +16,15 @@
             "function": "text",
             "text": "{version}"
         },
-        "BOTTOM_LEFT": {
-            "function": "frame_numbers"
+        "BOTTOM_RIGHT": {
+            "function": "frame_numbers",
+            "text": "{frame_start}-{current_frame}-{frame_end}"
         },
         "BOTTOM_CENTERED": {
             "function": "text",
             "text": "{asset}"
         },
-        "BOTTOM_RIGHT": {
+        "BOTTOM_LEFT": {
             "function": "text",
             "text": "{username}"
         }
