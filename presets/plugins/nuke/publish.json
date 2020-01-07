@@ -10,5 +10,14 @@
                 ["type", "to format"]
             ]
         }
+    },
+    "ValidateNukeWriteKnobs": {
+        "enabled": false
+    },
+    "ExtractReviewDataLut": {
+        "enabled": false
+    },
+    "ExtractReviewDataMov": {
+        "enabled": true
     }
 }
