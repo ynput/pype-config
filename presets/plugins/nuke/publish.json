@@ -6,8 +6,7 @@
                 ["format", "HD_1080"],
                 ["filter", "Lanczos6"],
                 ["black_outside", true],
-                ["pbb", true],
-                ["type", "to format"]
+                ["pbb", false]
             ]
         }
     },
