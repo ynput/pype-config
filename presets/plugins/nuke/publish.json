@@ -18,6 +18,7 @@
         "enabled": false
     },
     "ExtractReviewDataMov": {
-        "enabled": true
+        "enabled": true,
+        "viewer_lut_raw": false
     }
 }
