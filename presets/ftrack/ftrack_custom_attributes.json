@@ -53,6 +53,21 @@
     "write_security_role": ["API", "Administrator"],
     "read_security_role": ["API", "Administrator"]
 }, {
+    "label": "Intent",
+    "key": "intent",
+    "type": "enumerator",
+    "entity_type": "assetversion",
+    "group": "avalon",
+    "config": {
+        "multiselect": false,
+        "data": [
+            {"": "-"},
+            {"test": "Test"},
+            {"wip": "WIP"},
+            {"final": "Final"}
+        ]
+    }
+}, {
     "label": "Library Project",
     "key": "library_project",
     "type": "boolean",
