@@ -1,0 +1,7 @@
+{
+    "BLENDER_USER_SCRIPTS": "{PYPE_ROOT}/repos/avalon-core/setup/blender",
+    "PYTHONPATH": ["{PYPE_ROOT}/repos/avalon-core/setup/blender"],
+    "PYBLISH_GUI": [
+        "pyblish_lite"
+    ]
+}
