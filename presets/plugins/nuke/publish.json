@@ -6,9 +6,18 @@
                 ["format", "HD_1080"],
                 ["filter", "Lanczos6"],
                 ["black_outside", true],
-                ["pbb", true],
-                ["type", "to format"]
+                ["pbb", false]
             ]
         }
+    },
+    "ValidateNukeWriteKnobs": {
+        "enabled": false
+    },
+    "ExtractReviewDataLut": {
+        "enabled": false
+    },
+    "ExtractReviewDataMov": {
+        "enabled": true,
+        "viewer_lut_raw": false
     }
 }
