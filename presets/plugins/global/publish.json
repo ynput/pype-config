@@ -8,7 +8,8 @@
                     "burnin":   "will add metadata info to image",
                     "preview":  "will be used as preview in ftrack",
                     "reformat": "rescale up to 1920x1080",
-                    "bake-lut": "bake LUT into pixels (available path in data)"
+                    "bake-lut": "bake LUT into pixels (available path in data)",
+                    "slate-frame": "adding slate frame at beggining of video"
             }
         },
         "ext_filter": ["exr", "jpg", "jpeg", "mov", "png", "dpx", "mp4"],
@@ -23,12 +24,8 @@
                     "-crf 18"
                 ],
                 "letter_box": 2.35,
-                "output": [
-                    "-pix_fmt yuv420p",
-                    "-crf 18"
-                ],
                 "output": [],
-                "tags": ["burnin", "preview", "reformat", "bake-lut"],
+                "tags": ["preview", "reformat", "burnin", "bake-lut"],
                 "ext": "mov"
             },
             "edit": {
@@ -44,7 +41,7 @@
                     "-qmax 51"
                 ],
                 "output": [],
-                "tags": [],
+                "tags": ["slate-frame"],
                 "ext": "mxf"
             },
             "wipmov": {
@@ -56,7 +53,7 @@
                 ],
                 "letter_box": 2.35,
                 "output": [],
-                "tags": ["burnin", "bake-lut"],
+                "tags": ["burnin", "reformat", "bake-lut", "slate-frame"],
                 "ext": "mov"
             }
         }
