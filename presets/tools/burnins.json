@@ -19,7 +19,7 @@
         },
         "TOP_RIGHT": {
             "function": "text",
-            "text": "{version}"
+            "text": "{anatomy[publish][burninVersion]}"
         },
         "BOTTOM_RIGHT": {
             "function": "frame_numbers",
