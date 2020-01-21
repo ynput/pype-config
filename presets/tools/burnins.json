@@ -7,6 +7,11 @@
         "bg_opacity": 0.5,
         "font_size": 42
     },
+    "__available_keys__": [
+        "{slate_frame_start}",
+        "{slate_frame_end}",
+        "{anatomy[publish][burninVersion]}"
+    ],
     "burnins":{
         "TOP_LEFT": {
             "function": "datetime",
