@@ -155,4 +155,20 @@
     "is_hierarchical": true,
     "group": "avalon",
     "default": null
-}]
+}, {
+    "label": "intent",
+    "key": "intent",
+    "group": "avalon",
+    "entity_type": "assetversion",
+    "type": "enumerator",
+    "config": {
+        "multiselect": false,
+        "data": [
+            {"": ""},
+            {"TEST": "TEST"},
+            {"WIP": "WIP"},
+            {"FINAL": "FINAL"}
+        ]
+    }
+}
+]
