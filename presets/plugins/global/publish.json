@@ -54,7 +54,7 @@
                 "tags": ["burnin", "bake-lut"],
                 "ext": "mov"
             },
-            "png-seq": {
+            "png": {
                 "families": ["render"],
                 "input": [
                     "-gamma 2.2"
