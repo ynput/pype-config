@@ -10,5 +10,8 @@
   "ValidateShaderName": {
       "enabled": false,
       "regex": "(?P<asset>.*)_(.*)_SHD"
+  },
+  "ValidateMeshHasOverlappingUVs": {
+      "enabled": false
   }
 }

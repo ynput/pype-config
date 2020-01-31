@@ -23,13 +23,8 @@
                     "-crf 18"
                 ],
                 "letter_box": 2.35,
-                "output": [
-                    "-vf scale=1920x1080:flags=lanczos,setsar=1",
-                    "-pix_fmt yuv420p",
-                    "-crf 18"
-                ],
                 "output": [],
-                "tags": ["burnin", "reformat", "bake-lut"],
+                "tags": ["burnin", "preview", "reformat", "bake-lut"],
                 "ext": "mov"
             },
             "edit": {
@@ -56,7 +51,6 @@
                     "-profile:v 3"
                 ],
                 "letter_box": 2.35,
-                "output": [],
                 "tags": ["burnin", "bake-lut"],
                 "ext": "mov"
             }
