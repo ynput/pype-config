@@ -9,8 +9,8 @@
     },
     "burnins":{
         "TOP_LEFT": {
-            "function": "datetime",
-            "format": "%d.%m.%Y"
+          "function": "text",
+          "text": "{yy}-{mm}-{dd}"
         },
         "TOP_RIGHT": {
             "function": "text",

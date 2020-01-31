@@ -24,7 +24,7 @@
                     "-crf 18"
                 ],
                 "output": [],
-                "tags": ["burnin", "reformat", "bake-lut"],
+                "tags": ["burnin", "preview", "reformat", "bake-lut"],
                 "ext": "mov"
             },
             "edit": {

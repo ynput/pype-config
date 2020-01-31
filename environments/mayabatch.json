@@ -1,0 +1,13 @@
+{
+  "PYTHONPATH": [
+    "{PYPE_ROOT}/repos/avalon-core/setup/maya",
+    "{PYPE_ROOT}/repos/maya-look-assigner",
+    "{PYTHON_ENV}/python2/Lib/site-packages"
+  ],
+  "MAYA_DISABLE_CLIC_IPM": "Yes",
+  "MAYA_DISABLE_CIP": "Yes",
+  "MAYA_DISABLE_CER": "Yes",
+  "PYMEL_SKIP_MEL_INIT": "Yes",
+  "LC_ALL": "C",
+  "PYPE_LOG_NO_COLORS": "Yes"
+}
