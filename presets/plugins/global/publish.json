@@ -9,6 +9,7 @@
                     "preview":  "will be used as preview in ftrack",
                     "reformat": "rescale up to 1920x1080",
                     "bake-lut": "bake LUT into pixels (available path in data)",
+                    "slate-frame": "adding slate frame at beggining of video"
                     "sequence": "let ffmpeg create sequence of png or jpg (ext needs to be set to png or jpg/jpeg)"
             }
         },
@@ -32,15 +33,15 @@
                 "input": [],
                 "codec": [
                     "-vcodec dnxhd",
-                    "-profile:v dnxhr_hq",
-                    "-pix_fmt yuv422p",
-                    "-b:v 120M",
+                    "-profile:v dnxhr_444",
+                    "-pix_fmt yuv444p10le",
+                    "-b:v 185M",
                     "-ar 48000",
                     "-ac 2",
                     "-qmax 51"
                 ],
                 "output": [],
-                "tags": [],
+                "tags": ["slate-frame"],
                 "ext": "mxf"
             },
             "wipmov": {
@@ -51,7 +52,7 @@
                     "-profile:v 3"
                 ],
                 "output": [],
-                "tags": ["burnin", "bake-lut"],
+                "tags": ["burnin", "reformat", "bake-lut", "slate-frame"],
                 "ext": "mov"
             },
             "png": {

@@ -167,10 +167,10 @@
         "multiselect": false,
         "data": [
             {"": ""},
-            {"Test": "test"},
+            {"TEST": "TEST"},
             {"WIP": "WIP"},
-            {"Final": "final"}
-            ]
-        }
+            {"FINAL": "FINAL"}
+        ]
     }
+}
 ]
