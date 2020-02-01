@@ -10,6 +10,7 @@
                     "reformat": "rescale up to 1920x1080",
                     "bake-lut": "bake LUT into pixels (available path in data)",
                     "slate-frame": "adding slate frame at beggining of video"
+                    "sequence": "let ffmpeg create sequence of png or jpg (ext needs to be set to png or jpg/jpeg)"
             }
         },
         "ext_filter": ["exr", "jpg", "jpeg", "mov", "png", "dpx", "mp4"],
@@ -23,9 +24,8 @@
                     "-pix_fmt yuv420p",
                     "-crf 18"
                 ],
-                "letter_box": 2.35,
                 "output": [],
-                "tags": ["preview", "reformat", "burnin", "bake-lut"],
+                "tags": ["burnin", "preview", "reformat", "bake-lut"],
                 "ext": "mov"
             },
             "edit": {
@@ -51,10 +51,20 @@
                     "-c:v prores_ks",
                     "-profile:v 3"
                 ],
-                "letter_box": 2.35,
                 "output": [],
                 "tags": ["burnin", "reformat", "bake-lut", "slate-frame"],
                 "ext": "mov"
+            },
+            "png": {
+                "families": ["render"],
+                "input": [
+                    "-gamma 2.2"
+                ],
+                "codec": [
+                    "-vcodec png"
+                ],
+                "tags": ["burnin", "reformat", "bake-lut", "sequence"],
+                "ext": "png"
             }
         }
     }

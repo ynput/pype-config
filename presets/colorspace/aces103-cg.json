@@ -1,31 +1,36 @@
 {
-  "nuke": {
-    "root": {
-      "colorManagement": "OCIO",
-      "OCIO_config": "aces_1.0.3",
-      "workingSpaceLUT": "ACES - ACEScg",
-      "defaultViewerLUT": "OCIO LUTs",
-      "monitorLut": "ACES/sRGB D60 sim.",
-      "int8Lut": "Utility - sRGB - Texture",
-      "int16Lut": "Utility - sRGB - Texture",
-      "logLut": "Input - ARRI - V3 LogC (EI800) - Wide Gamut",
-      "floatLut": "ACES - ACES2065-1"
+    "nuke": {
+        "root": {
+            "colorManagement": "OCIO",
+            "OCIO_config": "aces_1.0.3",
+            "workingSpaceLUT": "ACES - ACEScg",
+            "defaultViewerLUT": "OCIO LUTs",
+            "monitorLut": "ACES/sRGB D60 sim.",
+            "int8Lut": "Utility - sRGB - Texture",
+            "int16Lut": "Utility - sRGB - Texture",
+            "logLut": "Input - ARRI - V3 LogC (EI800) - Wide Gamut",
+            "floatLut": "ACES - ACES2065-1"
+        },
+        "viewer": {
+            "viewerProcess": "sRGB D60 sim. (ACES)"
+        },
+        "write": {
+            "render": {
+                "colorspace": "ACES - ACEScg"
+            },
+            "prerender": {
+                "colorspace": "ACES - ACEScg"
+            },
+            "still": {
+                "colorspace": "Utility - Curve - sRGB"
+            }
+        },
+        "read": {
+            "[^-a-zA-Z0-9]beauty[^-a-zA-Z0-9]": "lin_srgb",
+            "[^-a-zA-Z0-9](P|N|Z|crypto)[^-a-zA-Z0-9]": "raw",
+            "[^-a-zA-Z0-9](plateRef)[^-a-zA-Z0-9]": "crv_srgb"
+        }
     },
-    "viewer": {
-      "viewerProcess": "sRGB D60 sim. (ACES)"
-    },
-    "write": {
-      "render": {
-        "colorspace": "ACES - ACEScg"
-      },
-      "prerender": {
-        "colorspace": "ACES - ACEScg"
-      },
-      "still": {
-        "colorspace": "Utility - Curve - sRGB"
-      }
-    }
-  },
   "maya":{
 
   },
