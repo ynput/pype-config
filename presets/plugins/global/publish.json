@@ -9,7 +9,7 @@
                     "preview":  "will be used as preview in ftrack",
                     "reformat": "rescale up to 1920x1080",
                     "bake-lut": "bake LUT into pixels (available path in data)",
-                    "slate-frame": "adding slate frame at beggining of video"
+                    "slate-frame": "adding slate frame at beggining of video",
                     "sequence": "let ffmpeg create sequence of png or jpg (ext needs to be set to png or jpg/jpeg)"
             }
         },
