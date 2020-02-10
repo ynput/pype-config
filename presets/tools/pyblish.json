@@ -5,11 +5,12 @@
                 "In items you can specify {label: value} of intents",
                 "First item in intent gui is `{'< Not Set >': None}` when default is set to `true`."
             ],
-            "default": true,
+            "default": false,
             "items": {
-                "Test": "test",
+                "": "",
                 "WIP": "WIP",
-                "Final": "final"
+                "TEST": "TEST",
+                "FINAL": "FINAL"
             }
         }
     }

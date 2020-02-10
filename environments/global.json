@@ -3,22 +3,26 @@
     "PYPE_STUDIO_CODE": "stu",
     "PYPE_APP_ROOT": "{PYPE_ROOT}/pypeapp",
     "PYPE_MODULE_ROOT": "{PYPE_ROOT}/repos/pype",
-    "STUDIO_SOFT": "{PYPE_STUDIO_SOFTWARE}",
+    "STUDIO_SOFT": "{PYPE_STUDIO_CORE_MOUNT}/soft",
     "FFMPEG_PATH": {
         "windows": "{PYPE_ROOT}/vendor/bin/ffmpeg_exec/windows/bin",
         "linux": "{PYPE_ROOT}/vendor/bin/ffmpeg_exec/linux"
+    },
+    "DJV_PATH": {
+        "windows": "{STUDIO_SOFT}/djv/windows/bin",
+        "linux": "{STUDIO_SOFT}/djv/linux/bin"
     },
     "PATH": [
         "{PYPE_CONFIG}/launchers",
         "{PYPE_CONFIG}/launchers/{PLATFORM}",
         "{PYPE_APP_ROOT}",
-        "{FFMPEG_PATH}",
-        "{PYPE_STUDIO_SOFTWARE}/ffmpeg/bin",
-        "{PYPE_STUDIO_SOFTWARE}/djv/bin"
+        "{DJV_PATH}",
+        "{FFMPEG_PATH}"
+
     ],
-    "PYPE_OCIO_CONFIG": "{PYPE_STUDIO_TOOLS}/OpenColorIO-Configs",
+    "PYPE_OCIO_CONFIG": "{STUDIO_SOFT}/OpenColorIO-Configs",
     "PYTHONPATH": "{VIRTUAL_ENV}/Lib/site-packages",
-    "PYPE_PROJECT_CONFIGS": "",
+    "PYPE_PROJECT_CONFIGS": "{PYPE_ROOT}/../studio-project-configs",
     "PYPE_PYTHON_EXE": {
         "windows": "{VIRTUAL_ENV}/Scripts/python.exe",
         "linux": "{VIRTUAL_ENV}/Scripts/python"

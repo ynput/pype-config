@@ -2,19 +2,19 @@
   "studio": {
     "projects": {
       "path": {
-        "windows": "//kre-p01/share/projects",
+        "windows": "//network/path/to/projects",
         "darwin": "",
         "linux": "/mnt/share/projects"
       },
       "mount": {
-        "windows": "K:/core",
+        "windows": "P:Projects",
         "darwin": "",
         "linux": "/mnt/share/core"
       }
     },
     "core": {
       "path": {
-        "windows": "//kre-c01/share/core",
+        "windows": "//network/path/to/core",
         "darwin": "",
         "linux": "/mnt/share/core"
       },
@@ -22,22 +22,6 @@
         "windows": "K:/core",
         "darwin": "",
         "linux": "/mnt/share/core"
-      }
-    }
-  },
-  "local": {
-    "projects": {
-      "path": {
-        "windows": "D:/projects",
-        "darwin": "",
-        "linux": "/mnt/data/projects"
-      }
-    },
-    "cache": {
-      "path": {
-        "windows": "D:/cache",
-        "darwin": "",
-        "linux": "/mnt/data/cache"
       }
     }
   }
