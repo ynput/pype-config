@@ -13,25 +13,11 @@
         "{anatomy[publish][burninVersion]}"
     ],
     "burnins":{
-        "TOP_LEFT": {
-          "function": "text",
-          "text": "{yy}-{mm}-{dd}"
-        },
-        "TOP_RIGHT": {
-            "function": "text",
-            "text": "{anatomy[publish][burninVersion]}"
-        },
-        "BOTTOM_RIGHT": {
-            "function": "frame_numbers",
-            "text": "{frame_start}-{current_frame}-{frame_end}"
-        },
-        "BOTTOM_CENTERED": {
-            "function": "text",
-            "text": "{asset}"
-        },
-        "BOTTOM_LEFT": {
-            "function": "text",
-            "text": "{username}"
-        }
+        "TOP_LEFT": "{yy}-{mm}-{dd}",
+        "TOP_RIGHT": "{anatomy[publish][burninVersion]}",
+        "TOP_CENTERED": "tc: {timecode}",
+        "BOTTOM_RIGHT": "{frame_start}-{current_frame}-{frame_end}",
+        "BOTTOM_CENTERED": "{asset}",
+        "BOTTOM_LEFT": "{username}"
     }
 }
