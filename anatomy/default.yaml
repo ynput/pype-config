@@ -33,29 +33,35 @@
 #   {representation}: str, example: abc, ma, nk, exr, png, curves, history, metadata
 # '''
 
+version_padding: 3
+version: "v{version:0>{@version_padding}}"
+frame_padding: 4
+frame: "{frame:0>{@frame_padding}}"
+
 resources:
   footage: "{root}/{project[name]}/resources/footage"
   reference: "{root}/{project[name]}/resources/reference"
 
 work:
   folder: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}"
-  file: "{project[code]}_{asset}_{task}_v{version:0>3}<_{comment}>.{ext}"
-  path: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}/{project[code]}_{asset}_{task}_v{version:0>3}<_{comment}>.{ext}"
+  file: "{project[code]}_{asset}_{task}_{@version}<_{comment}>.{ext}"
+  path: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}/{project[code]}_{asset}_{task}_{@version}<_{comment}>.{ext}"
 
 render:
   padding: "4"
-  path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/render/{task}/{subset}/v{version:0>3}/{project[code]}_{asset}_{task}_v{version:0>3}_{subset}<_{output}><.{frame}>.{representation}"
+  path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/render/{task}/{subset}/{@version}/{project[code]}_{asset}_{task}_{@version}_{subset}<_{output}><.{@frame}>.{representation}"
 
 texture:
   path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}"
 
 publish:
-  burninVersion: v{version:0>3}
-  path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}/{project[code]}_{asset}_{subset}_v{version:0>3}<_{output}><.{frame}>.{representation}"
-  folder: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}"
+  burninVersion: "{@version}"
+  file: "{project[code]}_{asset}_{subset}_{@version}<_{output}><.{@frame}>.{representation}"
+  path: "{@folder}/{@file}"
+  folder: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/{@version}"
   thumbnail: "{thumbnail_root}/{project[name]}/{_id}_{thumbnail_type}{ext}"
 
 avalon:
-  workfile: "{project[code]}_{asset}_{task}_v{version:0>3}<_{comment}>"
+  workfile: "{project[code]}_{asset}_{task}_{@version}<_{comment}>"
   work: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}"
-  publish: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}/{project[code]}_{asset}_{subset}_v{version:0>3}<_{output}><.{frame}>.{representation}"
+  publish: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/{@version}/{project[code]}_{asset}_{subset}_{@version}<_{output}><.{@frame}>.{representation}"
