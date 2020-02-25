@@ -55,6 +55,10 @@ publish:
   folder: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}"
   thumbnail: "{thumbnail_root}/{project[name]}/{_id}_{thumbnail_type}{ext}"
 
+master:
+  path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/master/{project[code]}_{asset}_{subset}_master<_{output}><.{frame}>.{representation}"
+  folder: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/master"
+
 avalon:
   workfile: "{project[code]}_{asset}_{task}_v{version:0>3}<_{comment}>"
   work: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}"
