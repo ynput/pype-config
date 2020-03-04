@@ -41,8 +41,8 @@
     },
     "NukeSubmitDeadline": {
         "deadline_priority": 50,
-        "deadline_pool": "2d",
-        "deadline_pool_secondary": "2d",
+        "deadline_pool": "",
+        "deadline_pool_secondary": "",
         "deadline_chunk_size": 1
         }
 }
