@@ -50,7 +50,7 @@ texture:
   path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}"
 
 publish:
-  burninVersion: v{version:0>3}
+  burninVersion: "v{version:0>3}"
   path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}/{project[code]}_{asset}_{subset}_v{version:0>3}<_{output}><.{frame}>.{representation}"
   folder: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/v{version:0>3}"
   thumbnail: "{thumbnail_root}/{project[name]}/{_id}_{thumbnail_type}{ext}"
