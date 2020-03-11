@@ -13,7 +13,7 @@
                     "-crf 18",
                     "-intra"
                 ],
-                "tags": ["burnin", "preview", "reformat", "bake-lut"],
+                "tags": ["burnin", "preview"],
                 "ext": "mov"
             }
         }
