@@ -10,7 +10,8 @@
                 ],
                 "codec": [
                     "-pix_fmt yuv420p",
-                    "-crf 18"
+                    "-crf 18",
+                    "-intra"
                 ],
                 "tags": ["burnin", "preview", "reformat", "bake-lut"],
                 "ext": "mov"
