@@ -44,7 +44,7 @@ work:
 
 render:
   padding: "4"
-  path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/render/{task}/{subset}/v{version:0>3}/{project[code]}_{asset}_{task}_v{version:0>3}_{subset}<_{output}><.{frame}>.{representation}"
+  path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/render/{subset}/v{version:0>3}/{project[code]}_{asset}_{task}_v{version:0>3}_{subset}<_{output}><.{frame}>.{representation}"
 
 texture:
   path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}"
