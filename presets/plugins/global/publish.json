@@ -2,6 +2,8 @@
     "ExtractReview": {
         "__documentation__": "http://pype.club/docs/admin_presets_plugins",
         "ext_filter": ["exr", "jpg", "jpeg", "mov", "png", "dpx", "mp4"],
+        "to_width": 1920,
+        "to_height": 1080,
         "outputs": {
             "h264": {
                 "families": ["render", "ftrack"],
