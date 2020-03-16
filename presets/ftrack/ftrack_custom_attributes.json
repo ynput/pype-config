@@ -62,7 +62,6 @@
     "config": {
         "multiselect": false,
         "data": [
-            {"": "-"},
             {"test": "Test"},
             {"wip": "WIP"},
             {"final": "Final"}
