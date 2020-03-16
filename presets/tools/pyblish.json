@@ -8,9 +8,9 @@
             "default": "wip",
             "items": {
                 "": "",
-                "WIP": "WIP",
-                "TEST": "TEST",
-                "FINAL": "FINAL"
+                "WIP": "wip",
+                "TEST": "test",
+                "FINAL": "final"
             }
         }
     }
