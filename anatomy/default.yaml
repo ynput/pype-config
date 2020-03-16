@@ -3,9 +3,6 @@
 #   - all keys which are in <> are optional - if they are not in dict(data) then they are ignored
 #   - all capital keys {ENV_VAR} are computed first and eather coming from outside or inside
 #
-# keys comming from outside:
-#   {PYPE_STUDIO_PROJECTS_WORK}: str, referencing template env-var from `system/locations.json`
-#
 #   {project[name]}: str, full name of the project
 #             example: C001_cool_commercial, D001_projectx
 #
