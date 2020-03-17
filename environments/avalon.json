@@ -1,6 +1,9 @@
 {
   "AVALON_CONFIG": "pype",
-  "AVALON_PROJECTS": "{PYPE_STUDIO_PROJECTS_MOUNT}",
+  "AVALON_PROJECTS": {
+      "windows": "K:/network/path/to/core",
+      "linux": "/mnt/share/projects"
+  },
   "AVALON_USERNAME": "avalon",
   "AVALON_PASSWORD": "secret",
   "AVALON_DEBUG": "1",
