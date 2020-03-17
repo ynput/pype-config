@@ -4,7 +4,7 @@
     "PYPE_APP_ROOT": "{PYPE_ROOT}/pypeapp",
     "PYPE_MODULE_ROOT": "{PYPE_ROOT}/repos/pype",
     "PYPE_PROJECT_PLUGINS": "",
-    "STUDIO_SOFT": "{PYPE_STUDIO_CORE_MOUNT}/soft",
+    "STUDIO_SOFT": "{PYPE_CORE_MOUNT}/soft",
     "FFMPEG_PATH": {
         "windows": "{PYPE_ROOT}/vendor/bin/ffmpeg_exec/windows/bin",
         "linux": "{PYPE_ROOT}/vendor/bin/ffmpeg_exec/linux"
