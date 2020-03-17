@@ -1,0 +1,14 @@
+{
+    "projects": {
+        "path": {
+          "windows": "D:/projects",
+            "darwin": "",
+            "linux": "/mnt/share/projects"
+        },
+        "mount": {
+          "windows": "D:/projects",
+            "darwin": "",
+            "linux": "/mnt/share/core"
+        }
+    }
+}
