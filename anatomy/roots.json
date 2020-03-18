@@ -1,12 +1,12 @@
 {
     "projects": {
         "path": {
-          "windows": "D:/projects",
+            "windows": "K:/network/path/to/core",
             "darwin": "",
             "linux": "/mnt/share/projects"
         },
         "mount": {
-          "windows": "D:/projects",
+            "windows": "//network/path/to/core",
             "darwin": "",
             "linux": "/mnt/share/projects"
         }
