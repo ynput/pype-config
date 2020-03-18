@@ -14,7 +14,7 @@
     ],
     "burnins":{
         "TOP_LEFT": "{yy}-{mm}-{dd}",
-        "TOP_RIGHT": "{anatomy[publish][burninVersion]}",
+        "TOP_RIGHT": "{anatomy[publish][version]}",
         "TOP_CENTERED": "tc: {timecode}",
         "BOTTOM_RIGHT": "{frame_start}-{current_frame}-{frame_end}",
         "BOTTOM_CENTERED": "{asset}",
