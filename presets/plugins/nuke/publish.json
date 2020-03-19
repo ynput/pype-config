@@ -38,5 +38,11 @@
             "viewer_lut_raw": "set to `true` if you Input_process node on   viewer is used with baked screen space, so you have to look with RAW viewer lut. Else just keep it on `false`"
         },
         "viewer_lut_raw": false
-    }
+    },
+    "NukeSubmitDeadline": {
+        "deadline_priority": 50,
+        "deadline_pool": "",
+        "deadline_pool_secondary": "",
+        "deadline_chunk_size": 1
+        }
 }

@@ -7,7 +7,7 @@
         "linux": "/mnt/share/projects"
       },
       "mount": {
-        "windows": "P:Projects",
+        "windows": "P:/mounted/path/to/projects",
         "darwin": "",
         "linux": "/mnt/share/core"
       }
@@ -19,7 +19,7 @@
         "linux": "/mnt/share/core"
       },
       "mount": {
-        "windows": "K:/core",
+        "windows": "K:/network/path/to/core",
         "darwin": "",
         "linux": "/mnt/share/core"
       }
