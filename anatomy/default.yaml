@@ -29,13 +29,9 @@
 #
 #   {representation}: str, example: abc, ma, nk, exr, png, curves, history, metadata
 # '''
-root_type: "projects"
-root: "{root[{@root_type}]}"
-version_padding: 3
-version: "v{version:0>{@version_padding}}"
-frame_padding: 4
-frame: "{frame:0>{@frame_padding}}"
-
+root_name: "projects"
+root_type: "mount"
+root: "{root[{@root_name}][{@root_type}]}"
 version_padding: 3
 version: "v{version:0>{@version_padding}}"
 frame_padding: 4
@@ -46,7 +42,7 @@ resources:
   reference: "{@root}/{project[name]}/resources/reference"
 
 work:
-  root_type: "another_projects"
+  root_type: "path"
   folder: "{@root}/{project[name]}/{hierarchy}/{asset}/work/{task}"
   file: "{project[code]}_{asset}_{task}_{@version}<_{comment}>.{ext}"
   path: "{@folder}/{@file}"
