@@ -39,7 +39,7 @@
                     "datatype": "16 bit half",
                     "compression": "Zip (1 scanline)",
                     "create_directories": true,
-                    "autocrop": true,
+                    "autocrop": false,
                     "tile_color": "0xc9892aff",
                     "channels": "rgba"
                 },
