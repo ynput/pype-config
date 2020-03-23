@@ -23,6 +23,11 @@
             "still": {
                 "colorspace": "sRGB"
             }
+        },
+        "read": {
+            "[^-a-zA-Z0-9]beauty[^-a-zA-Z0-9]": "linear",
+            "[^-a-zA-Z0-9](P|N|Z|crypto)[^-a-zA-Z0-9]": "linear",
+            "[^-a-zA-Z0-9](plateRef)[^-a-zA-Z0-9]": "sRGB"
         }
     },
     "maya": {

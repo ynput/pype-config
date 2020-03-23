@@ -3,13 +3,14 @@
         "intents": {
             "__description__": [
                 "In items you can specify {label: value} of intents",
-                "First item in intent gui is `{'< Not Set >': None}` when default is set to `true`."
+                "`default` may be used for setting default value."
             ],
-            "default": true,
+            "default": "wip",
             "items": {
-                "Test": "test",
-                "WIP": "WIP",
-                "Final": "final"
+                "": "",
+                "wip": "WIP",
+                "test": "TEST",
+                "final": "FINAL"
             }
         }
     }

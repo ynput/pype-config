@@ -36,7 +36,6 @@
             {"nukestudio_11.2": "NukeStudio 11.2"},
             {"nukestudio_11.3": "NukeStudio 11.3"},
             {"nukestudio_12.0": "NukeStudio 12.0"},
-            {"deadline": "Deadline"},
             {"houdini_16.5": "Houdini 16.5"},
             {"houdini_17": "Houdini 17"},
             {"houdini_18": "Houdini 18"},
@@ -63,7 +62,6 @@
     "config": {
         "multiselect": false,
         "data": [
-            {"": "-"},
             {"test": "Test"},
             {"wip": "WIP"},
             {"final": "Final"}
@@ -157,20 +155,5 @@
     "is_hierarchical": true,
     "group": "avalon",
     "default": null
-}, {
-    "label": "intent",
-    "key": "intent",
-    "group": "avalon",
-    "entity_type": "assetversion",
-    "type": "enumerator",
-    "config": {
-        "multiselect": false,
-        "data": [
-            {"": ""},
-            {"Test": "test"},
-            {"WIP": "WIP"},
-            {"Final": "final"}
-            ]
-        }
-    }
+}
 ]

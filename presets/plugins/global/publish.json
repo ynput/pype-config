@@ -1,63 +1,21 @@
 {
     "ExtractReview": {
-        "__documentation__": {
-            "add letter_box": {
-                "letter_box": 2.35
-            },
-            "add folowing tags": {
-                    "burnin":   "will add metadata info to image",
-                    "preview":  "will be used as preview in ftrack",
-                    "reformat": "rescale up to 1920x1080",
-                    "bake-lut": "bake LUT into pixels (available path in data)",
-            }
-        },
+        "__documentation__": "http://pype.club/docs/admin_presets_plugins",
         "ext_filter": ["exr", "jpg", "jpeg", "mov", "png", "dpx", "mp4"],
+        "to_width": 1920,
+        "to_height": 1080,
         "outputs": {
             "h264": {
-                "families": ["write", "ftrack"],
+                "families": ["render", "ftrack"],
                 "input": [
                     "-gamma 2.2"
                 ],
                 "codec": [
                     "-pix_fmt yuv420p",
-                    "-crf 18"
+                    "-crf 18",
+                    "-intra"
                 ],
-                "letter_box": 2.35,
-                "output": [
-                    "-vf scale=1920x1080:flags=lanczos,setsar=1",
-                    "-pix_fmt yuv420p",
-                    "-crf 18"
-                ],
-                "output": [],
-                "tags": ["burnin", "reformat", "bake-lut"],
-                "ext": "mov"
-            },
-            "edit": {
-                "families": ["write"],
-                "input": [],
-                "codec": [
-                    "-vcodec dnxhd",
-                    "-profile:v dnxhr_hq",
-                    "-pix_fmt yuv422p",
-                    "-b:v 120M",
-                    "-ar 48000",
-                    "-ac 2",
-                    "-qmax 51"
-                ],
-                "output": [],
-                "tags": [],
-                "ext": "mxf"
-            },
-            "wipmov": {
-                "families": ["write"],
-                "input": [],
-                "codec": [
-                    "-c:v prores_ks",
-                    "-profile:v 3"
-                ],
-                "letter_box": 2.35,
-                "output": [],
-                "tags": ["burnin", "bake-lut"],
+                "tags": ["burnin", "preview"],
                 "ext": "mov"
             }
         }
