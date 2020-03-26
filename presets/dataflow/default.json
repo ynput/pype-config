@@ -37,7 +37,7 @@
                     "file_type": "exr",
                     "datatype": "16 bit half",
                     "compression": "Zip (1 scanline)",
-                    "autocrop": true,
+                    "autocrop": false,
                     "tile_color": "0xc9892aff",
                     "channels": "rgba"
                 },

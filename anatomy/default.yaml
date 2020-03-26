@@ -58,6 +58,10 @@ publish:
   path: "{@folder}/{@file}"
   thumbnail: "{thumbnail_root}/{project[name]}/{_id}_{thumbnail_type}{ext}"
 
+master:
+  path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/master/{project[code]}_{asset}_{subset}_master<_{output}><.{frame}>.{representation}"
+  folder: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/master"
+
 avalon:
   workfile: "{project[code]}_{asset}_{task}_{@version}<_{comment}>"
   work: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}"
