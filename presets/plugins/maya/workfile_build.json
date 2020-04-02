@@ -3,13 +3,21 @@
 
     "current_context": [{
         "subset_name_filters": [".+[Mm]ain"],
-        "families": ["animation", "pointcache", "model"],
+        "families": ["model"],
         "repre_names": ["abc", "ma"],
         "loaders": ["ReferenceLoader"]
     }, {
+        "families": ["animation", "pointcache"],
+        "repre_names": ["abc"],
+        "loaders": ["ReferenceLoader"]
+    },{
         "families": ["rendersetup"],
         "repre_names": ["json"],
         "loaders": ["RenderSetupLoader"]
+    }, {
+        "families": ["camera"],
+        "repre_names": ["abc"],
+        "loaders": ["ReferenceLoader"]
     }],
 
     "linked_assets": [{
