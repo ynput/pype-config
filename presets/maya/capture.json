@@ -93,5 +93,16 @@
         "subdivSurfaces": false,
         "textures": false,
         "twoSidedLighting": true
+    },
+    "Camera Options": {
+        "displayGateMask": false,
+        "displayResolution": false,
+        "displayFilmGate": false,
+        "displayFieldChart": false,
+        "displaySafeAction": false,
+        "displaySafeTitle": false,
+        "displayFilmPivot": false,
+        "displayFilmOrigin": false,
+        "overscan": 1.0
     }
 }
