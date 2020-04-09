@@ -21,14 +21,6 @@
         "{FFMPEG_PATH}"
 
     ],
-    "PYPE_PROJECTS_PATH": {
-        "windows": "K:/network/path/to/core",
-        "linux": "/mnt/share/projects"
-    },
-    "PYPE_PROJECTS_MOUNT": {
-        "windows": "//network/path/to/core",
-        "linux": "/mnt/share/projects"
-    },
     "PYPE_OCIO_CONFIG": "{STUDIO_SOFT}/OpenColorIO-Configs",
     "PYTHONPATH": "{VIRTUAL_ENV}/Lib/site-packages",
     "PYPE_PROJECT_CONFIGS": "{PYPE_SETUP_PATH}/../studio-project-configs",
