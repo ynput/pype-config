@@ -1,5 +1,5 @@
 {
-  "APORT_PATH": "{PYPE_ROOT}/repos/avalon-core/setup/aport/pythonpath",
+  "APORT_PATH": "{PYPE_SETUP_PATH}/repos/avalon-core/setup/aport/pythonpath",
   "PICO_IP": "{AVALON_LOCATION}",
   "PICO_PORT": 4242,
   "PICO_DEBUG": false,
