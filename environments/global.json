@@ -1,10 +1,11 @@
 {
     "PYPE_STUDIO_NAME": "Studio Name",
     "PYPE_STUDIO_CODE": "stu",
+    "PYP_SETUP_ROOT": "../",
     "PYPE_APP_ROOT": "{PYPE_SETUP_PATH}/pypeapp",
     "PYPE_MODULE_ROOT": "{PYPE_SETUP_PATH}/repos/pype",
     "PYPE_PROJECT_PLUGINS": "",
-    "STUDIO_SOFT": "{PYPE_CORE_MOUNT}/soft",
+    "STUDIO_SOFT": "{PYP_SETUP_ROOT}/soft",
     "FFMPEG_PATH": {
         "windows": "{PYPE_SETUP_PATH}/vendor/bin/ffmpeg_exec/windows/bin",
         "linux": "{PYPE_SETUP_PATH}/vendor/bin/ffmpeg_exec/linux"
