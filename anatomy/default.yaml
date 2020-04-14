@@ -62,8 +62,3 @@ publish:
 master:
   path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/master/{project[code]}_{asset}_{subset}_master<_{output}><.{frame}>.{representation}"
   folder: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/master"
-
-avalon:
-  work: "{@root}/{project[name]}/{hierarchy}/{asset}/work/{task}"
-  workfile: "{project[code]}_{asset}_{task}_{@version}<_{comment}>"
-  publish: "{@root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/{@version}/{project[code]}_{asset}_{subset}_{@version}<_{output}><.{@frame}>.{representation}"
