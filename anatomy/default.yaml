@@ -29,7 +29,7 @@
 #
 #   {representation}: str, example: abc, ma, nk, exr, png, curves, history, metadata
 # '''
-root_name: "projects"
+root_name: "publish"
 root: "{root[{@root_name}]}"
 version_padding: 3
 version: "v{version:0>{@version_padding}}"
@@ -41,6 +41,7 @@ resources:
   reference: "{@root}/{project[name]}/resources/reference"
 
 work:
+  root_name: "work"
   folder: "{@root}/{project[name]}/{hierarchy}/{asset}/work/{task}"
   file: "{project[code]}_{asset}_{task}_{@version}<_{comment}>.{ext}"
   path: "{@folder}/{@file}"
@@ -60,5 +61,6 @@ publish:
   thumbnail: "{thumbnail_root}/{project[name]}/{_id}_{thumbnail_type}{ext}"
 
 master:
-  path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/master/{project[code]}_{asset}_{subset}_master<_{output}><.{frame}>.{representation}"
-  folder: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/master"
+  folder: "{@root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/master"
+  file: "{project[code]}_{asset}_{subset}_master<_{output}><.{frame}>.{representation}"
+  path: "{@folder}/{@file}"
