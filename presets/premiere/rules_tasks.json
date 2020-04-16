@@ -1,13 +1,24 @@
 {
-    "defaultTasks": ["compositing"],
-    "taskHost":{
-        "compositing": "nuke",
-        "3d": "maya",
-        "roto": "nukeAssist"
+    "defaultTasks": ["Layout", "Animation"],
+    "taskHost": {
+        "Layout": "premiere",
+        "Animation": "celaction"
     },
     "taskSubsets": {
-        "compositing": ["nukescript", "read", "write"],
-        "3d": ["scene", "camera", "imageplane"],
-        "roto": ["nukescript", "read", "write"]
+        "Layout": ["reference", "audio"],
+        "Animation": ["audio"]
+    },
+    "representations": {
+        "reference": {
+            "preset": "h264",
+            "representation": "mp4"
+        },
+        "thumbnail": {
+            "representation": "png"
+        },
+        "audio": {
+            "preset": "48khz",
+            "representation": "wav"
+        }
     }
 }
