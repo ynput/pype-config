@@ -36,7 +36,7 @@ frame: "{frame:0>{@frame_padding}}"
 
 resources:
   footage: "{root[work]}/{project[name]}/resources/footage"
-  reference: "{@root}/{project[name]}/resources/reference"
+  reference: "{root[work]}/{project[name]}/resources/reference"
 
 work:
   folder: "{root[work]}/{project[name]}/{hierarchy}/{asset}/work/{task}"
