@@ -14,7 +14,7 @@
             "representation": "mp4"
         },
         "thumbnail": {
-            "representation": "png"
+            "representation": "jpg"
         },
         "audio": {
             "preset": "48khz",
