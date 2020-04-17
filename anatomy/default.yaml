@@ -29,38 +29,35 @@
 #
 #   {representation}: str, example: abc, ma, nk, exr, png, curves, history, metadata
 # '''
-root_name: "publish"
-root: "{root[{@root_name}]}"
 version_padding: 3
 version: "v{version:0>{@version_padding}}"
 frame_padding: 4
 frame: "{frame:0>{@frame_padding}}"
 
 resources:
-  footage: "{@root}/{project[name]}/resources/footage"
+  footage: "{root[work]}/{project[name]}/resources/footage"
   reference: "{@root}/{project[name]}/resources/reference"
 
 work:
-  root_name: "work"
-  folder: "{@root}/{project[name]}/{hierarchy}/{asset}/work/{task}"
+  folder: "{root[work]}/{project[name]}/{hierarchy}/{asset}/work/{task}"
   file: "{project[code]}_{asset}_{task}_{@version}<_{comment}>.{ext}"
   path: "{@folder}/{@file}"
 
 render:
-  folder: "{@root}/{project[name]}/{hierarchy}/{asset}/publish/render/{subset}/{@version}"
+  folder: "{root[work]}/{project[name]}/{hierarchy}/{asset}/publish/render/{subset}/{@version}"
   file: "{project[code]}_{asset}_{task}_{@version}_{subset}<_{output}><.{@frame}>.{representation}"
   path: "{@folder}/{@file}"
 
 texture:
-  path: "{@root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}"
+  path: "{root[work]}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}"
 
 publish:
-  folder: "{@root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/{@version}"
+  folder: "{root[publish]}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/{@version}"
   file: "{project[code]}_{asset}_{subset}_{@version}<_{output}><.{@frame}>.{representation}"
   path: "{@folder}/{@file}"
   thumbnail: "{thumbnail_root}/{project[name]}/{_id}_{thumbnail_type}{ext}"
 
 master:
-  folder: "{@root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/master"
+  folder: "{root[publish]}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/master"
   file: "{project[code]}_{asset}_{subset}_master<_{output}><.{frame}>.{representation}"
   path: "{@folder}/{@file}"
