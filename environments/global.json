@@ -1,7 +1,6 @@
 {
     "PYPE_STUDIO_NAME": "Studio Name",
     "PYPE_STUDIO_CODE": "stu",
-    "PYP_SETUP_ROOT": "../",
     "PYPE_APP_ROOT": "{PYPE_SETUP_PATH}/pypeapp",
     "PYPE_MODULE_ROOT": "{PYPE_SETUP_PATH}/repos/pype",
     "PYPE_PROJECT_PLUGINS": "",
