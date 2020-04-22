@@ -1,14 +1,10 @@
 {
     "defaultTasks": ["Layout", "Animation"],
-    "taskHost": {
-        "Layout": "premiere",
-        "Animation": "celaction"
-    },
-    "taskSubsets": {
+    "taskToSubsets": {
         "Layout": ["reference", "audio"],
         "Animation": ["audio"]
     },
-    "representations": {
+    "subsetToRepresentations": {
         "reference": {
             "preset": "h264",
             "representation": "mp4"
