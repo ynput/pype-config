@@ -1,6 +1,0 @@
-{
-  "statics": {
-      "/ppro": "{PYPE_MODULE_ROOT}/pype/premiere/ppro"
-  },
-  "rest_api": true
-}
