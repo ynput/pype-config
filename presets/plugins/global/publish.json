@@ -16,7 +16,6 @@
                     },
                     "width": 1920,
                     "height": 1080,
-                    "aspect_ratio": 1,
                     "ext": ".mov",
                     "ffmpeg_args": {
                         "input": [
