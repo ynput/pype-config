@@ -22,7 +22,8 @@
                         "input": [
                             "-gamma 2.2"
                         ],
-                        "filters": [],
+                        "video_filters": [],
+                        "audio_filters": [],
                         "output": [
                             "-pix_fmt yuv420p",
                             "-crf 18",
