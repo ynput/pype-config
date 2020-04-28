@@ -10,6 +10,7 @@
             "representation": "mp4"
         },
         "thumbnail": {
+            "preset": "jpeg_thumb",
             "representation": "jpg"
         },
         "audio": {
