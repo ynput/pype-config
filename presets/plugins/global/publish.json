@@ -67,15 +67,9 @@
         }, {
             "families": ["animation", "pointcache", "model"],
             "tasks": ["animation"],
-            "burnins": {
-                "burnin": {
-                    "options": {
-                        "opacity": 0.5
-                    }
-                }
-            }
+            "burnins": {}
         }, {
-            "family": ["render"],
+            "families": ["render"],
             "tasks": ["compositing"],
             "burnins": {
                 "burnin": {
@@ -85,7 +79,9 @@
                     "BOTTOM_LEFT": "{username}"
                 },
                 "burnin_ftrack": {
-                    "families": ["ftrack"],
+                    "filter": {
+                        "families": ["ftrack"]
+                    },
                     "BOTTOM_RIGHT": "{frame_start}-{current_frame}-{frame_end}",
                     "BOTTOM_LEFT": "{username}"
                 },
