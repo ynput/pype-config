@@ -1,0 +1,8 @@
+executable = "celaction_remote"
+schema = "avalon-core:application-1.0"
+application_dir = "celaction"
+label = "CelAction2D"
+ftrack_label = "CelAction2D remote"
+icon ="celaction_remote"
+launch_hook = "pype/hooks/celaction/prelaunch.py/CelactionPrelaunchHook"
+ftrack_icon = '{}/app_icons/celaction_remote.png'
