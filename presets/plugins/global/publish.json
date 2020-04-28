@@ -33,5 +33,78 @@
                 }
             }
         }]
+    },
+    "ExtractBurnin": {
+        "options": {
+            "opacity": 1,
+            "x_offset": 5,
+            "y_offset": 5,
+            "bg_padding": 5,
+            "bg_opacity": 0.5,
+            "font_size": 42
+        },
+        "fields": {
+            "TOP_LEFT": "{yy}-{mm}-{dd}",
+            "TOP_RIGHT": "v{version:0>3}"
+        },
+        "profiles": [{
+            "burnins": {
+                "burnin": {
+                    "options": {
+                        "opacity": 1
+                    },
+                    "TOP_LEFT": "{username}"
+                }
+           }
+        }, {
+            "families": ["animation", "pointcache", "model"],
+            "tasks": ["animation"],
+            "burnins": {
+                "burnin": {
+                    "options": {
+                        "opacity": 0.5
+                    }
+                }
+            }
+        }, {
+            "family": ["render"],
+            "tasks": ["compositing"],
+            "burnins": {
+                "burnin": {
+                    "TOP_LEFT": "{yy}-{mm}-{dd}",
+                    "TOP_RIGHT": "v{version:0>3}",
+                    "BOTTOM_RIGHT": "{frame_start}-{current_frame}-{frame_end}",
+                    "BOTTOM_LEFT": "{username}"
+                },
+                "burnin_ftrack": {
+                    "families": ["ftrack"],
+                    "BOTTOM_RIGHT": "{frame_start}-{current_frame}-{frame_end}",
+                    "BOTTOM_LEFT": "{username}"
+                },
+                "burnin_v2": {
+                    "options": {
+                        "opacity": 0.5
+                    },
+                    "TOP_LEFT": "{yy}-{mm}-{dd}",
+                    "TOP_RIGHT": "v{version:0>3}"
+                }
+            }
+        }, {
+            "families": ["rendersetup"],
+            "burnins": {
+                "burnin": {
+                    "TOP_LEFT": "{yy}-{mm}-{dd}",
+                    "BOTTOM_LEFT": "{username}"
+                }
+            }
+        }, {
+            "tasks": ["animation"],
+            "burnins": {
+                "burnin": {
+                    "TOP_RIGHT": "v{version:0>3}",
+                    "BOTTOM_RIGHT": "{frame_start}-{current_frame}-{frame_end}"
+                }
+            }
+        }]
     }
 }
