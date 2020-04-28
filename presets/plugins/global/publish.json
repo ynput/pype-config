@@ -10,7 +10,7 @@
             "hosts": ["maya", "nuke"],
             "outputs": {
                 "h264": {
-                    "output_filter": {
+                    "filter": {
                         "families": ["render", "ftrack"],
                         "tags": []
                     },
