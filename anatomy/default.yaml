@@ -1,42 +1,8 @@
-# '''
-# description:
-#   - all keys which are in <> are optional - if they are not in dict(data) then they are ignored
-#   - all capital keys {ENV_VAR} are computed first and eather coming from outside or inside
-#
-#   {project[name]}: str, full name of the project
-#             example: C001_cool_commercial, D001_projectx
-#
-#   {project[code]}: str, shorter version of project name 2-4 letters usually
-#             example: ccm, prj, dogz
-#
-#   {AVALON_SILO}: str, the highest folder in the hierarchy of the asset, legacy
-#
-#   {asset}: str, name of the entity, e.g. sh010, bob, 101sh020
-#             example: sh010, bob, car-big, 101sh050, sq02
-#
-#   {asset.type}: str, type of the entity,
-#             example: shot, asset, sequence, folder
-#
-#   {family}: str, general type of the published file
-#             example: model, cache, render, look, rig
-#
-#   {subset}: str, a published part of an asset. Always contains family string too
-#             example: modelMain, modelDamaged, renderMain, lookMain
-#
-#   {version}: int, example: 14
-#
-#   {frame}: int, a frame number in image sequences, example: 0001, 989, 49593
-#
-#   {representation}: str, example: abc, ma, nk, exr, png, curves, history, metadata
-# '''
+
 version_padding: 3
 version: "v{version:0>{@version_padding}}"
 frame_padding: 4
 frame: "{frame:0>{@frame_padding}}"
-
-resources:
-  footage: "{root[work]}/{project[name]}/resources/footage"
-  reference: "{root[work]}/{project[name]}/resources/reference"
 
 work:
   folder: "{root[work]}/{project[name]}/{hierarchy}/{asset}/work/{task}"
