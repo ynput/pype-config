@@ -22,5 +22,13 @@
               "ext": "mov"
           }
       }
+  },
+    "IntegrateAssetNew": {
+        "template_name_profiles": {
+            "publish": {
+                "families": [],
+                "tasks": []
+            }
+        }
     }
-  }
+}
