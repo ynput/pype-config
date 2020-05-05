@@ -1,10 +1,10 @@
 {
   "ExtractCelactionDeadline": {
-    "deadline_department": "animation",
+    "deadline_department": "",
     "deadline_priority": 50,
-    "deadline_pool": "animation_2d",
-    "deadline_pool_secondary": "medium",
-    "deadline_group": "celaction",
-    "deadline_chunk_size": 100
+    "deadline_pool": "",
+    "deadline_pool_secondary": "",
+    "deadline_group": "",
+    "deadline_chunk_size": 10
     }
 }

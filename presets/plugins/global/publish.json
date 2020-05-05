@@ -22,5 +22,10 @@
               "ext": "mov"
           }
       }
+    },
+    "ProcessSubmittedJobOnFarm": {
+        "deadline_department": "",
+        "deadline_pool": "",
+        "deadline_group": ""
     }
   }
