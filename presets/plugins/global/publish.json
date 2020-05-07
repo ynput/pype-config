@@ -28,6 +28,9 @@
             "publish": {
                 "families": [],
                 "tasks": []
+            },
+            "render": {
+                "families": ["review", "render", "prerender"]
             }
         }
     }
