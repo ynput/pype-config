@@ -11,6 +11,7 @@
         "Timers Manager": true,
         "Rest Api": true,
         "Premiere Communicator": true
+        "WebSocket Server": true
     },
     "item_import": [
         {
@@ -67,6 +68,11 @@
             "title": "Adobe Communicator",
             "type": "module",
             "import_path": "pype.services.adobe_communicator",
+            "fromlist": ["pype", "services"]
+        }, {
+            "title": "WebSocket Server",
+            "type": "module",
+            "import_path": "pype.services.websocket_server",
             "fromlist": ["pype", "services"]
         }
     ]
