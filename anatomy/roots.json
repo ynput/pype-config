@@ -1,0 +1,12 @@
+{
+    "work": {
+        "windows": "P:/projects/work",
+        "linux": "/mnt/share/projects/work",
+        "darwin": "/darwin/path/work"
+    },
+    "publish": {
+        "windows": "P:/projects/publish",
+        "linux": "/mnt/share/projects/publish",
+        "darwin": "/darwin/path/publish"
+    }
+}
