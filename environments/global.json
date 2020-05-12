@@ -1,14 +1,14 @@
 {
     "PYPE_STUDIO_NAME": "Studio Name",
     "PYPE_STUDIO_CODE": "stu",
-    "PYPE_APP_ROOT": "{PYPE_ROOT}/pypeapp",
-    "PYPE_MODULE_ROOT": "{PYPE_ROOT}/repos/pype",
+    "PYPE_APP_ROOT": "{PYPE_SETUP_PATH}/pypeapp",
+    "PYPE_MODULE_ROOT": "{PYPE_SETUP_PATH}/repos/pype",
     "PYPE_PROJECT_PLUGINS": "",
-    "STUDIO_SOFT": "{PYPE_STUDIO_CORE_MOUNT}/soft",
+    "STUDIO_SOFT": "{PYP_SETUP_ROOT}/soft",
     "FFMPEG_PATH": {
-        "windows": "{PYPE_ROOT}/vendor/bin/ffmpeg_exec/windows/bin",
-        "darwin": "{PYPE_ROOT}/vendor/bin/ffmpeg_exec/darwin/bin",
-        "linux": "{PYPE_ROOT}/vendor/bin/ffmpeg_exec/linux"
+        "windows": "{PYPE_SETUP_PATH}/vendor/bin/ffmpeg_exec/windows/bin",
+        "darwin": "{PYPE_SETUP_PATH}/vendor/bin/ffmpeg_exec/darwin/bin",
+        "linux": "{PYPE_SETUP_PATH}/vendor/bin/ffmpeg_exec/linux"
     },
     "DJV_PATH": {
         "windows": "{STUDIO_SOFT}/djv/windows/bin",
@@ -24,7 +24,7 @@
     ],
     "PYPE_OCIO_CONFIG": "{STUDIO_SOFT}/OpenColorIO-Configs",
     "PYTHONPATH": "{VIRTUAL_ENV}/Lib/site-packages",
-    "PYPE_PROJECT_CONFIGS": "{PYPE_ROOT}/../studio-project-configs",
+    "PYPE_PROJECT_CONFIGS": "{PYPE_SETUP_PATH}/../studio-project-configs",
     "PYPE_PYTHON_EXE": {
         "windows": "{VIRTUAL_ENV}/Scripts/python.exe",
         "linux": "{VIRTUAL_ENV}/Scripts/python",
