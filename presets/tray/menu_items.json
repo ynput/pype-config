@@ -10,7 +10,7 @@
         "Idle Manager": true,
         "Timers Manager": true,
         "Rest Api": true,
-        "Premiere Communicator": true
+        "Premiere Communicator": true,
         "WebSocket Server": true
     },
     "item_import": [
