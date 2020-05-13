@@ -3,24 +3,24 @@
     "projects": {
       "path": {
         "windows": "//network/path/to/projects",
-        "darwin": "",
+        "darwin": "/Volumes/path/to/projects",
         "linux": "/mnt/share/projects"
       },
       "mount": {
         "windows": "P:/mounted/path/to/projects",
-        "darwin": "",
+        "darwin": "/Volumes/path/to/projects",
         "linux": "/mnt/share/core"
       }
     },
     "core": {
       "path": {
         "windows": "//network/path/to/core",
-        "darwin": "",
+        "darwin": "/Volumes/path/to/core",
         "linux": "/mnt/share/core"
       },
       "mount": {
         "windows": "K:/network/path/to/core",
-        "darwin": "",
+        "darwin": "/Volumes/path/to/core",
         "linux": "/mnt/share/core"
       }
     }
