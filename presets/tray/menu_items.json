@@ -9,7 +9,8 @@
         "Logging": true,
         "Idle Manager": true,
         "Timers Manager": true,
-        "Rest Api": true
+        "Rest Api": true,
+        "Premiere Communicator": true
     },
     "item_import": [
         {
@@ -62,6 +63,11 @@
             "type": "module",
             "import_path": "pype.services.rest_api",
             "fromlist": ["pype","services"]
+        }, {
+            "title": "Adobe Communicator",
+            "type": "module",
+            "import_path": "pype.services.adobe_communicator",
+            "fromlist": ["pype", "services"]
         }
     ]
 }

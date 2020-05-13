@@ -36,7 +36,7 @@
                                 "-intra"
                             ]
                         },
-                        "tags": ["burnin", "preview"]
+                      "tags": ["burnin", "preview"]
                     }
                 }
             }
@@ -63,7 +63,7 @@
                     },
                     "TOP_LEFT": "{username}"
                 }
-           }
+            }
         }, {
             "families": ["animation", "pointcache", "model"],
             "tasks": ["animation"],
@@ -110,5 +110,16 @@
                 }
             }
         }]
+    },
+    "IntegrateAssetNew": {
+        "template_name_profiles": {
+            "publish": {
+                "families": [],
+                "tasks": []
+            },
+            "render": {
+                "families": ["review", "render", "prerender"]
+            }
+        }
     }
 }
