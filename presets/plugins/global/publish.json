@@ -18,8 +18,7 @@
                 "outputs": {
                     "h264": {
                         "filter": {
-                            "families": ["render", "ftrack"],
-                            "tags": ["preview"]
+                            "families": ["render", "ftrack"]
                         },
                         "width": 1920,
                         "height": 1080,
