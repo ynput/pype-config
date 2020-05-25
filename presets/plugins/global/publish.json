@@ -6,23 +6,14 @@
         "__documentation__": "http://pype.club/docs/admin_presets_plugins",
         "profiles": [
             {
-                "outputs": {
-                    "h264": {
-                        "ext": "mov"
-                    }
-                }
-            }, {
-                "families": ["render"],
-                "tasks": ["compositing"],
-                "hosts": ["maya", "nuke"],
+                "families": [],
+                "hosts": [],
                 "outputs": {
                     "h264": {
                         "filter": {
-                            "families": ["render", "ftrack"]
+                            "families": ["render", "review", "ftrack"]
                         },
-                        "width": 1920,
-                        "height": 1080,
-                        "ext": "mov",
+                        "ext": "mp4",
                         "ffmpeg_args": {
                             "input": [
                                 "-gamma 2.2"
@@ -35,7 +26,7 @@
                                 "-intra"
                             ]
                         },
-                      "tags": ["burnin", "preview"]
+                      "tags": ["burnin", "ftrackreview"]
                     }
                 }
             }
@@ -51,64 +42,22 @@
             "font_size": 42
         },
         "fields": {
-            "TOP_LEFT": "{yy}-{mm}-{dd}",
-            "TOP_RIGHT": "v{version:0>3}"
+
         },
-        "profiles": [{
-            "burnins": {
-                "burnin": {
-                    "options": {
-                        "opacity": 1
-                    },
-                    "TOP_LEFT": "{username}"
-                }
-            }
-        }, {
-            "families": ["animation", "pointcache", "model"],
-            "tasks": ["animation"],
-            "burnins": {}
-        }, {
-            "families": ["render"],
-            "tasks": ["compositing"],
+        "profiles": [
+          {
             "burnins": {
                 "burnin": {
                     "TOP_LEFT": "{yy}-{mm}-{dd}",
-                    "TOP_RIGHT": "v{version:0>3}",
+                    "TOP_RIGHT": "{anatomy[version]}",
+                    "TOP_CENTERED": "",
                     "BOTTOM_RIGHT": "{frame_start}-{current_frame}-{frame_end}",
-                    "BOTTOM_LEFT": "{username}"
-                },
-                "burnin_ftrack": {
-                    "filter": {
-                        "families": ["ftrack"]
-                    },
-                    "BOTTOM_RIGHT": "{frame_start}-{current_frame}-{frame_end}",
-                    "BOTTOM_LEFT": "{username}"
-                },
-                "burnin_v2": {
-                    "options": {
-                        "opacity": 0.5
-                    },
-                    "TOP_LEFT": "{yy}-{mm}-{dd}",
-                    "TOP_RIGHT": "v{version:0>3}"
-                }
-            }
-        }, {
-            "families": ["rendersetup"],
-            "burnins": {
-                "burnin": {
-                    "TOP_LEFT": "{yy}-{mm}-{dd}",
+                    "BOTTOM_CENTERED": "{asset}",
                     "BOTTOM_LEFT": "{username}"
                 }
             }
-        }, {
-            "tasks": ["animation"],
-            "burnins": {
-                "burnin": {
-                    "TOP_RIGHT": "v{version:0>3}",
-                    "BOTTOM_RIGHT": "{frame_start}-{current_frame}-{frame_end}"
-                }
-            }
-        }]
+        }
+      ]
     },
     "IntegrateAssetNew": {
         "template_name_profiles": {
