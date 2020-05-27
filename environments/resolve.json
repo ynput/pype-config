@@ -14,20 +14,22 @@
       "darvin": "/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Comp",
       "linux": "/opt/resolve/Fusion/Scripts/Comp"
     },
-    "PYTHON36_RES": {
+    "PYTHON36_RESOLVE": {
       "windows": "{LOCALAPPDATA}/Programs/Python/Python36",
       "darvin": "~/Library/Python/3.6/bin",
       "linux": "/opt/Python/3.6/bin"
     },
     "PYTHONPATH": [
-      "{PYTHON36_RES}/Lib/site-packages",
+      "{PYTHON36_RESOLVE}/Lib/site-packages",
+      "{VIRTUAL_ENV}/Lib/site-packages",
       "{PYTHONPATH}",
       "{RESOLVE_SCRIPT_API}/Modules"
     ],
     "PATH": [
       "{PATH}",
-      "{PYTHON36_RES}",
-      "{PYTHON36_RES}/Scripts"
+      "{PYTHON36_RESOLVE}",
+      "{PYTHON36_RESOLVE}/Scripts"
     ],
-    "PRE_PYTHON_SCRIPT": "{PYPE_MODULE_ROOT}/pype/resolve/utility/pre_python_console_script.py"
+    "PRE_PYTHON_SCRIPT": "{PYPE_MODULE_ROOT}/pype/resolve/preload_console.py",
+    "PYPE_LOG_NO_COLORS": "True"
 }

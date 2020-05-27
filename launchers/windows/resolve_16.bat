@@ -3,7 +3,7 @@
 set __app__="Resolve"
 set __appy__="Resolve Python Console"
 set __exe__="C:/Program Files/Blackmagic Design/DaVinci Resolve/Resolve.exe"
-set __py__="%PYTHON36_RES%/python.exe"
+set __py__="%PYTHON36_RESOLVE%/python.exe"
 
 if not exist %__exe__% goto :missing_app
 
