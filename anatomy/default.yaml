@@ -7,12 +7,11 @@ frame: "{frame:0>{@frame_padding}}"
 work:
   folder: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}"
   file: "{project[code]}_{asset}_{task}_{@version}<_{comment}>.{ext}"
-  path: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}/{project[code]}_{asset}_{task}_{@version}<_{comment}>.{ext}"
+  path: "{@folder}/{@file}"
 
 render:
-  padding: "4"
-  folder: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/{@version}"
-  file: "{project[code]}_{asset}_{subset}_{@version}<_{output}><.{@frame}>.{representation}"
+  folder: "{root}/{project[name]}/{hierarchy}/{asset}/publish/render/{subset}/{@version}"
+  file: "{project[code]}_{asset}_{task}_{@version}_{subset}<_{output}><.{@frame}>.{representation}"
   path: "{@folder}/{@file}"
 
 texture:
@@ -25,10 +24,6 @@ publish:
   thumbnail: "{thumbnail_root}/{project[name]}/{_id}_{thumbnail_type}{ext}"
 
 master:
-  path: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/master/{project[code]}_{asset}_{subset}_master<_{output}><.{frame}>.{representation}"
   folder: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/master"
-
-avalon:
-  workfile: "{project[code]}_{asset}_{task}_{@version}<_{comment}>"
-  work: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}"
-  publish: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/{@version}/{project[code]}_{asset}_{subset}_{@version}<_{output}><.{@frame}>.{representation}"
+  file: "{project[code]}_{asset}_{subset}_master<_{output}><.{frame}>.{representation}"
+  path: "{@folder}/{@file}"

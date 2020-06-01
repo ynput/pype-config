@@ -1,8 +1,0 @@
-executable = "aport"
-schema = "avalon-core:application-1.0"
-application_dir = "aport"
-label = "Pype Aport Server"
-icon ="retweet"
-
-ftrack_label = "Pype Aport Server"
-ftrack_icon = '{}/app_icons/Aport.png'

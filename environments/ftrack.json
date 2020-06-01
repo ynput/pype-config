@@ -6,10 +6,10 @@
   "FTRACK_EVENTS_PATH": [
     "{PYPE_MODULE_ROOT}/pype/ftrack/events"
   ],
-  "FTRACK_ACTION_SERVER": "{PYPE_ROOT}/repos/ftrack-event-server",
+  "FTRACK_ACTION_SERVER": "{PYPE_SETUP_PATH}/repos/ftrack-event-server",
   "PYTHONPATH": [
     "{PYPE_MODULE_ROOT}/pype/vendor",
-    "{PYPE_ROOT}/repos/ftrack-event-server"
+    "{PYPE_SETUP_PATH}/repos/ftrack-event-server"
   ],
   "PYBLISHPLUGINPATH": [
     "{PYPE_MODULE_ROOT}/pype/plugins/ftrack/publish"
