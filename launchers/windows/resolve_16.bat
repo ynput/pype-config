@@ -8,7 +8,7 @@ set __py__="%PYTHON36_RESOLVE%/python.exe"
 if not exist %__exe__% goto :missing_app
 
 start %__app__% %__exe__% %*
-start %__appy__% %__py__% -i %PRE_PYTHON_SCRIPT%
+IF "%RESOLVE_DEV%"=="True" (start %__appy__% %__py__% -i %PRE_PYTHON_SCRIPT%)
 
 goto :eof
 

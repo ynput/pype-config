@@ -34,5 +34,6 @@
     "{PYTHON36_RESOLVE}/Scripts"
   ],
   "PRE_PYTHON_SCRIPT": "{PYPE_MODULE_ROOT}/pype/resolve/preload_console.py",
-  "PYPE_LOG_NO_COLORS": "True"
+  "PYPE_LOG_NO_COLORS": "True",
+  "RESOLVE_DEV": "True"
 }
