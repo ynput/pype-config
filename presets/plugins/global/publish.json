@@ -7,10 +7,7 @@
             "input": [
                 "-gamma 2.2"
             ],
-            "output": [
-                "-pix_fmt yuv420p",
-                "-crf 18"
-            ]
+            "output": []
         }
     },
     "ExtractReview": {
