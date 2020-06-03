@@ -2,6 +2,17 @@
     "IntegrateMasterVersion": {
         "enabled": false
     },
+    "ExtractJpegEXR": {
+        "ffmpeg_args": {
+            "input": [
+                "-gamma 2.2"
+            ],
+            "output": [
+                "-pix_fmt yuv420p",
+                "-crf 18"
+            ]
+        }
+    },
     "ExtractReview": {
         "__documentation__": "http://pype.club/docs/admin_presets_plugins",
         "profiles": [
