@@ -1,15 +1,13 @@
 {
   "FTRACK_SERVER": "https://pype.ftrackapp.com",
   "FTRACK_ACTIONS_PATH": [
-    "{PYPE_MODULE_ROOT}/pype/ftrack/actions"
+    "{PYPE_MODULE_ROOT}/pype/modules/ftrack/actions"
   ],
   "FTRACK_EVENTS_PATH": [
-    "{PYPE_MODULE_ROOT}/pype/ftrack/events"
+    "{PYPE_MODULE_ROOT}/pype/modules/ftrack/events"
   ],
-  "FTRACK_ACTION_SERVER": "{PYPE_ROOT}/repos/ftrack-event-server",
   "PYTHONPATH": [
-    "{PYPE_MODULE_ROOT}/pype/vendor",
-    "{PYPE_ROOT}/repos/ftrack-event-server"
+    "{PYPE_MODULE_ROOT}/pype/vendor"
   ],
   "PYBLISHPLUGINPATH": [
     "{PYPE_MODULE_ROOT}/pype/plugins/ftrack/publish"
