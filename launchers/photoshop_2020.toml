@@ -1,0 +1,7 @@
+executable = "photoshop_2020"
+schema = "avalon-core:application-1.0"
+application_dir = "photoshop"
+label = "Adobe Photoshop 2020"
+icon ="photoshop_icon"
+ftrack_label = "Photoshop"
+ftrack_icon = '{}/app_icons/photoshop.png'
