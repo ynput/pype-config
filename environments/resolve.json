@@ -26,12 +26,14 @@
     "{PYTHON36_RESOLVE}/Lib/site-packages",
     "{VIRTUAL_ENV}/Lib/site-packages",
     "{PYTHONPATH}",
-    "{RESOLVE_SCRIPT_API}/Modules"
+    "{RESOLVE_SCRIPT_API}/Modules",
+    "{PYTHONPATH}"
   ],
   "PATH": [
     "{PATH}",
     "{PYTHON36_RESOLVE}",
-    "{PYTHON36_RESOLVE}/Scripts"
+    "{PYTHON36_RESOLVE}/Scripts",
+    "{PYTHONPATH}"
   ],
   "PRE_PYTHON_SCRIPT": "{PYPE_MODULE_ROOT}/pype/resolve/preload_console.py",
   "PYPE_LOG_NO_COLORS": "True",

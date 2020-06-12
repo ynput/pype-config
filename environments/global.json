@@ -19,12 +19,14 @@
         "{PYPE_CONFIG}/launchers/{PLATFORM}",
         "{PYPE_APP_ROOT}",
         "{DJV_PATH}",
-        "{FFMPEG_PATH}"
+        "{FFMPEG_PATH}",
+        "{PATH}"
     ],
     "PYPE_OCIO_CONFIG": "{STUDIO_SOFT}/OpenColorIO-Configs",
     "PYTHONPATH": [
         "{VIRTUAL_ENV}/Lib/site-packages",
-        "{PYPE_MODULE_ROOT}/pype/tools"
+        "{PYPE_MODULE_ROOT}/pype/tools",
+        "{PYTHONPATH}"
     ],
     "PYPE_PROJECT_CONFIGS": "{PYPE_SETUP_PATH}/../studio-project-configs",
     "PYPE_PYTHON_EXE": {
