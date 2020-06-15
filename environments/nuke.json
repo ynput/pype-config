@@ -1,7 +1,4 @@
 {
-    "PYBLISH_GUI": [
-        "pyblish_lite"
-    ],
     "NUKE_PATH": [
         "{PYPE_SETUP_PATH}/repos/avalon-core/setup/nuke/nuke_path",
         "{PYPE_MODULE_ROOT}/setup/nuke/nuke_path",
