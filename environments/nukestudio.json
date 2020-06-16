@@ -3,7 +3,7 @@
         "{PYPE_MODULE_ROOT}/setup/nukestudio/hiero_plugin_path"
     ],
     "PATH": {
-        "windows": "C:/Program Files (x86)/QuickTime/QTSystem/"
+        "windows": "C:/Program Files (x86)/QuickTime/QTSystem/;{PATH}"
     },
     "WORKFILES_STARTUP": "0",
     "TAG_ASSETBUILD_STARTUP": "0",
