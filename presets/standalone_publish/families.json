@@ -78,5 +78,13 @@
       "icon": "image",
       "defaults": ["ConceptArt", "Reference", "Texture", "MattePaint"],
       "help": "Holder for all kinds of image data"
+    },
+    "create_editorial": {
+      "name": "editorial",
+      "label": "Editorial",
+      "family": "editorial",
+      "icon": "image",
+      "defaults": ["Main"],
+      "help": "Editorial files to generate shots."
     }
 }
