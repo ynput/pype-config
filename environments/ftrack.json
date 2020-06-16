@@ -7,7 +7,8 @@
     "{PYPE_MODULE_ROOT}/pype/modules/ftrack/events"
   ],
   "PYTHONPATH": [
-    "{PYPE_MODULE_ROOT}/pype/vendor"
+    "{PYPE_MODULE_ROOT}/pype/vendor",
+    "{PYTHONPATH}"
   ],
   "PYBLISHPLUGINPATH": [
     "{PYPE_MODULE_ROOT}/pype/plugins/ftrack/publish"

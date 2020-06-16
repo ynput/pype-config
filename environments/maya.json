@@ -2,7 +2,8 @@
   "PYTHONPATH": [
     "{PYPE_SETUP_PATH}/repos/avalon-core/setup/maya",
     "{PYPE_SETUP_PATH}/repos/maya-look-assigner",
-    "{PYTHON_ENV}/python2/Lib/site-packages"
+    "{PYTHON_ENV}/python2/Lib/site-packages",
+    "{PYTHONPATH}"
   ],
   "MAYA_DISABLE_CLIC_IPM": "Yes",
   "MAYA_DISABLE_CIP": "Yes",

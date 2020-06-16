@@ -5,11 +5,11 @@
         "{PYPE_STUDIO_PLUGINS}/nuke"
     ],
     "PATH": {
-        "windows": "C:/Program Files (x86)/QuickTime/QTSystem/"
+        "windows": "C:/Program Files (x86)/QuickTime/QTSystem/;{PATH}"
     },
     "PYPE_LOG_NO_COLORS": "True",
     "PYTHONPATH": {
-        "windows": "{VIRTUAL_ENV}/Lib/site-packages",
-        "linux": "{VIRTUAL_ENV}/lib/python3.6/site-packages"
+        "windows": "{VIRTUAL_ENV}/Lib/site-packages;{PYTHONPATH}",
+        "linux": "{VIRTUAL_ENV}/lib/python3.6/site-packages:{PYTHONPATH}"
     }
 }
