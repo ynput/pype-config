@@ -1,0 +1,13 @@
+{
+    "CreateShotClip": {
+        "hierarchy": "{folder}/{sequence}/{shot}",
+        "hierarchyData": {
+          "folder": "shots",
+          "shot": "sh####",
+          "track": "{track}",
+          "sequence": "sc###",
+          "episode": "ep##",
+          "root": "{root[publish]}"
+        }
+    }
+}
