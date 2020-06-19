@@ -33,7 +33,5 @@
         "darwin": "{VIRTUAL_ENV}/bin/python"
     },
     "MONGO_URL": "mongodb://localhost:27017",
-    "PYPE_LOG_MONGO_DB": "pypeLogs",
-    "PYPE_LOG_MONGO_COL": "logs",
     "PYBLISH_GUI": "pyblish_pype"
 }
