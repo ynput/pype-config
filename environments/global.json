@@ -33,6 +33,5 @@
         "linux": "{VIRTUAL_ENV}/Scripts/python",
         "darwin": "{VIRTUAL_ENV}/bin/python"
     },
-    "MONGO_URL": "mongodb://localhost:2707",
     "PYBLISH_GUI": "pyblish_pype"
 }
