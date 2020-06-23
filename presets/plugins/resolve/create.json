@@ -1,13 +1,15 @@
 {
     "CreateShotClip": {
+        "clipName": "{episode}{sequence}{shot}",
         "hierarchy": "{folder}/{sequence}/{shot}",
         "hierarchyData": {
           "folder": "shots",
           "shot": "sh####",
           "track": "{track}",
-          "sequence": "sc###",
-          "episode": "ep##",
-          "root": "{root[publish]}"
-        }
+          "sequence": "sc010",
+          "episode": "ep01"
+        },
+        "countFrom": 5,
+        "steps": 10
     }
 }
