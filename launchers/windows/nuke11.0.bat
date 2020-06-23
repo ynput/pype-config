@@ -1,7 +1,7 @@
 @echo off
 
-set __app__="Python"
-set __exe__="C:\Python27\python.exe"
+set __app__="Nuke11.0v4"
+set __exe__="C:\Program Files\Nuke11.0v4\Nuke11.0.exe"
 if not exist %__exe__% goto :missing_app
 
 start %__app__% %__exe__% %*
