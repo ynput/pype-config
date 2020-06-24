@@ -25,6 +25,7 @@
   "PYTHONPATH": [
     "{PYTHON36_RESOLVE}/Lib/site-packages",
     "{VIRTUAL_ENV}/Lib/site-packages",
+    "{PYTHONPATH}",
     "{RESOLVE_SCRIPT_API}/Modules",
     "{PYTHONPATH}"
   ],

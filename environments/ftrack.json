@@ -13,8 +13,6 @@
   "PYBLISHPLUGINPATH": [
     "{PYPE_MODULE_ROOT}/pype/plugins/ftrack/publish"
   ],
-  "FTRACK_EVENTS_MONGO_HOST": "{PYPE_LOG_MONGO_HOST}",
-  "FTRACK_EVENTS_MONGO_PORT": "{PYPE_LOG_MONGO_PORT}",
   "FTRACK_EVENTS_MONGO_DB": "pype",
   "FTRACK_EVENTS_MONGO_COL": "ftrack_events"
 }

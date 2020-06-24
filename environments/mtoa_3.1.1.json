@@ -18,6 +18,6 @@
     "darwin": "{MTOA}/bin"
   },
   "PATH": {
-    "windows": "{MTOA}/bin;{PATH}"
+    "windows": "{PATH};{MTOA}/bin"
   }
 }
