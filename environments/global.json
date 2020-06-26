@@ -17,7 +17,6 @@
     "PATH": [
         "{PYPE_CONFIG}/launchers",
         "{PYPE_APP_ROOT}",
-        "{DJV_PATH}",
         "{FFMPEG_PATH}",
         "{PATH}"
     ],
