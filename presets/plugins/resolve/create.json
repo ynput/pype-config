@@ -9,7 +9,7 @@
           "sequence": "sc010",
           "episode": "ep01"
         },
-        "countFrom": 5,
+        "countFrom": 10,
         "steps": 10
     }
 }
