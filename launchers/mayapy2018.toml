@@ -10,9 +10,6 @@ schema = "avalon-core:application-1.0"
 executable = "mayapy2017"
 description = ""
 
-[copy]
-"{AVALON_CORE}/res/workspace.mel" = "workspace.mel"
-
 [environment]
 PYTHONPATH = [
 	"{AVALON_CORE}/setup/maya",
