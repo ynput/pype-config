@@ -4,7 +4,11 @@ set __app__="Maya 2019"
 set __exe__="C:\Program Files\Autodesk\Maya2019\bin\maya.exe"
 if not exist %__exe__% goto :missing_app
 
-start %__app__% %__exe__% %*
+if "%AVALON_LAST_WORKFILE%"=="" (
+  start %__app__% %__exe__% %*
+) else (
+  start %__app__% %__exe__% -file "%AVALON_LAST_WORKFILE%" %*
+)
 
 goto :eof
 
