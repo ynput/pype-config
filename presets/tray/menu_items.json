@@ -11,5 +11,15 @@
         "Timers Manager": true,
         "Rest Api": true,
         "Premiere Communicator": true
+    },
+    "attributes": {
+        "Rest Api": {
+          "default_port": 8021,
+          "exclude_ports": []
+        },
+        "Timers Manager": {
+            "full_time": 15,
+            "message_time": 0.5
+        }
     }
 }
