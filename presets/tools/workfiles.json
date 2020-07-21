@@ -1,0 +1,11 @@
+{
+    "last_workfile_on_startup": [
+        {
+            "startup": false
+        }, {
+            "hosts": ["maya"],
+            "tasks": ["animation"],
+            "startup": true
+        }
+    ]
+}
