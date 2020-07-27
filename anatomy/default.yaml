@@ -11,7 +11,7 @@ work:
 
 render:
   folder: "{root}/{project[name]}/{hierarchy}/{asset}/publish/render/{subset}/{@version}"
-  file: "{project[code]}_{asset}_{task}_{@version}_{subset}<_{output}><.{@frame}>.{representation}"
+  file: "{project[code]}_{asset}_{subset}_{@version}<_{output}><.{@frame}>.{representation}"
   path: "{@folder}/{@file}"
 
 texture:
