@@ -2,10 +2,6 @@
     "last_workfile_on_startup": [
         {
             "enabled": false
-        }, {
-            "hosts": ["maya"],
-            "tasks": ["animation"],
-            "enabled": true
         }
     ]
 }
