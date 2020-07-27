@@ -21,8 +21,9 @@
         "data": [
             {"blender_2.80": "Blender 2.80"},
             {"blender_2.81": "Blender 2.81"},
+            {"blender_2.82": "Blender 2.82"},
+            {"blender_2.83": "Blender 2.83"},
             {"celaction_local": "CelAction2D Local"},
-            {"celaction_remote": "CelAction2D Remote"},
             {"maya_2017": "Maya 2017"},
             {"maya_2018": "Maya 2018"},
             {"maya_2019": "Maya 2019"},
