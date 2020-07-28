@@ -9,7 +9,6 @@ executable = "maya2019"
 description = ""
 icon ="maya_icon"
 ftrack_icon = '{}/app_icons/maya.png'
-launch_hook = "pype/hooks/maya/prelaunch.py/MayaPrelaunchHook"
 
 [copy]
 "{PYPE_MODULE_ROOT}/pype/resources/maya/workspace.mel" = "workspace.mel"

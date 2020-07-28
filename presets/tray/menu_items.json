@@ -10,7 +10,7 @@
         "Idle Manager": true,
         "Timers Manager": true,
         "Rest Api": true,
-        "Premiere Communicator": true
+        "Adobe Communicator": true
     },
     "attributes": {
         "Rest Api": {
@@ -20,6 +20,9 @@
         "Timers Manager": {
             "full_time": 15,
             "message_time": 0.5
+        },
+        "Clockify": {
+            "workspace_name": null
         }
     }
 }
