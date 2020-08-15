@@ -4,5 +4,5 @@ ftrack_label = "Harmony"
 schema = "avalon-core:application-1.0"
 executable = "harmony_17"
 description = ""
-icon ="harmony_icon"
+icon = "app_icons/harmony.png"
 ftrack_icon = '{}/app_icons/harmony.png'
