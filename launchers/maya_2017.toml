@@ -5,7 +5,8 @@ default_dirs = [
 	"renderData/shaders",
 	"images"
 ]
-label = "Autodesk Maya 2017"
+label = "Autodesk Maya"
+label_variant = "2017"
 ftrack_label = "Maya"
 schema = "avalon-core:application-1.0"
 executable = "maya2017"

@@ -1,5 +1,6 @@
 application_dir = "harmony"
-label = "Harmony 17"
+label = "Harmony"
+label_variant = "17"
 ftrack_label = "Harmony"
 schema = "avalon-core:application-1.0"
 executable = "harmony_17"

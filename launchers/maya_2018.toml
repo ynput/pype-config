@@ -2,7 +2,8 @@ application_dir = "maya"
 default_dirs = [
 	"renders"
 ]
-label = "Autodesk Maya 2018"
+label = "Autodesk Maya"
+label_variant = "2018"
 ftrack_label = "Maya"
 schema = "avalon-core:application-1.0"
 executable = "maya2018"
