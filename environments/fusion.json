@@ -1,0 +1,3 @@
+{
+    "PYTHONPATH": "{PYPE_SETUP_PATH}/repos/avalon-core/setup/fusion/scripts/Comp/avalon;{PYTHONPATH}"
+}

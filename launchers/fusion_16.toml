@@ -1,0 +1,8 @@
+executable = "fusion16"
+schema = "avalon-core:application-1.0"
+application_dir = "fusion"
+label = "Fusion"
+label_variant = "16"
+ftrack_label = "Fusion"
+icon = "app_icons/fusion.png"
+ftrack_icon = '{}/app_icons/fusion.png'
