@@ -1,12 +1,12 @@
 {
   "FUSION_UTILITY_SCRIPTS_SOURCE_DIR": [
-    "{STUDIO_SOFT}/davinci_resolve/scripts/python"
+    "{STUDIO_SOFT}/davinci_fusion/scripts/python"
   ],
 
   "FUSION_UTILITY_SCRIPTS_DIR": {
-    "windows": "{PROGRAMDATA}/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Comp",
-    "darvin": "/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Comp",
-    "linux": "/opt/resolve/Fusion/Scripts/Comp"
+    "windows": "{PROGRAMDATA}/Blackmagic Design/Fusion/Scripts/Comp",
+    "darvin": "/Library/Application Support/Blackmagic Design/Fusion/Scripts/Comp",
+    "linux": "/opt/Fusion/Scripts/Comp"
   },
 
   "PYTHON36": {
