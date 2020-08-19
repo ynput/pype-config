@@ -1,3 +1,29 @@
 {
-    "PYTHONPATH": "{PYPE_SETUP_PATH}/repos/avalon-core/setup/fusion/scripts/Comp/avalon;{PYTHONPATH}"
+  "FUSION_UTILITY_SCRIPTS_SOURCE_DIR": [
+    "{STUDIO_SOFT}/davinci_resolve/scripts/python"
+  ],
+
+  "FUSION_UTILITY_SCRIPTS_DIR": {
+    "windows": "{PROGRAMDATA}/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Comp",
+    "darvin": "/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Comp",
+    "linux": "/opt/resolve/Fusion/Scripts/Comp"
+  },
+
+  "PYTHON36": {
+    "windows": "C:/Python/Python36",
+    "darvin": "~/Library/Python/3.6/bin",
+    "linux": "/opt/Python/3.6/bin"
+  },
+
+  "PYTHONPATH": [
+    "{PYTHON36}/Lib/site-packages",
+    "{VIRTUAL_ENV}/Lib/site-packages",
+    "{PYTHONPATH}"
+  ],
+
+  "PATH": [
+    "{PYTHON36}",
+    "{PYTHON36}/Scripts",
+    "{PATH}"
+  ]
 }

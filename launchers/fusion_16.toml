@@ -6,3 +6,4 @@ label_variant = "16"
 ftrack_label = "Fusion"
 icon = "app_icons/fusion.png"
 ftrack_icon = '{}/app_icons/fusion.png'
+launch_hook = "pype/hooks/fusion/prelaunch.py/FusionPrelaunch"
