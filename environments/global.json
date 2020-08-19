@@ -41,3 +41,4 @@
         "darwin": "{VIRTUAL_ENV}/bin/python"
     },
     "PYBLISH_GUI": "pyblish_pype"
+}
