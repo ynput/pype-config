@@ -25,5 +25,7 @@
     "{PYTHON36}",
     "{PYTHON36}/Scripts",
     "{PATH}"
-  ]
+  ],
+
+  "PYPE_LOG_NO_COLORS": "Yes"
 }
