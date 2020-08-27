@@ -17,7 +17,9 @@
                     "-pix_fmt yuv420p",
                     "-crf 18"
                 ],
-                "tags": ["preview"],
+                "tags": [
+                    "preview"
+                ],
                 "ext": "mov"
             }
         }

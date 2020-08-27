@@ -3,6 +3,7 @@
         "enabled": false
     },
     "ExtractReviewCutUpVideo": {
-        "tags_addition": ["aha"]
-      }
+        "enabled": true,
+        "tags_addition": []
+    }
 }

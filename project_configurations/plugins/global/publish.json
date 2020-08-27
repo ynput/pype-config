@@ -11,7 +11,6 @@
         }
     },
     "ExtractReview": {
-        "__documentation__": "http://pype.club/docs/admin_presets_plugins",
         "profiles": [
             {
                 "families": [],
@@ -19,7 +18,11 @@
                 "outputs": {
                     "h264": {
                         "filter": {
-                            "families": ["render", "review", "ftrack"]
+                            "families": [
+                                "render",
+                                "review",
+                                "ftrack"
+                            ]
                         },
                         "ext": "mp4",
                         "ffmpeg_args": {
@@ -34,7 +37,10 @@
                                 "-intra"
                             ]
                         },
-                      "tags": ["burnin", "ftrackreview"]
+                        "tags": [
+                            "burnin",
+                            "ftrackreview"
+                        ]
                     }
                 }
             }
@@ -42,30 +48,28 @@
     },
     "ExtractBurnin": {
         "options": {
+            "font_size": 42,
             "opacity": 1,
+            "bg_opacity": 0,
             "x_offset": 5,
             "y_offset": 5,
-            "bg_padding": 5,
-            "bg_opacity": 0.5,
-            "font_size": 42
+            "bg_padding": 5
         },
-        "fields": {
-
-        },
+        "fields": {},
         "profiles": [
-          {
-            "burnins": {
-                "burnin": {
-                    "TOP_LEFT": "{yy}-{mm}-{dd}",
-                    "TOP_RIGHT": "{anatomy[version]}",
-                    "TOP_CENTERED": "",
-                    "BOTTOM_RIGHT": "{frame_start}-{current_frame}-{frame_end}",
-                    "BOTTOM_CENTERED": "{asset}",
-                    "BOTTOM_LEFT": "{username}"
+            {
+                "burnins": {
+                    "burnin": {
+                        "TOP_LEFT": "{yy}-{mm}-{dd}",
+                        "TOP_RIGHT": "{anatomy[version]}",
+                        "TOP_CENTERED": "",
+                        "BOTTOM_RIGHT": "{frame_start}-{current_frame}-{frame_end}",
+                        "BOTTOM_CENTERED": "{asset}",
+                        "BOTTOM_LEFT": "{username}"
+                    }
                 }
             }
-        }
-      ]
+        ]
     },
     "IntegrateAssetNew": {
         "template_name_profiles": {
@@ -74,7 +78,11 @@
                 "tasks": []
             },
             "render": {
-                "families": ["review", "render", "prerender"]
+                "families": [
+                    "review",
+                    "render",
+                    "prerender"
+                ]
             }
         }
     },
