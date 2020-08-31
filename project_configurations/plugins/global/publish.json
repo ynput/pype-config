@@ -11,6 +11,7 @@
         }
     },
     "ExtractReview": {
+        "enabled": true,
         "profiles": [
             {
                 "families": [],
@@ -47,6 +48,7 @@
         ]
     },
     "ExtractBurnin": {
+        "enabled": false,
         "options": {
             "font_size": 42,
             "opacity": 1,
@@ -87,6 +89,7 @@
         }
     },
     "ProcessSubmittedJobOnFarm": {
+        "enabled": false,
         "deadline_department": "",
         "deadline_pool": "",
         "deadline_group": ""
