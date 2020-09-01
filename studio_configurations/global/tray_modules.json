@@ -18,11 +18,11 @@
             "exclude_ports": []
         },
         "Timers Manager": {
-            "full_time": 15,
+            "full_time": 15.0,
             "message_time": 0.5
         },
         "Clockify": {
-            "workspace_name": null
+            "workspace_name": ""
         }
     }
 }
