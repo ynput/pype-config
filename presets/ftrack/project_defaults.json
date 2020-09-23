@@ -17,18 +17,17 @@
     "avalon_auto_sync": true,
     "task_short_names": {
         "Generic":      "gener",
-        "Props":        "props",
         "Art":          "art",
-        "Modeling":     "model",
-        "Texture":      "texture",
+        "Modeling":     "mdl",
+        "Texture":      "tex",
         "Lookdev":      "look",
-        "Rigging":      "rigg",
+        "Rigging":      "rig",
         "Edit":         "edit",
-        "Layout":       "layout",
+        "Layout":       "lay",
         "Setdress":     "dress",
         "Animation":    "anim",
         "FX":           "fx",
-        "Lighting":     "light",
+        "Lighting":     "lgt",
         "Paint":        "paint",
         "Compositing":  "comp"
     }
