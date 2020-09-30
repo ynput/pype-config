@@ -63,7 +63,7 @@
         "defaults": ["Main", "BG", "Reference"],
         "help": "Plates for compositors"
     },
-    "create_plate": {
+    "create_render": {
         "name": "render",
         "label": "Render",
         "family": "render",
