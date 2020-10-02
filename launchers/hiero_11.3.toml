@@ -1,0 +1,8 @@
+executable = "hiero11.3"
+schema = "avalon-core:application-1.0"
+application_dir = "nukestudio"
+label = "Hiero"
+label_variant = "11.3"
+ftrack_label = "Hiero"
+icon = "app_icons/hiero.png"
+ftrack_icon = '{}/app_icons/hiero.png'
