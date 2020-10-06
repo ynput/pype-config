@@ -1,7 +1,5 @@
 {
-  "FUSION_UTILITY_SCRIPTS_SOURCE_DIR": [
-    "{STUDIO_SOFT}/davinci_fusion/scripts/python"
-  ],
+  "FUSION_UTILITY_SCRIPTS_SOURCE_DIR": [],
 
   "FUSION_UTILITY_SCRIPTS_DIR": {
     "windows": "{PROGRAMDATA}/Blackmagic Design/Fusion/Scripts/Comp",
