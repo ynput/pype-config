@@ -11,8 +11,27 @@
     "resolutionWidth": 1920,
     "pixelAspect": 1.0,
     "applications": [
-        "maya_2019", "nuke_11.3", "nukex_11.3", "nukestudio_11.3", "deadline"
+        "maya_2020",
+        "nuke_12.0",
+        "nukex_12.0",
+        "nukestudio_12.0"
     ],
     "tools_env": [],
-    "avalon_auto_sync": true
+    "avalon_auto_sync": true,
+    "task_short_names": {
+        "Generic":      "gener",
+        "Art":          "art",
+        "Modeling":     "mdl",
+        "Texture":      "tex",
+        "Lookdev":      "look",
+        "Rigging":      "rig",
+        "Edit":         "edit",
+        "Layout":       "lay",
+        "Setdress":     "dress",
+        "Animation":    "anim",
+        "FX":           "fx",
+        "Lighting":     "lgt",
+        "Paint":        "paint",
+        "Compositing":  "comp"
+    }
 }

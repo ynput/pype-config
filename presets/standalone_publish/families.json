@@ -63,6 +63,14 @@
         "defaults": ["Main", "BG", "Reference"],
         "help": "Plates for compositors"
     },
+    "create_render": {
+        "name": "render",
+        "label": "Render",
+        "family": "render",
+        "icon": "image",
+        "defaults": ["Animation", "Lighting", "Lookdev", "Compositing"],
+        "help": "Rendered images or video files"
+    },
     "create_matchmove": {
         "name": "matchmove",
         "label": "Matchmove script",

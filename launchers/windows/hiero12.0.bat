@@ -1,7 +1,7 @@
 @echo off
 
-set __app__="Nuke11.2v2"
-set __exe__="C:\Program Files\Nuke11.2v2\Nuke11.2.exe"
+set __app__="Hiero12.0v1"
+set __exe__="C:\Program Files\Nuke12.0v1\Nuke12.0.exe" --hiero
 if not exist %__exe__% goto :missing_app
 
 start %__app__% %__exe__% %*
