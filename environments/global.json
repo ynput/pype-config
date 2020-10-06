@@ -40,5 +40,6 @@
         "linux": "{VIRTUAL_ENV}/Scripts/python",
         "darwin": "{VIRTUAL_ENV}/bin/python"
     },
-    "PYBLISH_GUI": "pyblish_pype"
+    "PYBLISH_GUI": "pyblish_pype",
+    "PYPE_OIIO_PATH": "{PYPE_SETUP_PATH}/vendor/bin/oiiotool/windows/oiiotool"
 }
