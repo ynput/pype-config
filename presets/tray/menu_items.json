@@ -10,8 +10,9 @@
         "Idle Manager": true,
         "Timers Manager": true,
         "Rest Api": true,
-        "Adobe Communicator": true
-    },
+        "Adobe Communicator": true,
+        "Websocket Server": false
+      },
     "attributes": {
         "Rest Api": {
           "default_port": 8021,
