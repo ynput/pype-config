@@ -1,6 +1,6 @@
 executable = "nukestudio10.0"
 schema = "avalon-core:application-1.0"
-application_dir = "nukestudio"
+application_dir = "hiero"
 label = "NukeStudio"
 label_variant = "10.0"
 ftrack_label = "NukeStudio"
