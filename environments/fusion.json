@@ -8,7 +8,7 @@
   },
 
   "PYTHON36": {
-    "windows": "C:/Python/Python36",
+    "windows": "C:/Program Files/Python36",
     "darvin": "~/Library/Python/3.6/bin",
     "linux": "/opt/Python/3.6/bin"
   },
