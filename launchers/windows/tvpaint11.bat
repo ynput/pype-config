@@ -1,5 +1,7 @@
 set __app__="TVPaint Animation 11"
 set __exe__="C:\Program Files\TVPaint Developpement\TVPaint Animation 11 (64bits)\TVPaint Animation 11 (64bits).exe"
+set __32bit__="C:\Program Files (x86)\TVPaint Developpement\TVPaint Animation 11 (32bits)\TVPaint Animation 11 (32bits).exe"
+set __64bit__="C:\Program Files\TVPaint Developpement\TVPaint Animation 11 (64bits)\TVPaint Animation 11 (64bits).exe"
 
 if not exist %__exe__% goto :missing_app
 
