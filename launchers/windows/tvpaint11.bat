@@ -1,10 +1,8 @@
 set __app__="TVPaint Animation 11"
-set __app_dir__="C:\Program Files\TVPaint Developpement\TVPaint Animation 11 (64bits)\"
 set __exe__="C:\Program Files\TVPaint Developpement\TVPaint Animation 11 (64bits)\TVPaint Animation 11 (64bits).exe"
 
 if not exist %__exe__% goto :missing_app
 
-pushd %__app_dir__%
 
 if "%PYPE_TVPAINT_PROJECT_FILE%"=="" (
   start %__app__% %__exe__% %*
