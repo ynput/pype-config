@@ -1,11 +1,11 @@
 {
     "fps": 25,
     "frameStart": 1001,
-    "frameEnd": 1100,
-    "clipIn": 1001,
-    "clipOut": 1100,
-    "handleStart": 10,
-    "handleEnd": 10,
+    "frameEnd": 1025,
+    "clipIn": 1,
+    "clipOut": 25,
+    "handleStart": 0,
+    "handleEnd": 0,
 
     "resolutionHeight": 1080,
     "resolutionWidth": 1920,
@@ -14,7 +14,12 @@
         "maya_2020",
         "nuke_12.0",
         "nukex_12.0",
-        "nukestudio_12.0"
+        "nukestudio_12.0",
+        "hiero_12.0",
+        "houdini_18",
+        "photoshop_2020",
+        "blender_2.83",
+        "fusion_9"
     ],
     "tools_env": [],
     "avalon_auto_sync": true,
