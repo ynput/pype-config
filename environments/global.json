@@ -37,8 +37,13 @@
     "PYPE_PROJECT_CONFIGS": "{PYPE_SETUP_PATH}/../studio-project-configs",
     "PYPE_PYTHON_EXE": {
         "windows": "{VIRTUAL_ENV}/Scripts/python.exe",
-        "linux": "{VIRTUAL_ENV}/Scripts/python",
+        "linux": "{VIRTUAL_ENV}/bin/python3",
         "darwin": "{VIRTUAL_ENV}/bin/python"
+    },
+    "PYPE_SITE_PACKAGES": {
+      "windows": "{VIRTUAL_ENV}/Lib/site-packages",
+      "linux": "{VIRTUAL_ENV}/lib/python{PYTHON_VERSION}/site-packages",
+      "darwin": "{VIRTUAL_ENV}/lib/python{PYTHON_VERSION}/site-packages"
     },
     "PYBLISH_GUI": "pyblish_pype",
     "PYPE_OIIO_PATH": "{PYPE_SETUP_PATH}/vendor/bin/oiiotool/windows/oiiotool"
