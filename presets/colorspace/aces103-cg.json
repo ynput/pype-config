@@ -1,9 +1,24 @@
 {
-  "resolve": {
-
-  },
-  "nukestudio": {
-
+  "hiero": {
+    "project": {
+        "ocioConfigName": "aces_1.0.3",
+        "ocioConfigCustom": "0",
+        "ocioconfigpath": "",
+        "workingSpace": "ACES - ACEScg",
+        "sixteenBitLut": "ACES - ACEScct",
+        "eightBitLut": "Utility - sRGB - Texture",
+        "floatLut": "ACES - ACES2065-1",
+        "logLut": "Input - ADX - ADX10",
+        "viewerLut": "ACES/sRGB",
+        "thumbnailLut": "ACES/sRGB",
+        "nukeUseOCIO": true
+    },
+    "clips": {
+        "[^-a-zA-Z0-9](plateRef).*(?=mp4)": "Utility - sRGB - Texture",
+        "[^-a-zA-Z0-9](plateOffline).*(?=jpg)": "Utility - sRGB - Texture",
+        "[^-a-zA-Z0-9](plateMain).*(?=exr)": "ACES - ACES2065-1",
+        "[^-a-zA-Z0-9](plateMain).*(?=mp4)": "Utility - sRGB - Texture"
+    }
   },
   "nuke": {
     "root": {
