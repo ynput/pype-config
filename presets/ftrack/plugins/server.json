@@ -1,1 +1,17 @@
-{}
+{
+    "TaskStatusToParent": {
+        "parent_types": ["shot", "asset build"],
+        "parent_status_match_all_task_statuses": [
+            {
+                "new_status": "completed",
+                "task_statuses": ["approved", "omitted"]
+            }
+        ],
+        "parent_status_by_task_status": [
+            {
+                "new_status": "working",
+                "task_statuses": ["in progress"]
+            }
+        ]
+    }
+}
