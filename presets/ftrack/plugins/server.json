@@ -9,7 +9,7 @@
         ],
         "parent_status_by_task_status": [
             {
-                "new_status": "working",
+                "new_status": "in progress",
                 "task_statuses": ["in progress"]
             }
         ]
