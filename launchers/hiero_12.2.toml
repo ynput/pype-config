@@ -1,0 +1,8 @@
+executable = "hiero12.2"
+schema = "avalon-core:application-1.0"
+application_dir = "hiero"
+label = "Hiero"
+label_variant = "12.2"
+ftrack_label = "Hiero"
+icon = "app_icons/hiero.png"
+ftrack_icon = '{}/app_icons/hiero.png'

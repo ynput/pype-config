@@ -1,0 +1,8 @@
+executable = "aftereffects_2020"
+schema = "avalon-core:application-1.0"
+application_dir = "aftereffects"
+label = "Adobe After Effects"
+label_variant = "2020"
+icon = "app_icons/aftereffects.png"
+ftrack_label = "After Effects"
+ftrack_icon = '{}/app_icons/aftereffects.png'
