@@ -1,4 +1,25 @@
 {
+  "hiero": {
+    "project": {
+        "ocioConfigName": "nuke-default",
+        "ocioConfigCustom": "0",
+        "ocioconfigpath": "",
+        "workingSpace": "linear",
+        "sixteenBitLut": "sRGB",
+        "eightBitLut": "sRGB",
+        "floatLut": "linear",
+        "logLut": "Cineon",
+        "viewerLut": "sRGB",
+        "thumbnailLut": "sRGB",
+        "nukeUseOCIO": true
+    },
+    "clips": {
+        "[^-a-zA-Z0-9](plateRef).*(?=mp4)": "sRGB",
+        "[^-a-zA-Z0-9](plateOffline).*(?=jpg)": "sRGB",
+        "[^-a-zA-Z0-9](plateMain).*(?=exr)": "linear",
+        "[^-a-zA-Z0-9](plateMain).*(?=mp4)": "sRGB"
+    }
+  },
     "nuke": {
         "root": {
             "colorManagement": "Nuke",
