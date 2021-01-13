@@ -1,3 +1,4 @@
 {
-  "skip_resolution_check": ["Task1", "Task2"]
+  "skip_resolution_check": [],
+  "skip_timelines_check": []
 }
