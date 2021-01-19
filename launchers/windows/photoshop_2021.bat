@@ -4,7 +4,7 @@ set __app__="Photoshop 2021"
 set __exe__="C:\Program Files\Adobe\Adobe Photoshop 2021\Photoshop.exe"
 if not exist %__exe__% goto :missing_app
 
-start %__app__% cmd.exe /k "%PYPE_PYTHON_EXE% -c ^"import avalon.photoshop;avalon.photoshop.launch("%__exe__%")^""
+start %__app__% cmd.exe /k "%PYPE_PYTHON_EXE% -c ^"import avalon.photoshop;avalon.photoshop.launch("%__exe__%", ""%PYPE_WORKFILE_PATH%"")^""
 
 goto :eof
 
