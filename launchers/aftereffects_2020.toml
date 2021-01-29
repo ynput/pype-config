@@ -6,3 +6,4 @@ label_variant = "2020"
 icon = "app_icons/aftereffects.png"
 ftrack_label = "After Effects"
 ftrack_icon = '{}/app_icons/aftereffects.png'
+launch_hook = "pype/hooks/aftereffects/prelaunch.py/AfterEffectsPrelaunch"
