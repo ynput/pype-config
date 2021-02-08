@@ -45,6 +45,10 @@
       "linux": "{VIRTUAL_ENV}/lib/python{PYTHON_VERSION}/site-packages",
       "darwin": "{VIRTUAL_ENV}/lib/python{PYTHON_VERSION}/site-packages"
     },
-    "PYBLISH_GUI": "pyblish_pype",
-    "PYPE_OIIO_PATH": "{PYPE_SETUP_PATH}/vendor/bin/oiiotool/windows/oiiotool"
+    "PYPE_OIIO_PATH": {
+      "windows": "{PYPE_SETUP_PATH}/vendor/bin/oiiotool/windows/oiiotool.exe",
+      "linux": "{PYPE_SETUP_PATH}/vendor/bin/oiiotool/linux/oiiotool",
+      "darwin": "{PYPE_SETUP_PATH}/vendor/bin/oiiotool/darwin/oiiotool"
+    },
+    "PYBLISH_GUI": "pyblish_pype"
 }

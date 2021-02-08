@@ -94,5 +94,13 @@
       "icon": "image",
       "defaults": ["Main"],
       "help": "Editorial files to generate shots."
+    },
+    "create_psdbatch": {
+      "name": "psdbatch",
+      "label": "Background Batch",
+      "family": "background_batch",
+      "icon": "image",
+      "defaults": ["Main"],
+      "help": "Editorial files to generate shots."
     }
 }
