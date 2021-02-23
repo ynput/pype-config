@@ -4,5 +4,6 @@
         "{PYPE_SETUP_PATH}/repos/avalon-core/setup/blender",
         "{PYTHONPATH}"
     ],
-    "CREATE_NEW_CONSOLE": "yes"
+    "CREATE_NEW_CONSOLE": "yes",
+    "QT_PREFERRED_BINDING": "PySide2"
 }
