@@ -1,0 +1,14 @@
+[
+    {
+        "families": [],
+        "hosts": [],
+        "tasks": [],
+        "template": "{family}{Variant}"
+    },
+    {
+        "families": ["render"],
+        "hosts": [],
+        "tasks": [],
+        "template": "{family}{Task}{Variant}"
+    }
+]
