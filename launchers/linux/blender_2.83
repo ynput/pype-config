@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# this is used for debugging Blender
+# BLENDER_ENV_FILE="~/.blender-env.tmp"
+# echo "saving environment to $BLENDER_ENV_FILE"
+# set > ~/.blender-env.tmp
+# gnome-terminal -t Blender -x bash -c "cat $BLENDER_ENV_FILE;source $BLENDER_ENV_FILE && rm $BLENDER_ENV_FILE;/var/lib/snapd/snap/bin/blender -d --verbose 3 --python-use-system-env"
+
+# but you can call directly blender executable if you are not interested
+blender --python-use-system-env
