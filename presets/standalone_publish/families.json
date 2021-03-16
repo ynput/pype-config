@@ -103,6 +103,14 @@
       "defaults": ["Main"],
       "help": "Editorial files to generate shots."
     },
+    "create_background": {
+      "name": "background_batch",
+      "label": "Batch Backgrounds",
+      "family": "background_batch",
+      "icon": "image",
+      "defaults": ["Main"],
+      "help": "Process multiple PSD backgrounds and publish them for layout and comp."
+    },
     "create_mov_batch": {
       "name": "mov_batch",
       "label": "Batch Mov",
