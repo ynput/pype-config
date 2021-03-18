@@ -1,1 +1,5 @@
-{}
+{
+    "LoadSequence": {
+        "name_expression": "Read_{subset}_{representation}"
+    }
+}
