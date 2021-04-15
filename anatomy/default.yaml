@@ -25,5 +25,5 @@ publish:
 
 master:
   folder: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/master"
-  file: "{project[code]}_{asset}_{subset}_master<_{output}><.{frame}>.{representation}"
+  file: "{project[code]}_{asset}_{subset}_master<_{output}><.{@frame}>.{representation}"
   path: "{@folder}/{@file}"
