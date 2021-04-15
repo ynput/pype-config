@@ -3,6 +3,6 @@
     "Publish...": "ctrl+alt+p",
     "Load...": "ctrl+alt+l",
     "Manage...": "ctrl+alt+m",
-    "Build Workfile": "ctrl+alt+b",
+    "Build Workfile": "ctrl+alt+b"
   }
 }
