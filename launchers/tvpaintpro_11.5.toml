@@ -1,0 +1,9 @@
+executable = "tvpaintpro_11.5"
+schema = "avalon-core:application-1.0"
+application_dir = "tvpaint"
+label = "TVPaint Animation Professional"
+label_variant = "11.5"
+ftrack_label = "TVPaint Animation Professional"
+icon = "app_icons/tvpaint.png"
+ftrack_icon = '{}/app_icons/tvpaint.png'
+launch_hook = "pype/hooks/tvpaint/prelaunch.py/TvpaintPrelaunchHook"
