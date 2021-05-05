@@ -8,7 +8,7 @@ set __exe__=%__64bit__%
 if not exist %__exe__% goto :missing_app
 
 set "PYPE_SETUP_PATH=%PYPE_SETUP_PATH:\=/%"
-start %__app__% cmd.exe /k %PYPE_PYTHON_EXE% "%PYPE_SETUP_PATH%/repos/avalon-core/avalon/tvpaint/launch_script.py" %__exe__% "%PYPE_TVPAINT_PROJECT_FILE%"
+call %__app__% cmd.exe /c %PYPE_PYTHON_EXE% "%PYPE_SETUP_PATH%/repos/avalon-core/avalon/tvpaint/launch_script.py" %__exe__% "%PYPE_TVPAINT_PROJECT_FILE%"
 
 
 goto :eof
