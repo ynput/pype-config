@@ -1,4 +1,4 @@
-executable = "tvpaintpro_11.5"
+executable = "tvpaint_11.5pro"
 schema = "avalon-core:application-1.0"
 application_dir = "tvpaint"
 label = "TVPaint Animation Professional"
