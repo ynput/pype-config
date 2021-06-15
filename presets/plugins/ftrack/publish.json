@@ -2,5 +2,22 @@
     "IntegrateFtrackNote": {
         "note_with_intent_template": "{intent}: {comment}",
         "note_labels": []
+    },
+    "CollectFtrackFamily": {
+        "profiles": [
+           {
+                "hosts": [
+                    "standalonepublisher"
+                ],
+                "families": [
+                    "render",
+                    "image"
+                ],
+                "tasks": [
+                    ".*"
+                ],
+                "add_ftrack_family": true
+           }
+        ]
     }
 }
