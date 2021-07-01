@@ -87,14 +87,6 @@
       "defaults": ["ConceptArt", "Reference", "Texture", "MattePaint"],
       "help": "Holder for all kinds of image data"
     },
-    "create_textures": {
-        "name": "textures_multi",
-        "label": "Textures",
-        "family": "textures_multi",
-        "icon": "image",
-        "defaults": ["Main"],
-        "help": "Process multiple texture files data"
-    },
     "create_editorial": {
       "name": "editorial",
       "label": "Editorial",
