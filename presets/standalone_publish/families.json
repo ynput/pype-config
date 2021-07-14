@@ -118,5 +118,13 @@
       "icon": "image",
       "defaults": ["Main"],
       "help": "Process multiple Mov files and publish them for layout and comp."
+    },
+      "create_texture_batch": {
+      "name": "texture_batch",
+      "label": "Batch Texture",
+      "family": "texture_batch",
+      "icon": "image",
+      "defaults": ["Main"],
+      "help": "Process multiple texture files with UDIM and appropriate workfile."
     }
 }

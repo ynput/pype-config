@@ -2,7 +2,9 @@
 version_padding: 3
 version: "v{version:0>{@version_padding}}"
 frame_padding: 4
+udim_padding: 4
 frame: "{frame:0>{@frame_padding}}"
+udim: "{udim:0>{@udim_padding}}"
 
 work:
   folder: "{root}/{project[name]}/{hierarchy}/{asset}/work/{task}"
@@ -19,7 +21,7 @@ texture:
 
 publish:
   folder: "{root}/{project[name]}/{hierarchy}/{asset}/publish/{family}/{subset}/{@version}"
-  file: "{project[code]}_{asset}_{subset}_{@version}<_{output}><.{@frame}>.{representation}"
+  file: "{project[code]}_{asset}_{subset}_{@version}<_{output}><.{@frame}><_{@udim}>.{representation}"
   path: "{@folder}/{@file}"
   thumbnail: "{thumbnail_root}/{project[name]}/{_id}_{thumbnail_type}{ext}"
 
